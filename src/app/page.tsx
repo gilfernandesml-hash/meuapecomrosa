@@ -29,7 +29,7 @@ export default function Home() {
             <div className="absolute inset-0 translate-x-7 rounded-[45%_45%_18%_18%] bg-rose/20"/>
             <div className="relative overflow-hidden rounded-[12rem_12rem_2rem_2rem] border-[10px] border-white bg-white shadow-2xl">
               <Image src="/rosa-oliveira-oficial.png" alt="Rosa Oliveira, corretora de imóveis" width={1600} height={1600} priority className="aspect-[4/5] w-full object-cover object-top" />
-              <div className="absolute inset-x-5 bottom-5 rounded-2xl bg-petroleo/95 p-5 text-white backdrop-blur"><p className="font-serif text-2xl font-bold">Rosa Oliveira</p><p className="mt-1 text-xs text-white/70">{site.creci} · Corretora desde 2015</p></div>
+              <div className="absolute inset-x-5 bottom-5 rounded-2xl bg-petroleo/95 p-5 text-white backdrop-blur"><p className="font-serif text-2xl font-bold">Rosa Oliveira</p><p className="mt-1 text-xs text-white/70">{site.creci} · Corretora desde 2012</p></div>
             </div>
           </div>
         </div>
@@ -48,8 +48,8 @@ export default function Home() {
       <section className="section bg-white">
         <div className="container-site">
           <div className="flex flex-wrap items-end justify-between gap-5"><div><p className="eyebrow">Oportunidades selecionadas</p><h2 className="display mt-3 text-4xl font-bold text-petroleo sm:text-5xl">Encontre um imóvel para o seu momento.</h2></div><Link href="/imoveis" className="font-bold text-rose">Ver todos os imóveis →</Link></div>
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{properties.map((property) => <PropertyCard key={property.slug} property={property}/>)}</div>
-          <p className="fine-print mt-7">Imóveis e valores ilustrativos nesta primeira versão. Disponibilidade, valores e condições devem ser confirmados antes de qualquer proposta.</p>
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{properties.slice(0, 3).map((property) => <PropertyCard key={property.slug} property={property}/>)}</div>
+          <p className="fine-print mt-7">Dados provenientes do catálogo público da Órulo. Disponibilidade, valores, status e enquadramento devem ser confirmados antes de qualquer proposta.</p>
         </div>
       </section>
 
