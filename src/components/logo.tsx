@@ -1,15 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 
-export function Logo({ inverse = false }: { inverse?: boolean }) {
+export function Logo({ compact = false, admin = false }: { compact?: boolean; admin?: boolean }) {
   return (
-    <Link href="/" className="inline-flex items-center gap-3" aria-label="Meu Apê com Rosa — página inicial">
-      <span className={`grid size-10 place-items-center rounded-[14px] border ${inverse ? "border-white/30" : "border-champagne/70"}`} aria-hidden="true">
-        <span className={`h-4 w-3 border-b-2 border-l-2 ${inverse ? "border-white" : "border-petroleo"}`} />
-      </span>
-      <span className="leading-none">
-        <strong className={`block text-[.9rem] tracking-[.14em] ${inverse ? "text-white" : "text-petroleo"}`}>MEU APÊ</strong>
-        <span className="mt-1 block font-serif text-xl font-bold text-rose">com Rosa</span>
-      </span>
+    <Link href={admin ? "/admin" : "/"} className={`relative block shrink-0 overflow-hidden rounded-xl bg-[#4e4f50] shadow-sm ${compact ? "h-12 w-36" : "h-16 w-52 sm:w-60"}`} aria-label={admin ? "Meu Apê com Rosa — painel administrativo" : "Meu Apê com Rosa — página inicial"}>
+      <Image src="/logo-rosa-oliveira.png" alt="Rosa Oliveira — Corretora de Imóveis" fill priority className="scale-[1.02] object-cover object-[center_47%]" sizes={compact ? "144px" : "240px"}/>
     </Link>
   );
 }
