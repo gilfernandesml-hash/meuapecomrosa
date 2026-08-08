@@ -8,7 +8,7 @@ const nav = [["Imóveis", "/imoveis"], ["Minha Casa Minha Vida", "/minha-casa-mi
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-petroleo/10 bg-creme/95 backdrop-blur">
-      <div className="container-site flex min-h-24 items-center justify-between gap-5">
+      <div className="container-site flex min-h-28 items-center justify-between gap-5">
         <Logo compact />
         <nav className="hidden items-center gap-5 text-[.78rem] font-bold text-petroleo xl:flex" aria-label="Navegação principal">
           {nav.map(([label, href]) => <Link key={href} href={href} className="transition hover:text-rose">{label}</Link>)}
