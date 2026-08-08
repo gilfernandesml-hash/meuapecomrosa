@@ -1,0 +1,22 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  images: {
+    formats: ["image/avif", "image/webp"],
+    remotePatterns: [
+      { protocol: "https", hostname: "wjhgkqczmqvwodjdsutq.supabase.co" },
+    ],
+  },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.meuapecomrosa.com.br" }],
+        destination: "https://meuapecomrosa.com.br/:path*",
+        permanent: true,
+      },
+    ];
+  },
+};
+
+export default nextConfig;
