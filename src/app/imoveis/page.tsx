@@ -1,0 +1,15 @@
+import type { Metadata } from "next";
+import { Search } from "lucide-react";
+import { PublicShell } from "@/components/public-shell";
+import { PropertyCard } from "@/components/property-card";
+import { properties } from "@/lib/properties";
+
+export const metadata: Metadata = { title: "Imóveis na Zona Sul de São Paulo", description: "Apartamentos, lançamentos e oportunidades selecionadas por Rosa Oliveira.", alternates: { canonical: "/imoveis" } };
+
+export default async function PropertiesPage({ searchParams }: PageProps<"/imoveis">) {
+  const query = await searchParams;
+  const local = typeof query.local === "string" ? query.local.toLowerCase() : "";
+  const max = typeof query.preco === "string" ? Number(query.preco) : 0;
+  const filtered = properties.filter((item) => (!local || `${item.neighborhood} ${item.city}`.toLowerCase().includes(local)) && (!max || item.price <= max));
+  return <PublicShell><section className="bg-petroleo py-16 text-white"><div className="container-site"><p className="eyebrow">Catálogo</p><h1 className="display mt-3 text-5xl font-bold sm:text-6xl">Encontre seu próximo endereço.</h1><p className="mt-4 max-w-2xl text-white/65">Oportunidades na Zona Sul selecionadas para diferentes momentos e possibilidades.</p></div></section><section className="section"><div className="container-site grid gap-8 lg:grid-cols-[260px_1fr]"><aside><form className="card sticky top-28 grid gap-4 p-5"><h2 className="font-serif text-2xl font-bold text-petroleo">Filtrar imóveis</h2><label className="label">Bairro<input name="local" defaultValue={String(query.local ?? "")} className="field" placeholder="Digite um bairro"/></label><label className="label">Preço máximo<select name="preco" defaultValue={String(query.preco ?? "")} className="field"><option value="">Qualquer valor</option><option value="300000">R$ 300 mil</option><option value="400000">R$ 400 mil</option></select></label><label className="label">Fase<select name="fase" className="field"><option value="">Todas</option><option>Lançamento</option><option>Em construção</option><option>Pronto</option></select></label><label className="flex gap-2 text-sm"><input type="checkbox" name="mcmv"/> Minha Casa Minha Vida</label><button className="btn btn-primary"><Search size={17}/> Aplicar filtros</button></form></aside><div><div className="mb-6 flex items-center justify-between"><p className="font-bold text-petroleo">{filtered.length} imóveis encontrados</p><select className="field max-w-48" aria-label="Ordenação"><option>Mais relevantes</option><option>Menor preço</option><option>Maior preço</option></select></div><div className="grid gap-6 md:grid-cols-2">{filtered.map((item) => <PropertyCard key={item.slug} property={item}/>)}</div>{filtered.length === 0 && <div className="card p-10 text-center"><h2 className="font-serif text-3xl font-bold text-petroleo">Nenhum imóvel com esses filtros</h2><p className="mt-3">Tente ampliar sua busca ou converse com a Rosa.</p></div>}<p className="fine-print mt-7">Valores e disponibilidade sujeitos a alteração sem aviso prévio. Consulte as condições atualizadas.</p></div></div></section></PublicShell>;
+}
