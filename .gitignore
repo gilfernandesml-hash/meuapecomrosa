@@ -16,6 +16,7 @@
 !.env.example
 .vercel
 /foto-rosa.png
+/foto-rosa2.png
 /src/app/favicon.ico
 
 # logs
