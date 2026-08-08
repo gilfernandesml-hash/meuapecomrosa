@@ -16,6 +16,7 @@
 !.env.example
 .vercel
 /foto-rosa.png
+/src/app/favicon.ico
 
 # logs
 npm-debug.log*
