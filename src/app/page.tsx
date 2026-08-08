@@ -28,7 +28,7 @@ export default function Home() {
           <div className="relative mx-auto w-full max-w-lg pt-10">
             <div className="absolute inset-0 translate-x-7 rounded-[45%_45%_18%_18%] bg-rose/20"/>
             <div className="relative overflow-hidden rounded-[12rem_12rem_2rem_2rem] border-[10px] border-white bg-white shadow-2xl">
-              <Image src="/rosa-oliveira-imovel.png" alt="Rosa Oliveira, corretora de imóveis, em frente a um empreendimento residencial" width={1600} height={1600} priority className="aspect-[4/5] w-full object-cover object-top" />
+              <Image src="/rosa-oliveira-oficial.png" alt="Rosa Oliveira, corretora de imóveis" width={1600} height={1600} priority className="aspect-[4/5] w-full object-cover object-top" />
               <div className="absolute inset-x-5 bottom-5 rounded-2xl bg-petroleo/95 p-5 text-white backdrop-blur"><p className="font-serif text-2xl font-bold">Rosa Oliveira</p><p className="mt-1 text-xs text-white/70">{site.creci} · Corretora desde 2015</p></div>
             </div>
           </div>
