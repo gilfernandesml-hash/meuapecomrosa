@@ -31,7 +31,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .container-site { width: min(1180px, calc(100% - 2rem)); margin-inline: auto; }
 .display { font-family: var(--font-fraunces), serif; letter-spacing: -0.035em; }
-.hero-title { font-family: var(--font-hero-serif), Georgia, serif; font-size: clamp(3.4rem, 7vw, 6rem); font-weight: 400; letter-spacing: -0.045em; line-height: .82; text-wrap: balance; }
+.hero-title { font-family: var(--font-hero-serif), Georgia, serif; font-size: clamp(3.55rem, 7.45vw, 6.25rem); font-weight: 400; font-kerning: normal; letter-spacing: -0.035em; line-height: .94; text-rendering: optimizeLegibility; text-wrap: balance; }
 .hero-title-accent { color: #e7c57e; font-style: italic; }
 .hero-home-art { position: absolute; inset: 0 auto 0 0; width: 55%; overflow: hidden; pointer-events: none; }
 .hero-home-art::before, .hero-home-art::after { content: ""; position: absolute; bottom: -14%; background: rgb(34 67 91 / .34); transform: skewX(-25deg); }
