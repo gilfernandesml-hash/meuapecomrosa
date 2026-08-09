@@ -3,11 +3,11 @@
 :root {
   --petroleo: #123047;
   --rose: #c77c78;
-  --off-white: #faf7f2;
+  --off-white: #fbfaf7;
   --champagne: #c8a96b;
   --grafite: #30343b;
   --whatsapp: #25d366;
-  --white: #fffdf9;
+  --white: #fffefa;
 }
 
 @theme inline {
@@ -17,20 +17,28 @@
   --color-champagne: var(--champagne);
   --color-grafite: var(--grafite);
   --color-whatsapp: var(--whatsapp);
-  --font-sans: var(--font-manrope);
-  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-fraunces);
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--off-white); color: var(--grafite); font-family: var(--font-manrope), sans-serif; }
+body { margin: 0; background: radial-gradient(circle at 12% 0%, #fff 0, transparent 32rem), linear-gradient(135deg, #fffefa 0%, var(--off-white) 48%, #f7f5ef 100%); color: var(--grafite); font-family: var(--font-inter), sans-serif; }
 a { color: inherit; text-decoration: none; }
 button, input, select, textarea { font: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
 :focus-visible { outline: 3px solid var(--champagne); outline-offset: 3px; }
 
 .container-site { width: min(1180px, calc(100% - 2rem)); margin-inline: auto; }
-.display { font-family: var(--font-cormorant), serif; letter-spacing: -0.025em; }
+.display { font-family: var(--font-fraunces), serif; letter-spacing: -0.035em; }
+.hero-title { font-family: var(--font-hero-serif), Georgia, serif; font-size: clamp(3.4rem, 7vw, 6rem); font-weight: 400; letter-spacing: -0.045em; line-height: .82; text-wrap: balance; }
+.hero-title-accent { color: #e7c57e; font-style: italic; }
+.hero-home-art { position: absolute; inset: 0 auto 0 0; width: 55%; overflow: hidden; pointer-events: none; }
+.hero-home-art::before, .hero-home-art::after { content: ""; position: absolute; bottom: -14%; background: rgb(34 67 91 / .34); transform: skewX(-25deg); }
+.hero-home-art::before { left: -10%; width: 29%; height: 78%; }
+.hero-home-art::after { left: 24%; width: 18%; height: 66%; background: rgb(8 35 54 / .45); }
+.subtitle { font-family: var(--font-inter), sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+h2.display, h3.display, h2.font-serif, h3.font-serif { font-family: var(--font-inter), sans-serif; font-weight: 600; letter-spacing: -0.025em; }
 .eyebrow { color: var(--rose); font-size: .76rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .section { padding-block: clamp(4rem, 8vw, 7rem); }
 .btn { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: .55rem; border-radius: 999px; padding: .8rem 1.25rem; font-weight: 800; transition: transform .2s, background .2s, box-shadow .2s; }
