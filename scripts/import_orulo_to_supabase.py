@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -40,8 +41,15 @@ class SupabaseRest:
         if prefer:
             headers["Prefer"] = prefer
         response = requests.request(method, f"{self.base}/{path}", headers=headers, json=payload, timeout=60)
-        response.raise_for_status()
+        if not response.ok:
+            raise RuntimeError(f"Supabase REST {response.status_code}: {response.text}")
         return response.json() if response.text else None
+
+
+def parse_source_datetime(value: str | None) -> str | None:
+    if not value:
+        return None
+    return datetime.strptime(value, "%d/%m/%Y %H:%M:%S").isoformat()
 
 
 def property_payload(item: dict[str, Any]) -> dict[str, Any]:
@@ -60,7 +68,7 @@ def property_payload(item: dict[str, Any]) -> dict[str, Any]:
         "price": item.get("price"), "price_label": item["price_label"], "featured": False,
         "status": "available" if item.get("source_active") == "active" and item.get("source_publication_status") == "publicado" else "draft",
         "is_mcmv": True, "fgts_possible": True, "source": "orulo", "source_id": item["external_id"],
-        "source_url": item["source_url"], "last_synced_at": item.get("source_updated_at"),
+        "source_url": item["source_url"], "last_synced_at": parse_source_datetime(item.get("source_updated_at")),
         "meta_title": f"{item['name']} em {item['neighborhood']}"[:70],
         "meta_description": item["description"][:160], "keywords": [item["name"], item["neighborhood"], "Minha Casa Minha Vida", "Zona Sul de São Paulo"],
     }

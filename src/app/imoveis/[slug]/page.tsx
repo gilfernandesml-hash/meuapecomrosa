@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BedDouble, Building2, Check, MapPin, Maximize2, MessageCircle } from "lucide-react";
 import { PublicShell } from "@/components/public-shell";
+import { PropertyGallery } from "@/components/property-gallery";
 import { properties } from "@/lib/properties";
 import { whatsappUrl } from "@/lib/site";
 
@@ -32,9 +32,7 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}/>
       <section className="container-site py-8">
         <nav className="text-xs text-grafite/55"><Link href="/">Início</Link> / <Link href="/imoveis">Imóveis</Link> / {item.name}</nav>
-        <div className="mt-6 grid gap-3 overflow-hidden rounded-[2rem] md:grid-cols-4 md:grid-rows-2">
-          {item.photos.slice(0, 5).map((photo, index) => <div key={photo} className={`relative min-h-52 overflow-hidden bg-petroleo ${index === 0 ? "md:col-span-2 md:row-span-2 md:min-h-[470px]" : ""}`}><Image src={photo} alt={`${item.name} — imagem ${index + 1}`} fill priority={index === 0} sizes={index === 0 ? "(max-width: 768px) 100vw, 50vw" : "25vw"} className="object-cover"/></div>)}
-        </div>
+        <div className="mt-6"><PropertyGallery name={item.name} photos={item.photos} floorplans={item.floorplans}/></div>
       </section>
       <section className="pb-20">
         <div className="container-site grid gap-10 lg:grid-cols-[1fr_360px]">
