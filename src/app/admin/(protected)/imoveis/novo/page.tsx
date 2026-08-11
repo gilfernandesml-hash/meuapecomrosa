@@ -1,2 +1,21 @@
-const tabs = ["Dados principais", "Localização", "Tipologias", "Valores", "Imagens", "Plantas", "Diferenciais", "Categorias", "SEO", "Publicação"];
-export default function NewPropertyPage() { return <><p className="eyebrow">Cadastro</p><h1 className="display mt-2 text-5xl font-bold text-petroleo">Novo imóvel</h1><div className="mt-7 flex gap-2 overflow-x-auto pb-2">{tabs.map((tab, i) => <button key={tab} className={`shrink-0 rounded-full px-4 py-2 text-xs font-bold ${i === 0 ? "bg-petroleo text-white" : "border border-petroleo/15 bg-white text-petroleo"}`}>{i + 1}. {tab}</button>)}</div><form className="card mt-4 grid gap-5 p-7 sm:grid-cols-2"><label className="label">Nome do empreendimento<input className="field" required/></label><label className="label">Nome completo<input className="field"/></label><label className="label">Tipo<select className="field"><option>Apartamento</option><option>Studio</option><option>Casa</option></select></label><label className="label">Fase<select className="field"><option>Lançamento</option><option>Em construção</option><option>Pronto</option></select></label><label className="label sm:col-span-2">Descrição curta<textarea className="field min-h-28"/></label><div className="sm:col-span-2 flex justify-end gap-3"><button type="button" className="btn btn-secondary">Salvar rascunho</button><button type="button" className="btn btn-primary">Continuar</button></div><p className="fine-print sm:col-span-2">O formulário completo será ativado após a aplicação das migrations e conexão segura do Supabase.</p></form></>; }
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+import { AdminPropertyForm } from "@/components/admin-property-form";
+import { createProperty } from "../actions";
+
+export default async function NewPropertyPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ erro?: string }>;
+}) {
+  const feedback = await searchParams;
+
+  return <>
+    <Link href="/admin/imoveis" className="inline-flex items-center gap-2 text-sm font-bold text-petroleo hover:text-rose"><ArrowLeft size={17} /> Voltar para imóveis</Link>
+    <p className="eyebrow mt-6">Cadastro completo</p>
+    <h1 className="display mt-2 text-5xl font-bold text-petroleo">Novo imóvel</h1>
+    <p className="mt-3 max-w-3xl text-sm leading-6 text-grafite/60">Preencha os dados disponíveis. Campos complementares podem ser atualizados depois pela tela de edição.</p>
+    {feedback.erro ? <p role="alert" className="mt-6 rounded-2xl bg-red-50 p-4 text-sm font-semibold text-red-800">Não foi possível cadastrar o imóvel. Confira os campos obrigatórios e tente novamente.</p> : null}
+    <AdminPropertyForm action={createProperty} mode="create" />
+  </>;
+}
