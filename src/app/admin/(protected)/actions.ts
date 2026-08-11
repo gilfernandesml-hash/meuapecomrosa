@@ -152,6 +152,11 @@ export async function createBanner(formData: FormData) {
   const { supabase, user } = await requireAdmin();
   const title = text(formData, "title");
   if (!title) redirect("/admin/banners?erro=titulo-obrigatorio");
+  const storagePath = text(formData, "banner_storage_path");
+  if (!/^banners\/[a-zA-Z0-9/_.-]+\.(?:jpe?g|png|webp)$/i.test(storagePath) || storagePath.includes("..")) {
+    redirect("/admin/banners?erro=imagem-obrigatoria");
+  }
+  const { data: bannerImage } = supabase.storage.from("site-assets").getPublicUrl(storagePath);
 
   const { data, error } = await supabase
     .from("promo_banners")
@@ -160,7 +165,7 @@ export async function createBanner(formData: FormData) {
       subtitle: optionalText(formData, "subtitle"),
       cta_label: optionalText(formData, "cta_label"),
       target_url: optionalText(formData, "target_url"),
-      image_path: optionalText(formData, "image_path"),
+      image_path: bannerImage.publicUrl,
       position: text(formData, "position") || "home",
       active: formData.has("active"),
       sort_order: Number(text(formData, "sort_order") || 0),
