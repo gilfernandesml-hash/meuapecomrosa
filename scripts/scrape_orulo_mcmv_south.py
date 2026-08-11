@@ -144,6 +144,16 @@ def phase(value: Any) -> str:
     return "Lançamento"
 
 
+def housing_flags(name: str) -> dict[str, bool]:
+    label = normalize(name)
+    return {
+        "is_r2v": bool(re.search(r"\br2v\b", label)),
+        "is_his2": bool(re.search(r"\bhis[\s-]*2\b", label)),
+        "is_hmp": bool(re.search(r"\bhmp\b", label)),
+        "is_nr": bool(re.search(r"\bnr\b", label)),
+    }
+
+
 def make_property(building: dict[str, Any], images: list[dict[str, Any]]) -> dict[str, Any]:
     address = building.get("address") or {}
     building_id = str(building["id"])
@@ -182,7 +192,7 @@ def make_property(building: dict[str, Any], images: list[dict[str, Any]]) -> dic
         "parking_min": building.get("min_parking"), "parking_max": building.get("max_parking"),
         "price": price or None, "price_label": f"A partir de R$ {price:,.0f}".replace(",", ".") if price else "Valor sob consulta",
         "property_type": str(building.get("finality") or "Residencial").strip(), "developer": developer,
-        "mcmv": True, "fgts": True, "description": description, "features": features,
+        "mcmv": True, "fgts": True, **housing_flags(name), "description": description, "features": features,
         "photos": photos, "floorplans": floorplans,
         "source": "orulo", "source_url": str(building.get("orulo_url") or f"https://www.orulo.com.br/buildings/{building_id}"),
         "source_updated_at": building.get("updated_at"),

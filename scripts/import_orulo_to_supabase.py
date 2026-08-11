@@ -67,7 +67,9 @@ def property_payload(item: dict[str, Any]) -> dict[str, Any]:
         "parking_min": item.get("parking_min"), "parking_max": item.get("parking_max"),
         "price": item.get("price"), "price_label": item["price_label"], "featured": False,
         "status": "available" if item.get("source_active") == "active" and item.get("source_publication_status") == "publicado" else "draft",
-        "is_mcmv": True, "fgts_possible": True, "source": "orulo", "source_id": item["external_id"],
+        "is_mcmv": True, "is_his2": bool(item.get("is_his2")), "is_hmp": bool(item.get("is_hmp")),
+        "is_r2v": bool(item.get("is_r2v")), "is_nr": bool(item.get("is_nr")), "fgts_possible": True,
+        "source": "orulo", "source_id": item["external_id"],
         "source_url": item["source_url"], "last_synced_at": parse_source_datetime(item.get("source_updated_at")),
         "meta_title": f"{item['name']} em {item['neighborhood']}"[:70],
         "meta_description": item["description"][:160], "keywords": [item["name"], item["neighborhood"], "Minha Casa Minha Vida", "Zona Sul de São Paulo"],
@@ -92,10 +94,12 @@ def main() -> int:
     inserted = updated = images_written = features_written = 0
     for item in items:
         source_id = quote(str(item["external_id"]), safe="")
-        existing = client.request("GET", f"properties?source=eq.orulo&source_id=eq.{source_id}&select=id&limit=1") or []
+        existing = client.request("GET", f"properties?source=eq.orulo&source_id=eq.{source_id}&select=id,is_his2,is_hmp,is_r2v,is_nr&limit=1") or []
         payload = property_payload(item)
         if existing:
             property_id = existing[0]["id"]
+            for flag in ("is_his2", "is_hmp", "is_r2v", "is_nr"):
+                payload[flag] = bool(payload[flag] or existing[0].get(flag))
             client.request("PATCH", f"properties?id=eq.{property_id}", payload, "return=minimal")
             updated += 1
         else:

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Fraunces, Inter } from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -7,16 +7,10 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
+const brandSerif = Cormorant_Garamond({
+  variable: "--font-brand",
   subsets: ["latin"],
-  weight: ["600", "700"],
-});
-
-const heroSerif = Cormorant_Garamond({
-  variable: "--font-hero-serif",
-  subsets: ["latin"],
-  weight: ["400"],
+  weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
 });
 
@@ -39,7 +33,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${fraunces.variable} ${heroSerif.variable}`}>
+    <html lang="pt-BR" className={`${inter.variable} ${brandSerif.variable}`}>
       <body>{children}</body>
     </html>
   );

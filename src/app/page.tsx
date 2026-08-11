@@ -4,7 +4,8 @@ import { ArrowRight, BadgeCheck, Banknote, Building2, ClipboardCheck, FileCheck2
 import { LeadForm } from "@/components/lead-form";
 import { PublicShell } from "@/components/public-shell";
 import { PropertyCard } from "@/components/property-card";
-import { properties } from "@/lib/properties";
+import { getPublicProperties } from "@/lib/property-catalog";
+import { housingClassifications } from "@/lib/properties";
 import { site, whatsappUrl } from "@/lib/site";
 
 const possibilities = [
@@ -22,10 +23,11 @@ const steps = [
 ];
 
 function RosaBadge({ className }: { className: string }) {
-  return <div className={`absolute z-10 rounded-[1.6rem] bg-petroleo/95 px-6 py-5 text-white shadow-2xl backdrop-blur-sm ${className}`}><p className="font-serif text-3xl font-bold">Rosa Oliveira</p><p className="mt-1 text-sm text-white/70">{site.creci} · Corretora desde 2015</p></div>;
+  return <div className={`absolute z-10 rounded-[1.6rem] bg-petroleo/95 px-6 py-5 text-white shadow-2xl backdrop-blur-sm ${className}`}><p className="brand-signature text-4xl">Rosa Oliveira</p><p className="mt-1 text-xs leading-5 text-white/70 sm:text-sm">{site.creci} · Corretora desde 2015 | Especialista Minha Casa Minha Vida</p></div>;
 }
 
-export default function Home() {
+export default async function Home() {
+  const properties = await getPublicProperties();
   return (
     <PublicShell>
       <section className="hero-home relative overflow-hidden bg-petroleo">
@@ -33,7 +35,7 @@ export default function Home() {
         <div className="absolute inset-y-0 right-0 hidden w-[49%] lg:block">
           <Image src="/hero-rosa-imovel-v2.png" alt="Rosa Oliveira em frente a um empreendimento residencial" fill preload sizes="49vw" className="object-cover object-center" />
           <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-petroleo to-transparent" />
-          <RosaBadge className="bottom-24 left-1/2 w-[min(88%,560px)] -translate-x-1/2" />
+          <RosaBadge className="bottom-10 left-1/2 w-[min(88%,560px)] -translate-x-1/2" />
         </div>
         <div className="container-site grid min-h-[720px] items-center gap-10 py-16 lg:grid-cols-2">
           <div className="relative z-10 lg:pr-8">
@@ -52,18 +54,19 @@ export default function Home() {
           <div className="relative -mx-4 h-[520px] sm:-mx-8 lg:hidden">
             <Image src="/hero-rosa-imovel-v2.png" alt="Rosa Oliveira em frente a um empreendimento residencial" fill preload sizes="100vw" className="object-cover object-center" />
             <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-petroleo to-transparent" />
-            <RosaBadge className="inset-x-5 bottom-5" />
+            <RosaBadge className="inset-x-5 bottom-0" />
           </div>
         </div>
       </section>
 
       <section className="relative z-10 -mt-3 pb-6">
-        <form action="/imoveis" className="container-site card grid gap-3 p-5 md:grid-cols-[1.5fr_1fr_1fr_1fr_auto] md:p-7" aria-label="Buscar imóveis">
+        <form action="/imoveis" className="container-site card grid gap-3 p-5 md:grid-cols-2 md:p-7 lg:grid-cols-[1.3fr_repeat(4,minmax(0,1fr))_auto]" aria-label="Buscar imóveis">
           <label className="label">Onde quer morar?<span className="relative"><MapPin className="absolute left-3 top-3.5 text-rose" size={18}/><input className="field pl-10" name="local" placeholder="Bairro ou região"/></span></label>
           <label className="label">Faixa de preço<select className="field" name="preco"><option value="">Qualquer valor</option><option value="300000">Até R$ 300 mil</option><option value="400000">Até R$ 400 mil</option></select></label>
           <label className="label">Dormitórios<select className="field" name="dormitorios"><option value="">Todos</option><option value="2">2 dormitórios</option><option value="3">3 dormitórios</option></select></label>
           <label className="label">Fase<select className="field" name="fase"><option value="">Todas</option><option>Lançamento</option><option>Em construção</option><option>Pronto</option></select></label>
-          <button className="btn btn-primary self-end" aria-label="Buscar imóveis"><Search size={19}/><span className="md:hidden">Buscar</span></button>
+          <label className="label">Classificação<select className="field" name="classificacao"><option value="">Todas</option>{housingClassifications.map(({ value, label }) => <option key={value} value={value}>{label}</option>)}</select></label>
+          <button className="btn btn-primary self-end md:col-span-2 lg:col-span-1" aria-label="Buscar imóveis"><Search size={19}/><span className="lg:hidden">Buscar</span></button>
         </form>
       </section>
 
