@@ -111,6 +111,33 @@ function featureNames(formData: FormData) {
   return text(formData, "features").split(/[\n,;]/).map((item) => item.trim()).filter(Boolean);
 }
 
+type UploadedMedia = { path: string; publicUrl: string; name: string };
+
+function uploadedMedia(
+  supabase: Awaited<ReturnType<typeof createSupabaseServerClient>>,
+  formData: FormData,
+  field: "uploaded_cover" | "uploaded_photos" | "uploaded_floorplans",
+  bucket: "property-images" | "property-floorplans",
+) {
+  const allowedExtension = bucket === "property-images" ? /\.(?:jpe?g|png|webp|avif)$/i : /\.(?:jpe?g|png|webp|avif|pdf)$/i;
+  const assets: UploadedMedia[] = [];
+
+  for (const entry of formData.getAll(field)) {
+    if (typeof entry !== "string") continue;
+    try {
+      const parsed = JSON.parse(entry) as Partial<UploadedMedia>;
+      const path = String(parsed.path ?? "");
+      if (!path || path.includes("..") || !/^[a-zA-Z0-9/_.-]+$/.test(path) || !allowedExtension.test(path)) continue;
+      const { data } = supabase.storage.from(bucket).getPublicUrl(path);
+      assets.push({ path, publicUrl: data.publicUrl, name: String(parsed.name ?? "Arquivo") });
+    } catch {
+      continue;
+    }
+  }
+
+  return assets;
+}
+
 async function saveRelatedContent(
   supabase: Awaited<ReturnType<typeof createSupabaseServerClient>>,
   propertyId: string,
@@ -119,22 +146,66 @@ async function saveRelatedContent(
   replaceFeatures = false,
 ) {
   const features = featureNames(formData);
-  if (replaceFeatures) await supabase.from("property_features").delete().eq("property_id", propertyId);
+  if (replaceFeatures) {
+    const { error } = await supabase.from("property_features").delete().eq("property_id", propertyId);
+    if (error) return error.message;
+  }
   if (features.length) {
-    await supabase.from("property_features").insert(features.map((name, index) => ({ property_id: propertyId, name, sort_order: index })));
+    const { error } = await supabase.from("property_features").insert(features.map((name, index) => ({ property_id: propertyId, name, sort_order: index })));
+    if (error) return error.message;
   }
 
   const coverImageUrl = text(formData, "cover_image_url");
-  if (coverImageUrl) {
-    if (replaceFeatures) await supabase.from("property_images").delete().eq("property_id", propertyId).eq("is_cover", true);
-    await supabase.from("property_images").insert({ property_id: propertyId, storage_path: `external/${propertyId}/cover`, public_url: coverImageUrl, alt_text: `Foto de ${propertyName}`, is_cover: true });
+  const uploadedCover = uploadedMedia(supabase, formData, "uploaded_cover", "property-images")[0];
+  const uploadedPhotos = uploadedMedia(supabase, formData, "uploaded_photos", "property-images");
+  const uploadedFloorplans = uploadedMedia(supabase, formData, "uploaded_floorplans", "property-floorplans");
+  const cover = uploadedCover ?? (coverImageUrl ? { path: `external/${propertyId}/cover-${Date.now()}`, publicUrl: coverImageUrl, name: propertyName } : null);
+
+  const { data: lastImage, error: imageOrderError } = await supabase
+    .from("property_images")
+    .select("sort_order")
+    .eq("property_id", propertyId)
+    .order("sort_order", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+  if (imageOrderError) return imageOrderError.message;
+  let nextImageOrder = Number(lastImage?.sort_order ?? -1) + 1;
+
+  if (cover) {
+    const { error: demoteError } = await supabase.from("property_images").update({ is_cover: false }).eq("property_id", propertyId).eq("is_cover", true);
+    if (demoteError) return demoteError.message;
+    const { error } = await supabase.from("property_images").insert({ property_id: propertyId, storage_path: cover.path, public_url: cover.publicUrl, alt_text: `Foto principal de ${propertyName}`, is_cover: true, sort_order: nextImageOrder++ });
+    if (error) return error.message;
+  }
+
+  if (uploadedPhotos.length) {
+    const { data: existingCover, error: coverLookupError } = await supabase.from("property_images").select("id").eq("property_id", propertyId).eq("is_cover", true).limit(1).maybeSingle();
+    if (coverLookupError) return coverLookupError.message;
+    const { error } = await supabase.from("property_images").insert(uploadedPhotos.map((asset, index) => ({
+      property_id: propertyId,
+      storage_path: asset.path,
+      public_url: asset.publicUrl,
+      alt_text: `${propertyName} — foto ${nextImageOrder + index + 1}`,
+      is_cover: !existingCover && index === 0,
+      sort_order: nextImageOrder + index,
+    })));
+    if (error) return error.message;
   }
 
   const floorplanUrl = text(formData, "floorplan_url");
-  if (floorplanUrl) {
-    if (replaceFeatures) await supabase.from("property_floorplans").delete().eq("property_id", propertyId);
-    await supabase.from("property_floorplans").insert({ property_id: propertyId, storage_path: `external/${propertyId}/planta`, public_url: floorplanUrl, name: "Planta principal", alt_text: `Planta de ${propertyName}` });
+  const floorplans = [
+    ...uploadedFloorplans,
+    ...(floorplanUrl ? [{ path: `external/${propertyId}/planta-${Date.now()}`, publicUrl: floorplanUrl, name: "Planta principal" }] : []),
+  ];
+  if (floorplans.length) {
+    const { data: lastFloorplan, error: floorplanOrderError } = await supabase.from("property_floorplans").select("sort_order").eq("property_id", propertyId).order("sort_order", { ascending: false }).limit(1).maybeSingle();
+    if (floorplanOrderError) return floorplanOrderError.message;
+    const nextFloorplanOrder = Number(lastFloorplan?.sort_order ?? -1) + 1;
+    const { error } = await supabase.from("property_floorplans").insert(floorplans.map((asset, index) => ({ property_id: propertyId, storage_path: asset.path, public_url: asset.publicUrl, name: asset.name, alt_text: `Planta ${index + 1} de ${propertyName}`, sort_order: nextFloorplanOrder + index })));
+    if (error) return error.message;
   }
+
+  return null;
 }
 
 export async function createProperty(formData: FormData) {
@@ -162,14 +233,14 @@ export async function createProperty(formData: FormData) {
   if (error?.code === "23505") redirect("/admin/imoveis/novo?erro=duplicado");
   if (error?.code === "42501") redirect("/admin/imoveis/novo?erro=permissao");
   if (error) redirect("/admin/imoveis/novo?erro=nao-salvo");
-  await saveRelatedContent(supabase, data.id, values.name, formData);
+  const mediaError = await saveRelatedContent(supabase, data.id, values.name, formData);
   await supabase.from("admin_activity_logs").insert({ user_id: user.id, action: "create", entity_type: "property", entity_id: data.id });
 
   revalidatePath("/admin/imoveis");
   revalidatePath("/");
   revalidatePath("/imoveis");
   revalidatePath(`/imoveis/${data.slug}`);
-  redirect(`/admin/imoveis/${data.id}/editar?criado=1`);
+  redirect(`/admin/imoveis/${data.id}/editar?criado=1${mediaError ? "&erro=midia" : ""}`);
 }
 
 export async function updatePropertyClassifications(formData: FormData) {
@@ -222,7 +293,7 @@ export async function updateProperty(formData: FormData) {
 
   if (error) redirect(`/admin/imoveis/${propertyId}/editar?erro=nao-salvo`);
 
-  await saveRelatedContent(supabase, propertyId, values.name, formData, true);
+  const mediaError = await saveRelatedContent(supabase, propertyId, values.name, formData, true);
   await supabase.from("admin_activity_logs").insert({ user_id: user.id, action: "update", entity_type: "property", entity_id: propertyId });
 
   revalidatePath("/admin/imoveis");
@@ -230,5 +301,5 @@ export async function updateProperty(formData: FormData) {
   revalidatePath("/");
   revalidatePath("/imoveis");
   if (data.slug) revalidatePath(`/imoveis/${data.slug}`);
-  redirect(`/admin/imoveis/${propertyId}/editar?salvo=1`);
+  redirect(`/admin/imoveis/${propertyId}/editar?salvo=1${mediaError ? "&erro=midia" : ""}`);
 }

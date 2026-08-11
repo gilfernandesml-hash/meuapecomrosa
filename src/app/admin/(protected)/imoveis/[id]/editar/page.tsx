@@ -14,11 +14,11 @@ export default async function EditPropertyPage({
 }) {
   const [{ id }, feedback] = await Promise.all([params, searchParams]);
   const supabase = await createSupabaseServerClient();
-  const [propertyResult, featuresResult, coverResult, floorplanResult] = await Promise.all([
+  const [propertyResult, featuresResult, imagesResult, floorplansResult] = await Promise.all([
     supabase.from("properties").select("*").eq("id", id).maybeSingle(),
     supabase.from("property_features").select("name").eq("property_id", id).order("sort_order"),
-    supabase.from("property_images").select("public_url").eq("property_id", id).eq("is_cover", true).limit(1).maybeSingle(),
-    supabase.from("property_floorplans").select("public_url").eq("property_id", id).order("sort_order").limit(1).maybeSingle(),
+    supabase.from("property_images").select("public_url").eq("property_id", id).order("sort_order"),
+    supabase.from("property_floorplans").select("public_url").eq("property_id", id).order("sort_order"),
   ]);
 
   const property = propertyResult.data;
@@ -28,8 +28,10 @@ export default async function EditPropertyPage({
     ...property,
     keywords: Array.isArray(property.keywords) ? property.keywords.join(", ") : "",
     features: (featuresResult.data ?? []).map((feature) => feature.name).join("\n"),
-    cover_image_url: coverResult.data?.public_url ?? "",
-    floorplan_url: floorplanResult.data?.public_url ?? "",
+  };
+  const existingMedia = {
+    photos: (imagesResult.data ?? []).map((image) => image.public_url).filter((url): url is string => Boolean(url)),
+    floorplans: (floorplansResult.data ?? []).map((floorplan) => floorplan.public_url).filter((url): url is string => Boolean(url)),
   };
 
   return <>
@@ -46,8 +48,8 @@ export default async function EditPropertyPage({
     {feedback.criado ? <p className="mt-6 rounded-2xl bg-emerald-50 p-4 text-sm font-semibold text-emerald-800">Imóvel cadastrado com sucesso. Complete ou revise as informações abaixo.</p> : null}
     {feedback.existente ? <p className="mt-6 rounded-2xl bg-amber-50 p-4 text-sm font-semibold text-amber-900">Este imóvel já estava cadastrado. Para evitar cópias, abrimos o registro existente para você revisar ou atualizar.</p> : null}
     {feedback.salvo ? <p className="mt-6 rounded-2xl bg-emerald-50 p-4 text-sm font-semibold text-emerald-800">Alterações salvas e atualizadas no site.</p> : null}
-    {feedback.erro ? <p role="alert" className="mt-6 rounded-2xl bg-red-50 p-4 text-sm font-semibold text-red-800">Não foi possível salvar. Confira os dados e tente novamente.</p> : null}
+    {feedback.erro ? <p role="alert" className="mt-6 rounded-2xl bg-red-50 p-4 text-sm font-semibold text-red-800">{feedback.erro === "midia" ? "Os dados do imóvel foram salvos, mas não foi possível associar uma ou mais fotos ou plantas. Tente enviar os arquivos novamente." : "Não foi possível salvar. Confira os dados e tente novamente."}</p> : null}
 
-    <AdminPropertyForm action={updateProperty} values={values} mode="edit" />
+    <AdminPropertyForm action={updateProperty} values={values} existingMedia={existingMedia} mode="edit" />
   </>;
 }

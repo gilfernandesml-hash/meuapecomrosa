@@ -1,23 +1,25 @@
 "use client";
 
 import Image from "next/image";
-import { useCallback, useEffect, useState } from "react";
-import { ChevronLeft, ChevronRight, Expand, Images, LayoutPanelTop, X } from "lucide-react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { ChevronLeft, ChevronRight, Expand, FileText, Images, LayoutPanelTop, X } from "lucide-react";
 
 type GalleryKind = "photos" | "floorplans";
 type Viewer = { kind: GalleryKind; index: number } | null;
+const isPdf = (url: string) => /\.pdf(?:$|\?)/i.test(url);
 
 export function PropertyGallery({ name, photos, floorplans }: { name: string; photos: string[]; floorplans: string[] }) {
   const [viewer, setViewer] = useState<Viewer>(null);
   const isOpen = viewer !== null;
+  const viewableFloorplans = useMemo(() => floorplans.filter((floorplan) => !isPdf(floorplan)), [floorplans]);
 
   const move = useCallback((delta: number) => {
     setViewer((current) => {
       if (!current) return current;
-      const images = current.kind === "photos" ? photos : floorplans;
+      const images = current.kind === "photos" ? photos : viewableFloorplans;
       return { ...current, index: (current.index + delta + images.length) % images.length };
     });
-  }, [photos, floorplans]);
+  }, [photos, viewableFloorplans]);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -35,7 +37,7 @@ export function PropertyGallery({ name, photos, floorplans }: { name: string; ph
     };
   }, [isOpen, move]);
 
-  const activeImages = viewer ? (viewer.kind === "photos" ? photos : floorplans) : [];
+  const activeImages = viewer ? (viewer.kind === "photos" ? photos : viewableFloorplans) : [];
   const activeImage = viewer ? activeImages[viewer.index] : null;
   const activeLabel = viewer?.kind === "floorplans" ? "Planta" : "Foto";
 
@@ -62,8 +64,12 @@ export function PropertyGallery({ name, photos, floorplans }: { name: string; ph
             <span className="text-xs font-semibold text-grafite/55">{floorplans.length} {floorplans.length === 1 ? "planta" : "plantas"}</span>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {floorplans.map((floorplan, index) => (
-              <button key={floorplan} type="button" onClick={() => setViewer({ kind: "floorplans", index })} className="group relative aspect-[4/3] cursor-zoom-in overflow-hidden rounded-2xl border border-petroleo/10 bg-white" aria-label={`Ampliar planta ${index + 1} de ${name}`}>
+            {floorplans.map((floorplan, index) => isPdf(floorplan) ? (
+              <a key={floorplan} href={floorplan} target="_blank" rel="noreferrer" className="grid aspect-[4/3] place-items-center rounded-2xl border border-petroleo/10 bg-white p-6 text-center text-petroleo transition hover:border-rose hover:text-rose" aria-label={`Abrir planta ${index + 1} de ${name} em PDF`}>
+                <span><FileText className="mx-auto" size={42}/><strong className="mt-3 block">Planta {index + 1} em PDF</strong><small className="mt-1 block">Abrir arquivo</small></span>
+              </a>
+            ) : (
+              <button key={floorplan} type="button" onClick={() => setViewer({ kind: "floorplans", index: floorplans.slice(0, index).filter((item) => !isPdf(item)).length })} className="group relative aspect-[4/3] cursor-zoom-in overflow-hidden rounded-2xl border border-petroleo/10 bg-white" aria-label={`Ampliar planta ${index + 1} de ${name}`}>
                 <Image src={floorplan} alt={`Planta ${index + 1} de ${name}`} fill sizes="(max-width: 640px) 100vw, 33vw" className="object-contain p-3 transition duration-300 group-hover:scale-[1.03]"/>
                 <span className="absolute bottom-3 right-3 grid size-10 place-items-center rounded-full bg-petroleo text-white shadow-lg"><Expand size={18}/></span>
               </button>
