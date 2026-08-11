@@ -1,4 +1,4 @@
-import { Save } from "lucide-react";
+import { AdminSubmitButtons } from "@/components/admin-submit-buttons";
 
 type PropertyFormValues = Record<string, string | number | boolean | null | undefined>;
 
@@ -125,10 +125,7 @@ export function AdminPropertyForm({
         <label className="flex items-center gap-2 rounded-2xl border border-petroleo/10 bg-creme/60 px-4 py-3 text-sm font-bold text-petroleo"><input type="checkbox" name="featured" defaultChecked={checked("featured")} className="size-4 accent-petroleo" /> Destacar no site</label>
         <label className="flex items-center gap-2 rounded-2xl border border-petroleo/10 bg-creme/60 px-4 py-3 text-sm font-bold text-petroleo"><input type="checkbox" name="indexable" defaultChecked={checked("indexable", true)} className="size-4 accent-petroleo" /> Permitir indexação</label>
         <div className="flex flex-wrap justify-end gap-3 sm:col-span-2">
-          {mode === "create" ? <>
-            <button type="submit" name="intent" value="draft" className="btn btn-secondary"><Save size={18} /> Salvar rascunho</button>
-            <button type="submit" name="intent" value="available" className="btn btn-primary">Cadastrar e publicar</button>
-          </> : <button type="submit" className="btn btn-primary"><Save size={18} /> Salvar alterações</button>}
+          <AdminSubmitButtons mode={mode} />
         </div>
       </section>
     </form>

@@ -142,7 +142,16 @@ export async function createProperty(formData: FormData) {
   if (!values.name) redirect("/admin/imoveis/novo?erro=nome-obrigatorio");
 
   const { supabase, user } = await requireAdmin();
-  const slug = await propertySlug(supabase, text(formData, "slug") || values.name);
+  const slug = slugify(text(formData, "slug") || values.name) || `imovel-${Date.now().toString(36)}`;
+  const { data: existing, error: existingError } = await supabase
+    .from("properties")
+    .select("id")
+    .eq("slug", slug)
+    .maybeSingle();
+
+  if (existingError) redirect("/admin/imoveis/novo?erro=consulta");
+  if (existing) redirect(`/admin/imoveis/${existing.id}/editar?existente=1`);
+
   const status = text(formData, "intent") === "available" ? "available" : "draft";
   const { data, error } = await supabase
     .from("properties")
@@ -150,6 +159,8 @@ export async function createProperty(formData: FormData) {
     .select("id,slug")
     .single();
 
+  if (error?.code === "23505") redirect("/admin/imoveis/novo?erro=duplicado");
+  if (error?.code === "42501") redirect("/admin/imoveis/novo?erro=permissao");
   if (error) redirect("/admin/imoveis/novo?erro=nao-salvo");
   await saveRelatedContent(supabase, data.id, values.name, formData);
   await supabase.from("admin_activity_logs").insert({ user_id: user.id, action: "create", entity_type: "property", entity_id: data.id });

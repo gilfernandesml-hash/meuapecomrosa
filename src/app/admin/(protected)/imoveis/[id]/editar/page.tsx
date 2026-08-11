@@ -10,7 +10,7 @@ export default async function EditPropertyPage({
   searchParams,
 }: {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{ salvo?: string; criado?: string; erro?: string }>;
+  searchParams: Promise<{ salvo?: string; criado?: string; existente?: string; erro?: string }>;
 }) {
   const [{ id }, feedback] = await Promise.all([params, searchParams]);
   const supabase = await createSupabaseServerClient();
@@ -44,6 +44,7 @@ export default async function EditPropertyPage({
     </div>
 
     {feedback.criado ? <p className="mt-6 rounded-2xl bg-emerald-50 p-4 text-sm font-semibold text-emerald-800">Imóvel cadastrado com sucesso. Complete ou revise as informações abaixo.</p> : null}
+    {feedback.existente ? <p className="mt-6 rounded-2xl bg-amber-50 p-4 text-sm font-semibold text-amber-900">Este imóvel já estava cadastrado. Para evitar cópias, abrimos o registro existente para você revisar ou atualizar.</p> : null}
     {feedback.salvo ? <p className="mt-6 rounded-2xl bg-emerald-50 p-4 text-sm font-semibold text-emerald-800">Alterações salvas e atualizadas no site.</p> : null}
     {feedback.erro ? <p role="alert" className="mt-6 rounded-2xl bg-red-50 p-4 text-sm font-semibold text-red-800">Não foi possível salvar. Confira os dados e tente novamente.</p> : null}
 
