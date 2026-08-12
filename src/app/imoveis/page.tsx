@@ -66,7 +66,7 @@ export default async function PropertiesPage({ searchParams }: PageProps<"/imove
           </aside>
           <div>
             <p className="mb-6 font-bold text-petroleo">{filtered.length} {filtered.length === 1 ? "imóvel encontrado" : "imóveis encontrados"}</p>
-            <div className="grid gap-6 md:grid-cols-2">{filtered.map((item) => <PropertyCard key={item.slug} property={item}/>)}</div>
+            <div className="property-grid">{filtered.map((item) => <PropertyCard key={item.slug} property={item}/>)}</div>
             {filtered.length === 0 ? <div className="card p-10 text-center"><h2 className="font-serif text-3xl font-bold text-petroleo">Nenhum imóvel com esses filtros</h2><p className="mt-3">A classificação pode ainda estar em confirmação. Tente ampliar sua busca ou converse com a Rosa.</p></div> : null}
             <p className="fine-print mt-7">Valores, disponibilidade e classificações sujeitos a confirmação. Consulte as condições atualizadas.</p>
           </div>

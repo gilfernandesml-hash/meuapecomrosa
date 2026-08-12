@@ -1,5 +1,6 @@
 import { AdminSubmitButtons } from "@/components/admin-submit-buttons";
 import { AdminMediaUploadFields } from "@/components/admin-media-upload-fields";
+import { preferredDevelopers } from "@/lib/developers";
 
 type PropertyFormValues = Record<string, string | number | boolean | null | undefined>;
 
@@ -65,8 +66,10 @@ export function AdminPropertyForm({
         <label className="label">Tipo<select className="field" name="property_type" defaultValue={value("property_type") || "apartment"}><option value="apartment">Apartamento</option><option value="studio">Studio</option><option value="house">Casa</option><option value="commercial">Comercial</option></select></label>
         <label className="label">Fase<select className="field" name="phase" defaultValue={value("phase")}><option value="">Não informado</option>{phases.map((phase) => <option key={phase}>{phase}</option>)}</select></label>
         <label className="label">Finalidade<select className="field" name="purpose" defaultValue={value("purpose") || "sale"}><option value="sale">Venda</option><option value="rent">Locação</option></select></label>
-        <label className="label">Construtora<input className="field" name="builder" defaultValue={value("builder")} /></label>
-        <label className="label">Incorporadora<input className="field" name="developer" defaultValue={value("developer")} /></label>
+        <label className="label">Construtora<input className="field" name="builder" list="preferred-developers" defaultValue={value("builder")} placeholder="Selecione ou digite a construtora" /></label>
+        <label className="label">Incorporadora<input className="field" name="developer" list="preferred-developers" defaultValue={value("developer")} placeholder="Selecione ou digite a incorporadora" /></label>
+        <datalist id="preferred-developers">{preferredDevelopers.map((developer) => <option key={developer} value={developer} />)}</datalist>
+        <p className="sm:col-span-2 text-xs leading-5 text-grafite/60">Sugestões priorizadas: {preferredDevelopers.join(", ")}.</p>
         <label className="label sm:col-span-2">Descrição curta<textarea className="field min-h-24" name="short_description" defaultValue={value("short_description")} /></label>
         <label className="label sm:col-span-2">Descrição completa<textarea className="field min-h-40" name="description" defaultValue={value("description")} /></label>
         <label className="label sm:col-span-2">URL da fonte<input className="field" name="source_url" type="url" defaultValue={value("source_url")} placeholder="https://www.orulo.com.br/buildings/..." /></label>

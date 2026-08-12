@@ -40,11 +40,11 @@ export default async function Home() {
         <div className="container-site grid min-h-[720px] items-center gap-10 py-16 lg:grid-cols-2">
           <div className="relative z-10 lg:pr-8">
             <p className="eyebrow text-champagne">Seu caminho para a casa própria</p>
-            <h1 className="hero-title mt-5 text-white" aria-label="Seu próximo endereço, escolhido com propósito.">
+            <h1 className="hero-title mt-5 text-white" aria-label="Seu próximo endereço para melhor investimento.">
               <span className="block" aria-hidden="true">Seu próximo{" "}</span>
-              <span className="block" aria-hidden="true">endereço,{" "}</span>
-              <span className="hero-title-accent block" aria-hidden="true">escolhido com{" "}</span>
-              <span className="hero-title-accent block" aria-hidden="true">propósito.</span>
+              <span className="block" aria-hidden="true">endereço para{" "}</span>
+              <span className="hero-title-accent block" aria-hidden="true">melhor{" "}</span>
+              <span className="hero-title-accent block" aria-hidden="true">investimento.</span>
             </h1>
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/75 sm:text-lg">Encontre seu primeiro imóvel com orientação em cada etapa — da escolha do apartamento ao financiamento, documentação e entrega das chaves.</p>
             <p className="mt-5 max-w-2xl border-l-4 border-champagne pl-4 text-sm font-bold leading-6 text-white/90">Corretora desde 2015 • Especialista em Minha Casa Minha Vida, FGTS e financiamento imobiliário.</p>
@@ -73,7 +73,7 @@ export default async function Home() {
       <section className="bg-white pb-16 pt-6 sm:pb-20">
         <div className="container-site">
           <div className="flex flex-wrap items-end justify-between gap-5"><div><p className="eyebrow">Oportunidades selecionadas</p><h2 className="subtitle mt-3 text-4xl text-petroleo sm:text-5xl">Encontre um imóvel para o seu momento.</h2></div><Link href="/imoveis" className="font-bold text-rose">Ver todos os imóveis →</Link></div>
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{properties.slice(0, 12).map((property) => <PropertyCard key={property.slug} property={property}/>)}</div>
+          <div className="property-grid mt-10">{properties.slice(0, 12).map((property) => <PropertyCard key={property.slug} property={property}/>)}</div>
           <p className="fine-print mt-7">Dados provenientes do catálogo público da Órulo. Disponibilidade, valores, status e enquadramento devem ser confirmados antes de qualquer proposta.</p>
         </div>
       </section>
@@ -88,7 +88,7 @@ export default async function Home() {
       <section className="section bg-creme">
         <div className="container-site">
           <div className="flex flex-wrap items-end justify-between gap-5"><div><p className="eyebrow">Mais opções para você</p><h2 className="subtitle mt-3 text-4xl text-petroleo sm:text-5xl">Continue explorando as oportunidades.</h2></div><Link href="/imoveis" className="font-bold text-rose">Ver catálogo completo →</Link></div>
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{properties.slice(12, 24).map((property) => <PropertyCard key={property.slug} property={property}/>)}</div>
+          <div className="property-grid mt-10">{properties.slice(12, 24).map((property) => <PropertyCard key={property.slug} property={property}/>)}</div>
         </div>
       </section>
 

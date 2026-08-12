@@ -39,3 +39,11 @@ export function housingClassificationFromQuery(value: string) {
 export const catalogUpdatedAt = catalog.generated_at;
 export const properties = catalog.properties as Property[];
 export const money = (value: number) => new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 }).format(value);
+
+export function startingPriceLabel(property: Pick<Property, "price" | "price_label">) {
+  const label = property.price_label.trim();
+  if (/^a partir de\b/i.test(label)) return label.replace(/^a partir de/i, "A partir de");
+  if (property.price !== null && Number.isFinite(property.price)) return `A partir de ${money(property.price)}`;
+  if (/^(?:R\$\s*)?\d/i.test(label)) return `A partir de ${label}`;
+  return label || "Valor sob consulta";
+}
