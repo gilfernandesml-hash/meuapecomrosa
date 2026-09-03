@@ -3,15 +3,30 @@
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { ChevronLeft, ChevronRight, Expand, FileText, Images, LayoutPanelTop, X } from "lucide-react";
+import type { PropertyMedia } from "@/lib/properties";
 
 type GalleryKind = "photos" | "floorplans";
 type Viewer = { kind: GalleryKind; index: number } | null;
 const isPdf = (url: string) => /\.pdf(?:$|\?)/i.test(url);
 
-export function PropertyGallery({ name, photos, floorplans }: { name: string; photos: string[]; floorplans: string[] }) {
+export function PropertyGallery({
+  name,
+  photos,
+  floorplans,
+  photoMedia = [],
+  floorplanMedia = [],
+}: {
+  name: string;
+  photos: string[];
+  floorplans: string[];
+  photoMedia?: PropertyMedia[];
+  floorplanMedia?: PropertyMedia[];
+}) {
   const [viewer, setViewer] = useState<Viewer>(null);
   const isOpen = viewer !== null;
   const viewableFloorplans = useMemo(() => floorplans.filter((floorplan) => !isPdf(floorplan)), [floorplans]);
+  const photoDescriptions = useMemo(() => new Map(photoMedia.map((media) => [media.url, media.description])), [photoMedia]);
+  const floorplanDescriptions = useMemo(() => new Map(floorplanMedia.map((media) => [media.url, media.description])), [floorplanMedia]);
 
   const move = useCallback((delta: number) => {
     setViewer((current) => {
@@ -50,7 +65,7 @@ export function PropertyGallery({ name, photos, floorplans }: { name: string; ph
       <div className="grid gap-3 overflow-hidden rounded-[2rem] md:grid-cols-4 md:grid-rows-2">
         {photos.slice(0, 5).map((photo, index) => (
           <button key={photo} type="button" onClick={() => setViewer({ kind: "photos", index })} className={`group relative min-h-52 cursor-zoom-in overflow-hidden bg-petroleo text-left ${index === 0 ? "md:col-span-2 md:row-span-2 md:min-h-[470px]" : ""}`} aria-label={`Ampliar foto ${index + 1} de ${name}`}>
-            <Image src={photo} alt={`${name} — foto ${index + 1}`} fill preload={index === 0} sizes={index === 0 ? "(max-width: 768px) 100vw, 50vw" : "25vw"} className="object-cover transition duration-500 group-hover:scale-105"/>
+            <Image src={photo} alt={`${name} — ${photoDescriptions.get(photo) || `foto ${index + 1}`}`} fill preload={index === 0} sizes={index === 0 ? "(max-width: 768px) 100vw, 50vw" : "25vw"} className="object-cover transition duration-500 group-hover:scale-105"/>
             <span className="absolute bottom-4 right-4 grid size-10 place-items-center rounded-full bg-white/90 text-petroleo opacity-0 shadow-lg transition group-hover:opacity-100"><Expand size={18}/></span>
             {index === 4 && photos.length > 5 ? <span className="absolute inset-0 grid place-items-center bg-petroleo/55 text-lg font-bold text-white">+{photos.length - 5} fotos</span> : null}
           </button>
@@ -70,7 +85,7 @@ export function PropertyGallery({ name, photos, floorplans }: { name: string; ph
               </a>
             ) : (
               <button key={floorplan} type="button" onClick={() => setViewer({ kind: "floorplans", index: floorplans.slice(0, index).filter((item) => !isPdf(item)).length })} className="group relative aspect-[4/3] cursor-zoom-in overflow-hidden rounded-2xl border border-petroleo/10 bg-white" aria-label={`Ampliar planta ${index + 1} de ${name}`}>
-                <Image src={floorplan} alt={`Planta ${index + 1} de ${name}`} fill sizes="(max-width: 640px) 100vw, 33vw" className="object-contain p-3 transition duration-300 group-hover:scale-[1.03]"/>
+                <Image src={floorplan} alt={`${floorplanDescriptions.get(floorplan) || `Planta ${index + 1}`} de ${name}`} fill sizes="(max-width: 640px) 100vw, 33vw" className="object-contain p-3 transition duration-300 group-hover:scale-[1.03]"/>
                 <span className="absolute bottom-3 right-3 grid size-10 place-items-center rounded-full bg-petroleo text-white shadow-lg"><Expand size={18}/></span>
               </button>
             ))}

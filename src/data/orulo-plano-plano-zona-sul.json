@@ -1,0 +1,4447 @@
+{
+  "generated_at": "2026-09-03T17:59:13.068755+00:00",
+  "source": "Órulo — catálogo público",
+  "filters": {
+    "developer": "Plano & Plano",
+    "developer_id": "674",
+    "region": "Zona Sul de São Paulo",
+    "availability": "ativos e publicados"
+  },
+  "count": 21,
+  "properties": [
+    {
+      "slug": "oriz-by-plano-plano-lojas-campo-belo-46613",
+      "code": "RMA-000066",
+      "external_id": "46613",
+      "name": "Oriz by Plano&Plano - Lojas",
+      "short_description": "Oriz by Plano&Plano - Lojas em Campo Belo: 107.78 a 112.12 m², 0 dormitórios e a partir de r$ 1.678.788. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Oriz by Plano&Plano - Lojas em Campo Belo: preços e plantas",
+      "seo_description": "Conheça Oriz by Plano&Plano - Lojas, Plano & Plano em Campo Belo: 107.78 a 112.12 m², 0 dormitórios, a partir de r$ 1.678.788, fotos, plantas e localização.",
+      "keywords": [
+        "Oriz by Plano&Plano - Lojas",
+        "Plano & Plano",
+        "Plano & Plano Campo Belo",
+        "imóveis em Campo Belo",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Campo Belo",
+        "Pronto"
+      ],
+      "neighborhood": "Campo Belo",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04602-050",
+      "address": "Rua Dom Manuel",
+      "public_address": "Rua Dom Manuel, Campo Belo, São Paulo - SP, 04602-050",
+      "number": null,
+      "latitude": -23.613561,
+      "longitude": -46.672192,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/08/2023",
+      "opening_date": "31/05/2026",
+      "area_min": 107.78,
+      "area_max": 112.12,
+      "area": "107.78 a 112.12 m²",
+      "bedrooms_min": 0,
+      "bedrooms_max": 0,
+      "bathrooms_min": 2,
+      "bathrooms_max": 2,
+      "suites_min": 0,
+      "suites_max": 0,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 3,
+      "stock": 2,
+      "number_of_floors": 1,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Loja",
+          "private_area": 107.78,
+          "bedrooms": 0,
+          "bathrooms": 2,
+          "suites": 0,
+          "parking": 0,
+          "stock": 2
+        }
+      ],
+      "price": 1678788.2,
+      "price_label": "A partir de R$ 1.678.788",
+      "property_type": "commercial",
+      "finality": "Comercial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Oriz by Plano&Plano - Lojas é um empreendimento da Plano & Plano em Campo Belo, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções de 107.78 a 112.12 m², 0 dormitórios, 2 banheiros, 0 vagas. O valor divulgado é a partir de r$ 1.678.788.\n\nCom vista para o Campo Belo, Brooklin e Moema, um empreendimento com arquitetura contemporânea e originalidade em cada espaço que corresponde às suas expectativas e cabe no seu horizonte. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nA previsão de entrega informada pela fonte é 31/05/2026. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Com vista para o Campo Belo, Brooklin e Moema, um empreendimento com arquitetura contemporânea e originalidade em cada espaço que corresponde às suas expectativas e cabe no seu horizonte. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1473776.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1473776.jpg",
+          "description": "Fachada"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1473775.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1473775.jpg",
+          "description": "Pavimento térreo"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/46613",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 17:58:37"
+    },
+    {
+      "slug": "oriz-by-plano-plano-nr-campo-belo-44525",
+      "code": "RMA-000067",
+      "external_id": "44525",
+      "name": "Oriz by Plano&Plano - NR",
+      "short_description": "Oriz by Plano&Plano - NR em Campo Belo: 28.36 a 36.41 m², 1 dormitório e a partir de r$ 386.963. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Oriz by Plano&Plano - NR em Campo Belo: preços e plantas",
+      "seo_description": "Conheça Oriz by Plano&Plano - NR, Plano & Plano em Campo Belo: 28.36 a 36.41 m², 1 dormitório, a partir de r$ 386.963, fotos, plantas e localização.",
+      "keywords": [
+        "Oriz by Plano&Plano - NR",
+        "Plano & Plano",
+        "Plano & Plano Campo Belo",
+        "imóveis em Campo Belo",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Campo Belo",
+        "Pronto"
+      ],
+      "neighborhood": "Campo Belo",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04602-050",
+      "address": "Rua Dom Manuel",
+      "public_address": "Rua Dom Manuel, Campo Belo, São Paulo - SP, 04602-050",
+      "number": null,
+      "latitude": -23.613561,
+      "longitude": -46.672192,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/08/2023",
+      "opening_date": "30/11/2025",
+      "area_min": 28.36,
+      "area_max": 36.41,
+      "area": "28.36 a 36.41 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 1,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 0,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 47,
+      "stock": 8,
+      "number_of_floors": 5,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Studio",
+          "private_area": 28.36,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 1
+        },
+        {
+          "type": "Studio",
+          "private_area": 33.6,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 7
+        }
+      ],
+      "price": 386962.76,
+      "price_label": "A partir de R$ 386.963",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": true,
+      "description": "Oriz by Plano&Plano - NR é um empreendimento da Plano & Plano em Campo Belo, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções de 28.36 a 36.41 m², 1 dormitório, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 386.963.\n\nCom vista para o Campo Belo, Brooklin e Moema, um empreendimento com arquitetura contemporânea e originalidade em cada espaço que corresponde às suas expectativas e cabe no seu horizonte. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Coworking, Elevador social, Lavanderia, Portaria, Segurança. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/11/2025. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Com vista para o Campo Belo, Brooklin e Moema, um empreendimento com arquitetura contemporânea e originalidade em cada espaço que corresponde às suas expectativas e cabe no seu horizonte. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Coworking",
+        "Elevador social",
+        "Lavanderia",
+        "Portaria",
+        "Segurança"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1410577.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410578.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410579.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410580.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410581.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410582.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410577.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410578.jpg",
+          "description": "Dormitorio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410579.jpg",
+          "description": "Dormitorio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410580.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410581.jpg",
+          "description": "Lavanderia"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410582.jpg",
+          "description": "Coworking"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1410573.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410574.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410575.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410576.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410572.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410573.jpg",
+          "description": "Pavimento tipo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410574.jpg",
+          "description": "Planta 01 - 1 dorm 22m² - studio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410575.jpg",
+          "description": "Planta 02 - 1 dorm 22m² - studio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410576.jpg",
+          "description": "Planta 03 - 1 dorm 28m² - studio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410572.jpg",
+          "description": "Planta 04 - 1 dorm 34m² - studio"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/44525",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 17:54:24"
+    },
+    {
+      "slug": "oriz-by-plano-plano-residencial-campo-belo-44524",
+      "code": "RMA-000068",
+      "external_id": "44524",
+      "name": "Oriz by Plano&Plano - Residencial",
+      "short_description": "Oriz by Plano&Plano - Residencial em Campo Belo: 28.04 a 44.11 m², de 1 a 2 dormitórios e a partir de r$ 382.596. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Oriz by Plano&Plano - Residencial em Campo Belo: preços e…",
+      "seo_description": "Conheça Oriz by Plano&Plano - Residencial, Plano & Plano em Campo Belo: 28.04 a 44.11 m², de 1 a 2 dormitórios, a partir de r$ 382.596, fotos, plantas e…",
+      "keywords": [
+        "Oriz by Plano&Plano - Residencial",
+        "Plano & Plano",
+        "Plano & Plano Campo Belo",
+        "imóveis em Campo Belo",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Campo Belo",
+        "Pronto"
+      ],
+      "neighborhood": "Campo Belo",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04602-050",
+      "address": "Rua Dom Manuel",
+      "public_address": "Rua Dom Manuel, Campo Belo, São Paulo - SP, 04602-050",
+      "number": null,
+      "latitude": -23.613561,
+      "longitude": -46.672192,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/08/2023",
+      "opening_date": "30/11/2025",
+      "area_min": 28.04,
+      "area_max": 44.11,
+      "area": "28.04 a 44.11 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 0,
+      "parking_min": 0,
+      "parking_max": 1,
+      "total_units": 277,
+      "stock": 121,
+      "number_of_floors": 24,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 41.85,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 1,
+          "stock": 8
+        },
+        {
+          "type": "Studio",
+          "private_area": 28.04,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 21
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 39.31,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 27
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 33.55,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 65
+        }
+      ],
+      "price": 382596.47,
+      "price_label": "A partir de R$ 382.596",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Oriz by Plano&Plano - Residencial é um empreendimento da Plano & Plano em Campo Belo, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções de 28.04 a 44.11 m², de 1 a 2 dormitórios, 1 banheiro, de 0 a 1 vagas. O valor divulgado é a partir de r$ 382.596.\n\nCom vista para o Campo Belo, Brooklin e Moema, um empreendimento com arquitetura contemporânea e originalidade em cada espaço que corresponde às suas expectativas e cabe no seu horizonte. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Bar, Bicicletário, Brinquedoteca, Churrasqueira condominial, Coworking, Elevador social, Espaço gourmet, Fire place, Lavanderia. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/11/2025. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Com vista para o Campo Belo, Brooklin e Moema, um empreendimento com arquitetura contemporânea e originalidade em cada espaço que corresponde às suas expectativas e cabe no seu horizonte. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Bar",
+        "Bicicletário",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Elevador social",
+        "Espaço gourmet",
+        "Fire place",
+        "Lavanderia",
+        "Pet place",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Segurança",
+        "Solarium",
+        "Terraço"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1412862.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410552.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410553.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410554.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410555.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410556.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410557.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410558.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410559.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410560.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410561.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410562.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410563.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410564.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410565.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410566.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410567.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410568.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410569.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410570.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410571.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1412862.jpg",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410552.jpg",
+          "description": "Hall"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410553.jpg",
+          "description": "Acesso"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410554.jpg",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410555.jpg",
+          "description": "Cozinha"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410556.jpg",
+          "description": "Dormitorio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410557.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410558.jpg",
+          "description": "Espaco gourmet"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410559.jpg",
+          "description": "Sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410560.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410561.jpg",
+          "description": "Brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410562.jpg",
+          "description": "Bicicletario"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410563.jpg",
+          "description": "Lavanderia"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410564.jpg",
+          "description": "Playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410565.jpg",
+          "description": "Pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410566.jpg",
+          "description": "Fire place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410567.jpg",
+          "description": "Terraco coletivo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410568.jpg",
+          "description": "Solario"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410569.jpg",
+          "description": "Piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410570.jpg",
+          "description": "Piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410571.jpg",
+          "description": "Voo de passaro"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1410545.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410546.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1473772.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410547.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410548.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410549.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1410550.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410545.jpg",
+          "description": "Pavimento lazer"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410546.jpg",
+          "description": "Pavimento terreo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1473772.jpg",
+          "description": "Planta 01 - 1 dorm 28m² - studio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410547.jpg",
+          "description": "Planta 01 - 1 dorm 34m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410548.jpg",
+          "description": "Planta 02 - 2 dorm 39m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410549.jpg",
+          "description": "Planta 03 - 2 dorm 42m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1410550.jpg",
+          "description": "Planta 04 - 2 dorm 42m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/44524",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 17:55:54"
+    },
+    {
+      "slug": "plano-nova-espraiada-campo-belo-56382",
+      "code": "RMA-000005",
+      "external_id": "56382",
+      "name": "Plano&Nova Espraiada",
+      "short_description": "Plano&Nova Espraiada em Campo Belo: 26.84 a 26.85 m², 1 dormitório e a partir de r$ 236.209. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Plano&Nova Espraiada em Campo Belo: preços e plantas",
+      "seo_description": "Conheça Plano&Nova Espraiada, Plano & Plano em Campo Belo: 26.84 a 26.85 m², 1 dormitório, a partir de r$ 236.209, fotos, plantas e localização.",
+      "keywords": [
+        "Plano&Nova Espraiada",
+        "Plano & Plano",
+        "Plano & Plano Campo Belo",
+        "imóveis em Campo Belo",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Campo Belo",
+        "Em construção",
+        "Minha Casa Minha Vida",
+        "apartamento com FGTS"
+      ],
+      "neighborhood": "Campo Belo",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04624-030",
+      "address": "Rua Gutemberg",
+      "public_address": "Rua Gutemberg, Campo Belo, São Paulo - SP, 04624-030",
+      "number": null,
+      "latitude": -23.629684,
+      "longitude": -46.671013,
+      "phase": "Em construção",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "15/06/2024",
+      "opening_date": "30/04/2027",
+      "area_min": 26.84,
+      "area_max": 26.85,
+      "area": "26.84 a 26.85 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 1,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 1,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 344,
+      "stock": 2,
+      "number_of_floors": 28,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 26.85,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 2
+        }
+      ],
+      "price": 236208.52,
+      "price_label": "A partir de R$ 236.209",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": true,
+      "fgts": true,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Plano&Nova Espraiada é um empreendimento da Plano & Plano em Campo Belo, na Zona Sul de São Paulo. O projeto está na fase em construção e apresenta opções de 26.84 a 26.85 m², 1 dormitório, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 236.209.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Churrasqueira condominial, Coworking, Elevador social, Espaço gourmet, Lavanderia, Pet place, Piscina adulto, Playground, Portaria. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/04/2027. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Elevador social",
+        "Espaço gourmet",
+        "Lavanderia",
+        "Pet place",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Salão de festas",
+        "Segurança",
+        "Terraço"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1773826.png",
+        "https://static.orulo.com.br/images/properties/xlarge/1773827.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773828.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773829.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773830.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773831.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773832.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773833.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773834.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773835.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773836.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773837.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773838.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773826.png",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773827.jpg",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773828.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773829.jpg",
+          "description": "Delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773830.jpg",
+          "description": "Market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773831.jpg",
+          "description": "Pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773832.jpg",
+          "description": "Lavanderia"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773833.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773834.jpg",
+          "description": "Salao de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773835.jpg",
+          "description": "Churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773836.jpg",
+          "description": "Praca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773837.jpg",
+          "description": "Playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773838.jpg",
+          "description": "Piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1773822.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773823.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773824.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1773825.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773822.jpg",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773823.jpg",
+          "description": "Planta 01 - 1 dorm 26,84m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773824.jpg",
+          "description": "Planta 02 - 1 dorm 26,85m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1773825.jpg",
+          "description": "Planta 03 - 1 dorm 27,08m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/56382",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 20:33:54"
+    },
+    {
+      "slug": "mundo-park-alvorada-campo-grande-68172",
+      "code": "RMA-000006",
+      "external_id": "68172",
+      "name": "Mundo Park Alvorada",
+      "short_description": "Mundo Park Alvorada em Campo Grande: 27.17 a 34.78 m², de 1 a 2 dormitórios e a partir de r$ 244.809. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Mundo Park Alvorada em Campo Grande: preços e plantas",
+      "seo_description": "Conheça Mundo Park Alvorada, Plano & Plano em Campo Grande: 27.17 a 34.78 m², de 1 a 2 dormitórios, a partir de r$ 244.809, fotos, plantas e localização.",
+      "keywords": [
+        "Mundo Park Alvorada",
+        "Plano & Plano",
+        "Plano & Plano Campo Grande",
+        "imóveis em Campo Grande",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Campo Grande",
+        "Em construção",
+        "Minha Casa Minha Vida",
+        "apartamento com FGTS"
+      ],
+      "neighborhood": "Campo Grande",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04447-011",
+      "address": "Avenida Nossa Senhora do Sabará",
+      "public_address": "Avenida Nossa Senhora do Sabará, Campo Grande, São Paulo - SP, 04447-011",
+      "number": null,
+      "latitude": -23.694113,
+      "longitude": -46.677633,
+      "phase": "Em construção",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/04/2025",
+      "opening_date": "30/01/2028",
+      "area_min": 27.17,
+      "area_max": 34.78,
+      "area": "27.17 a 34.78 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 1,
+      "total_units": 1109,
+      "stock": 432,
+      "number_of_floors": 16,
+      "number_of_towers": 5,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 27.17,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 17
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 29.61,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 37
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 31.9,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 209
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 32.24,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 167
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.78,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 1,
+          "stock": 2
+        }
+      ],
+      "price": 244808.66,
+      "price_label": "A partir de R$ 244.809",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": true,
+      "fgts": true,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Mundo Park Alvorada é um empreendimento da Plano & Plano em Campo Grande, na Zona Sul de São Paulo. O projeto está na fase em construção e apresenta opções de 27.17 a 34.78 m², de 1 a 2 dormitórios, 1 banheiro, de 0 a 1 vagas. O valor divulgado é a partir de r$ 244.809.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Academia externa, Bicicletário, Brinquedoteca, Churrasqueira condominial, Coworking, Delivery, Elevador social, Espaço beauty, Estúdio de gravação. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/01/2028. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Academia externa",
+        "Bicicletário",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Estúdio de gravação",
+        "Market",
+        "Pet care",
+        "Pet place",
+        "Piscina adulto",
+        "Piscina infantil",
+        "Playground",
+        "Portaria",
+        "Quadra poliesportiva",
+        "Redário",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança",
+        "Sports bar"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/2166539.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166540.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166541.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166542.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166543.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166544.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166545.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166546.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166547.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166548.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166549.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166550.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166551.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166552.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166553.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166554.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166555.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166556.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166557.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166558.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166559.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166560.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166561.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166562.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166563.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166564.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166565.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166566.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166567.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166539.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166540.jpg",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166541.jpg",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166542.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166543.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166544.jpg",
+          "description": "Salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166545.jpg",
+          "description": "Salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166546.jpg",
+          "description": "Brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166547.jpg",
+          "description": "Sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166548.jpg",
+          "description": "Sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166549.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166550.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166551.jpg",
+          "description": "Espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166552.jpg",
+          "description": "Delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166553.jpg",
+          "description": "Ateliê"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166554.jpg",
+          "description": "Pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166555.jpg",
+          "description": "Espaço camarote"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166556.jpg",
+          "description": "Market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166557.jpg",
+          "description": "Espaço influencer"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166558.jpg",
+          "description": "Churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166559.jpg",
+          "description": "Bicicletário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166560.jpg",
+          "description": "Quadra"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166561.jpg",
+          "description": "Playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166562.jpg",
+          "description": "Fitness externo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166563.jpg",
+          "description": "Pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166564.jpg",
+          "description": "Food bike"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166565.jpg",
+          "description": "Redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166566.jpg",
+          "description": "Piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166567.jpg",
+          "description": "Voo de pássaro"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/2166530.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166531.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166532.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166533.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166534.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166535.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166536.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166537.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2166538.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166530.jpg",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166531.jpg",
+          "description": "Planta 01 - 1 dorm 27,25m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166532.jpg",
+          "description": "Planta 02 - 1 dorm 28,16m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166533.jpg",
+          "description": "Planta 03 - 1 dorm 29,22m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166534.jpg",
+          "description": "Planta 04 - 1 dorm 29,61m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166535.jpg",
+          "description": "Planta 05 - 2 dorm 31,71m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166536.jpg",
+          "description": "Planta 06 - 2 dorm 34,21m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166537.jpg",
+          "description": "Planta 07 - 2 dorm 34,70m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2166538.jpg",
+          "description": "Planta 08 - 2 dorm 34,78m²"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/fDu5_Y7s0fs?si=T5ki--LiOfDbYEUm",
+          "source": "youtube",
+          "description": "Mundo Park Alvorada | Plano&Plano SP"
+        }
+      ],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/68172",
+      "developer_url": null,
+      "source_updated_at": "02/09/2026 15:04:10"
+    },
+    {
+      "slug": "mundo-park-aurora-campo-grande-71019",
+      "code": "RMA-000069",
+      "external_id": "71019",
+      "name": "Mundo Park Aurora",
+      "short_description": "Mundo Park Aurora em Campo Grande: 27.17 a 34.78 m², de 1 a 2 dormitórios e a partir de r$ 244.809. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Mundo Park Aurora em Campo Grande: preços e plantas",
+      "seo_description": "Conheça Mundo Park Aurora, Plano & Plano em Campo Grande: 27.17 a 34.78 m², de 1 a 2 dormitórios, a partir de r$ 244.809, fotos, plantas e localização.",
+      "keywords": [
+        "Mundo Park Aurora",
+        "Plano & Plano",
+        "Plano & Plano Campo Grande",
+        "imóveis em Campo Grande",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Campo Grande",
+        "Em construção"
+      ],
+      "neighborhood": "Campo Grande",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04447-010",
+      "address": "Avenida Nossa Senhora do Sabará",
+      "public_address": "Avenida Nossa Senhora do Sabará, Campo Grande, São Paulo - SP, 04447-010",
+      "number": null,
+      "latitude": -23.694113,
+      "longitude": -46.677633,
+      "phase": "Em construção",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "31/03/2025",
+      "opening_date": "30/04/2028",
+      "area_min": 27.17,
+      "area_max": 34.78,
+      "area": "27.17 a 34.78 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 1109,
+      "stock": 304,
+      "number_of_floors": 16,
+      "number_of_towers": 5,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 27.7,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 33
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 29.92,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 1
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 31.71,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 2
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.28,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 268
+        }
+      ],
+      "price": 244808.54,
+      "price_label": "A partir de R$ 244.809",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Mundo Park Aurora é um empreendimento da Plano & Plano em Campo Grande, na Zona Sul de São Paulo. O projeto está na fase em construção e apresenta opções de 27.17 a 34.78 m², de 1 a 2 dormitórios, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 244.809.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Brinquedoteca, Coworking, Elevador social, Espaço beauty, Espaço gourmet, Estúdio de gravação, Market, Pet care, Piscina adulto. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/04/2028. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Brinquedoteca",
+        "Coworking",
+        "Elevador social",
+        "Espaço beauty",
+        "Espaço gourmet",
+        "Estúdio de gravação",
+        "Market",
+        "Pet care",
+        "Piscina adulto",
+        "Portaria",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/2265145.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265146.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265147.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265148.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265149.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265150.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265151.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265152.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265153.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265154.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265155.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265156.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265157.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265158.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265159.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265160.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265161.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265162.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265163.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265164.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265165.png"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265145.png",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265146.png",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265147.png",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265148.png",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265149.png",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265150.png",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265151.png",
+          "description": "Espaço artes"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265152.png",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265153.png",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265154.png",
+          "description": "Sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265155.png",
+          "description": "Sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265156.png",
+          "description": "Estúdio de gravação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265157.png",
+          "description": "Espaço gourmet"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265158.png",
+          "description": "Espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265159.png",
+          "description": "Brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265160.png",
+          "description": "Salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265161.png",
+          "description": "Salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265162.png",
+          "description": "Market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265163.png",
+          "description": "Market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265164.png",
+          "description": "Pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265165.png",
+          "description": "Piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/2265144.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2265166.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2265167.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2265168.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2265169.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2265170.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2265171.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2265172.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2265173.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265144.png",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265166.jpg",
+          "description": "Planta 01 - 1 dorm 24,79m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265167.jpg",
+          "description": "Planta 02 - 1 dorm 27,25m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265168.jpg",
+          "description": "Planta 03 - 1 dorm 27,43m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265169.jpg",
+          "description": "Planta 04 - 1 dorm 29,61m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265170.jpg",
+          "description": "Planta 05 - 2 dorm 31,71m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265171.jpg",
+          "description": "Planta 06 - 2 dorm 34,21m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265172.jpg",
+          "description": "Planta 07 - 2 dorm 34,28m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2265173.jpg",
+          "description": "Planta 08 - 2 dorm 34,70m²"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/fDu5_Y7s0fs?si=8MA9ubl7uUwmT4TE",
+          "source": "youtube",
+          "description": "Mundo Park Aurora"
+        }
+      ],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/71019",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 20:21:18"
+    },
+    {
+      "slug": "ares-do-horto-ipe-amarelo-breve-lancamento-campo-limpo-84629",
+      "code": "RMA-000070",
+      "external_id": "84629",
+      "name": "Ares do Horto Ipê Amarelo - Breve Lançamento",
+      "short_description": "Ares do Horto Ipê Amarelo - Breve Lançamento em Campo Limpo: 31.71 a 38.73 m², 2 dormitórios e valor sob consulta. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Ares do Horto Ipê Amarelo - Breve Lançamento em Campo Limpo…",
+      "seo_description": "Conheça Ares do Horto Ipê Amarelo - Breve Lançamento, Plano & Plano em Campo Limpo: 31.71 a 38.73 m², 2 dormitórios, valor sob consulta, fotos, plantas e…",
+      "keywords": [
+        "Ares do Horto Ipê Amarelo - Breve Lançamento",
+        "Plano & Plano",
+        "Plano & Plano Campo Limpo",
+        "imóveis em Campo Limpo",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Campo Limpo",
+        "Lançamento"
+      ],
+      "neighborhood": "Campo Limpo",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "05787-000",
+      "address": "Estrada do Campo Limpo",
+      "public_address": "Estrada do Campo Limpo, Campo Limpo, São Paulo - SP, 05787-000",
+      "number": null,
+      "latitude": -23.629129,
+      "longitude": -46.769181,
+      "phase": "Lançamento",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/09/2026",
+      "opening_date": "30/09/2029",
+      "area_min": 31.71,
+      "area_max": 38.73,
+      "area": "31.71 a 38.73 m²",
+      "bedrooms_min": 2,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 2,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 1,
+      "total_units": 495,
+      "stock": 495,
+      "number_of_floors": null,
+      "number_of_towers": 2,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 31.71,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 495
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.45,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 495
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 38.73,
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "suites": 1,
+          "parking": 1,
+          "stock": 495
+        }
+      ],
+      "price": null,
+      "price_label": "Valor sob consulta",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Ares do Horto Ipê Amarelo - Breve Lançamento é um empreendimento da Plano & Plano em Campo Limpo, na Zona Sul de São Paulo. O projeto está na fase lançamento e apresenta opções de 31.71 a 38.73 m², 2 dormitórios, de 1 a 2 banheiros, de 0 a 1 vagas. O valor divulgado é valor sob consulta.\n\nEste empreendimento foi dividido em condomínios. Cada um deles com valores, diferenciais e prazo de entrega distintos. Escolha qual se enquadra melhor na sua necessidade e realize seu sonho! Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Academia externa, Brinquedoteca, Churrasqueira condominial, Coworking, Delivery, Elevador social, Espaço beauty, Jardim, Lounge. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/09/2029. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Este empreendimento foi dividido em condomínios. Cada um deles com valores, diferenciais e prazo de entrega distintos. Escolha qual se enquadra melhor na sua necessidade e realize seu sonho! Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Academia externa",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Jardim",
+        "Lounge",
+        "Market",
+        "Pet care",
+        "Pet place",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Quadra poliesportiva",
+        "Redário",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança",
+        "Solarium"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/bwzlh8hr447c0e7dqx61ryhmo15b.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/em8u35u3xw2a8r0v2aowniaoy3n1.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/rfjw4vgh453qbgi55g8e9pd61hk3.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1mg70kgskfz2c5vgj4kr37rp2iki.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/lhfo1re5ia7fszrmazmvau6kbu2f.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/os09yx3c249rmsbztai2tp47uhwo.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/cse6ckjcfln0i8rgrd0me6avnetp.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/vqxi9pc1nbee0sz21sobzk21ucrm.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/dpcfkdjpw60golzmpeb24ki8mqqs.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/027afe29kw65w267js5w9xomoold.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/nocv6qf4qcy8710fmnbpn74yk9av.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1vxh2wbodfzi20lsq555k6jl6peu.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/53ivz25pdhs0kklrkepnej9513sg.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/tx69q8r9bz6gqpzjamaxmt8sejng.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/t852v9bam657oavrqqhf3jw4f6bu.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ov14zscq3p8noeir16kvdn0oac8s.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/68mak9l2swkdj5qspe32qi9gt07m.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1vl1cg62cvnha8tvbo63iy4ve25v.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/dzgie6gkqxq8iccibn6kb6thrvbm.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/45ljyztnkhrgtctd8nuvjjvsn4my.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/l23i81uxqdg3d4p6c0bn6d301a8m.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/j9z8fkrtvi90h6cq821rrtrgz2u3.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/7bqtqc6nuylvi05s3auwqi3g6dap.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/bwzlh8hr447c0e7dqx61ryhmo15b.jpg",
+          "description": "010 fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/em8u35u3xw2a8r0v2aowniaoy3n1.jpg",
+          "description": "020 portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/rfjw4vgh453qbgi55g8e9pd61hk3.jpg",
+          "description": "151 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1mg70kgskfz2c5vgj4kr37rp2iki.jpg",
+          "description": "152 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/lhfo1re5ia7fszrmazmvau6kbu2f.jpg",
+          "description": "153 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/os09yx3c249rmsbztai2tp47uhwo.jpg",
+          "description": "170 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/cse6ckjcfln0i8rgrd0me6avnetp.jpg",
+          "description": "171 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/vqxi9pc1nbee0sz21sobzk21ucrm.jpg",
+          "description": "180 coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/dpcfkdjpw60golzmpeb24ki8mqqs.jpg",
+          "description": "198 pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/027afe29kw65w267js5w9xomoold.jpg",
+          "description": "200 espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/nocv6qf4qcy8710fmnbpn74yk9av.jpg",
+          "description": "210 market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1vxh2wbodfzi20lsq555k6jl6peu.jpg",
+          "description": "215 oficina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/53ivz25pdhs0kklrkepnej9513sg.jpg",
+          "description": "220 sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/tx69q8r9bz6gqpzjamaxmt8sejng.jpg",
+          "description": "225 delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/t852v9bam657oavrqqhf3jw4f6bu.jpg",
+          "description": "240 churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ov14zscq3p8noeir16kvdn0oac8s.jpg",
+          "description": "245 quadra"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/68mak9l2swkdj5qspe32qi9gt07m.jpg",
+          "description": "250 playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1vl1cg62cvnha8tvbo63iy4ve25v.jpg",
+          "description": "260 pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/dzgie6gkqxq8iccibn6kb6thrvbm.jpg",
+          "description": "265 fitness externo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/45ljyztnkhrgtctd8nuvjjvsn4my.jpg",
+          "description": "285 redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/l23i81uxqdg3d4p6c0bn6d301a8m.jpg",
+          "description": "290 piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/j9z8fkrtvi90h6cq821rrtrgz2u3.jpg",
+          "description": "291 piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/7bqtqc6nuylvi05s3auwqi3g6dap.jpg",
+          "description": "292 piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/l39udhsbxm239pijf5pyv4nv32bx.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/t8qrk79n2kqdjcqblg4erqu0y0vp.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/70kioy2gwq3a7oo5684mqbf0s48d.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/9buci6o4hntv4idnqkjp5vby58h7.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/fddubl896vfmewiubxdqci2xrs4o.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/es79y77oz3r7f06sz53u14v2f1ge.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/l39udhsbxm239pijf5pyv4nv32bx.jpg",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/t8qrk79n2kqdjcqblg4erqu0y0vp.jpg",
+          "description": "Planta 01 - 2 dorm 31,71m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/70kioy2gwq3a7oo5684mqbf0s48d.jpg",
+          "description": "Planta 02 - 2 dorm 31,81m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/9buci6o4hntv4idnqkjp5vby58h7.jpg",
+          "description": "Planta 03 - 2 dorm 34,45m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/fddubl896vfmewiubxdqci2xrs4o.jpg",
+          "description": "Planta 04 - 2 dorm 35,31m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/es79y77oz3r7f06sz53u14v2f1ge.jpg",
+          "description": "Planta 05 - 2 dorm 38,73m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/84629",
+      "developer_url": null,
+      "source_updated_at": "20/08/2026 14:27:53"
+    },
+    {
+      "slug": "ares-do-horto-pau-brasil-horto-do-ipe-83029",
+      "code": "RMA-000071",
+      "external_id": "83029",
+      "name": "Ares do Horto Pau Brasil",
+      "short_description": "Ares do Horto Pau Brasil em Horto do Ipê: 31.71 a 35.28 m², 2 dormitórios e a partir de r$ 234.592. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Ares do Horto Pau Brasil em Horto do Ipê: preços e plantas",
+      "seo_description": "Conheça Ares do Horto Pau Brasil, Plano & Plano em Horto do Ipê: 31.71 a 35.28 m², 2 dormitórios, a partir de r$ 234.592, fotos, plantas e localização.",
+      "keywords": [
+        "Ares do Horto Pau Brasil",
+        "Plano & Plano",
+        "Plano & Plano Horto do Ipê",
+        "imóveis em Horto do Ipê",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Horto do Ipê",
+        "Lançamento"
+      ],
+      "neighborhood": "Horto do Ipê",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "05777-001",
+      "address": "Estrada do Campo Limpo",
+      "public_address": "Estrada do Campo Limpo, Horto do Ipê, São Paulo - SP, 05777-001",
+      "number": null,
+      "latitude": -23.644584,
+      "longitude": -46.764188,
+      "phase": "Lançamento",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/07/2026",
+      "opening_date": "31/07/2029",
+      "area_min": 31.71,
+      "area_max": 35.28,
+      "area": "31.71 a 35.28 m²",
+      "bedrooms_min": 2,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 0,
+      "parking_min": 0,
+      "parking_max": 1,
+      "total_units": 574,
+      "stock": 455,
+      "number_of_floors": 27,
+      "number_of_towers": 2,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 32.14,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 273
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.45,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 149
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 35.28,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 1,
+          "stock": 33
+        }
+      ],
+      "price": 234591.84,
+      "price_label": "A partir de R$ 234.592",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Ares do Horto Pau Brasil é um empreendimento da Plano & Plano em Horto do Ipê, na Zona Sul de São Paulo. O projeto está na fase lançamento e apresenta opções de 31.71 a 35.28 m², 2 dormitórios, 1 banheiro, de 0 a 1 vagas. O valor divulgado é a partir de r$ 234.592.\n\nEste empreendimento foi dividido em condomínios. Cada um deles com valores, diferenciais e prazo de entrega distintos. Escolha qual se enquadra melhor na sua necessidade e realize seu sonho! Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Brinquedoteca, Churrasqueira condominial, Delivery, Elevador social, Espaço beauty, Fire place, Jardim, Lounge, Market. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 31/07/2029. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Este empreendimento foi dividido em condomínios. Cada um deles com valores, diferenciais e prazo de entrega distintos. Escolha qual se enquadra melhor na sua necessidade e realize seu sonho! Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Fire place",
+        "Jardim",
+        "Lounge",
+        "Market",
+        "Pet care",
+        "Pet place",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Redário",
+        "Segurança"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/zooej29ds12qe5nw02e4xjhy3rk6.png",
+        "https://static.orulo.com.br/images/properties/xlarge/u391z4oonjp5zxj1m61pitmlt4fg.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/wvkl1y0l8lk1wgeuq82q6y9jxsvu.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/swspy9jk31eohj97xu0vdn7re1nr.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/mht3j9ld9acs0a7fxogrbstjd31j.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/gup3xm6r0mxl3tx7srvr8xlawro1.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/q6nlm6fs1o5w9dmn6qxls2ymnto6.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/orrt8di7kn6e6b8v00i5lm5mrizd.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2zfli7pvd4t73ylhozeod5xr7jdi.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ro3pyhy7it1ug0pil0jktljrt7km.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/plj73dml48z8ry6nxfvsgyaxgaoz.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/r2kqxrmi55bm1l4b620rpjfbv0p0.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/qvs5dps59adf3txmazvjma2vvaxx.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/0evngakiog9w1pnmk2l9bc996vjv.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/dna5746g0xu5c2rlda752povwm9s.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/zooej29ds12qe5nw02e4xjhy3rk6.png",
+          "description": "010 fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/u391z4oonjp5zxj1m61pitmlt4fg.jpg",
+          "description": "150 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/wvkl1y0l8lk1wgeuq82q6y9jxsvu.jpg",
+          "description": "170 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/swspy9jk31eohj97xu0vdn7re1nr.jpg",
+          "description": "171 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/mht3j9ld9acs0a7fxogrbstjd31j.jpg",
+          "description": "198 pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/gup3xm6r0mxl3tx7srvr8xlawro1.jpg",
+          "description": "200 espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/q6nlm6fs1o5w9dmn6qxls2ymnto6.jpg",
+          "description": "225 delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/orrt8di7kn6e6b8v00i5lm5mrizd.jpg",
+          "description": "230 market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2zfli7pvd4t73ylhozeod5xr7jdi.jpg",
+          "description": "235 oficina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ro3pyhy7it1ug0pil0jktljrt7km.jpg",
+          "description": "240 churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/plj73dml48z8ry6nxfvsgyaxgaoz.jpg",
+          "description": "250 playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/r2kqxrmi55bm1l4b620rpjfbv0p0.jpg",
+          "description": "260 pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/qvs5dps59adf3txmazvjma2vvaxx.jpg",
+          "description": "265 fire place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/0evngakiog9w1pnmk2l9bc996vjv.jpg",
+          "description": "270 redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/dna5746g0xu5c2rlda752povwm9s.jpg",
+          "description": "290 piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/m8osm0kxy5ntzkgaifyvxqxwbhcl.png",
+        "https://static.orulo.com.br/images/properties/xlarge/se237eh2m6iciagp6joywi557ps8.png",
+        "https://static.orulo.com.br/images/properties/xlarge/1bzfxhx612vaalqpgebbsbzwbusu.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/hybnuvhuwh5m33w6pah0ooexe4yh.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/m8osm0kxy5ntzkgaifyvxqxwbhcl.png",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/se237eh2m6iciagp6joywi557ps8.png",
+          "description": "Pavimento tipo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1bzfxhx612vaalqpgebbsbzwbusu.jpg",
+          "description": "Planta 01 - 2 dorm 31,71m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/hybnuvhuwh5m33w6pah0ooexe4yh.jpg",
+          "description": "Planta 02 - 2 dorm 34,45m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/83029",
+      "developer_url": null,
+      "source_updated_at": "02/09/2026 16:27:52"
+    },
+    {
+      "slug": "plano-mais-interlagos-refugio-jardim-marajoara-72866",
+      "code": "RMA-000072",
+      "external_id": "72866",
+      "name": "Plano&Mais Interlagos Refúgio",
+      "short_description": "Plano&Mais Interlagos Refúgio em Jardim Marajoara: 32.14 a 34.96 m², 2 dormitórios e a partir de r$ 264.714. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Plano&Mais Interlagos Refúgio em Jardim Marajoara: preços e…",
+      "seo_description": "Conheça Plano&Mais Interlagos Refúgio, Plano & Plano em Jardim Marajoara: 32.14 a 34.96 m², 2 dormitórios, a partir de r$ 264.714, fotos, plantas e…",
+      "keywords": [
+        "Plano&Mais Interlagos Refúgio",
+        "Plano & Plano",
+        "Plano & Plano Jardim Marajoara",
+        "imóveis em Jardim Marajoara",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Jardim Marajoara",
+        "Em construção"
+      ],
+      "neighborhood": "Jardim Marajoara",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04653-210",
+      "address": "Rua Francisco Felippe Agosti",
+      "public_address": "Rua Francisco Felippe Agosti, Jardim Marajoara, São Paulo - SP, 04653-210",
+      "number": null,
+      "latitude": -23.661954,
+      "longitude": -46.676391,
+      "phase": "Em construção",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "14/08/2025",
+      "opening_date": "14/07/2028",
+      "area_min": 32.14,
+      "area_max": 34.96,
+      "area": "32.14 a 34.96 m²",
+      "bedrooms_min": 2,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 0,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 686,
+      "stock": 268,
+      "number_of_floors": 28,
+      "number_of_towers": 2,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 32.92,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 101
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 32.14,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 167
+        }
+      ],
+      "price": 264713.9,
+      "price_label": "A partir de R$ 264.714",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Plano&Mais Interlagos Refúgio é um empreendimento da Plano & Plano em Jardim Marajoara, na Zona Sul de São Paulo. O projeto está na fase em construção e apresenta opções de 32.14 a 34.96 m², 2 dormitórios, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 264.714.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Brinquedoteca, Churrasqueira condominial, Coworking, Delivery, Elevador social, Espaço beauty, Espaço gourmet, Estúdio de gravação, Pet care. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 14/07/2028. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Espaço gourmet",
+        "Estúdio de gravação",
+        "Pet care",
+        "Piscina adulto",
+        "Portaria",
+        "Redário",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança",
+        "Spa"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/2324368.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324369.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324370.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324371.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324372.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324373.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324374.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324375.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324376.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324377.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324378.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324379.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324380.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324381.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324382.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324383.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324384.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324385.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324368.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324369.jpg",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324370.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324371.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324372.jpg",
+          "description": "Sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324373.jpg",
+          "description": "Espaço gourmet"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324374.jpg",
+          "description": "Salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324375.jpg",
+          "description": "Spa"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324376.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324377.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324378.jpg",
+          "description": "Delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324379.jpg",
+          "description": "Pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324380.jpg",
+          "description": "Estúdio de gravação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324381.jpg",
+          "description": "Brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324382.jpg",
+          "description": "Espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324383.jpg",
+          "description": "Redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324384.jpg",
+          "description": "Churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324385.jpg",
+          "description": "Piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/2324366.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2324367.png"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324366.png",
+          "description": "Planta 01 - 2 dorm 32m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324367.png",
+          "description": "Planta 02 - 2 dorm 34m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/72866",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 16:56:19"
+    },
+    {
+      "slug": "plano-mais-interlagos-reserva-jardim-marajoara-72867",
+      "code": "RMA-000073",
+      "external_id": "72867",
+      "name": "Plano&Mais Interlagos Reserva",
+      "short_description": "Plano&Mais Interlagos Reserva em Jardim Marajoara: 25.01 a 34.96 m², de 1 a 2 dormitórios e a partir de r$ 234.806. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Plano&Mais Interlagos Reserva em Jardim Marajoara: preços e…",
+      "seo_description": "Conheça Plano&Mais Interlagos Reserva, Plano & Plano em Jardim Marajoara: 25.01 a 34.96 m², de 1 a 2 dormitórios, a partir de r$ 234.806, fotos, plantas e…",
+      "keywords": [
+        "Plano&Mais Interlagos Reserva",
+        "Plano & Plano",
+        "Plano & Plano Jardim Marajoara",
+        "imóveis em Jardim Marajoara",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Jardim Marajoara",
+        "Em construção"
+      ],
+      "neighborhood": "Jardim Marajoara",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04653-210",
+      "address": "Rua Francisco Felippe Agost",
+      "public_address": "Rua Francisco Felippe Agost, Jardim Marajoara, São Paulo - SP, 04653-210",
+      "number": null,
+      "latitude": -23.662496,
+      "longitude": -46.676721,
+      "phase": "Em construção",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/08/2025",
+      "opening_date": "30/06/2028",
+      "area_min": 25.01,
+      "area_max": 34.96,
+      "area": "25.01 a 34.96 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 505,
+      "stock": 149,
+      "number_of_floors": 28,
+      "number_of_towers": 2,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 25.01,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 3
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 32.92,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 47
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.3,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 99
+        }
+      ],
+      "price": 234805.82,
+      "price_label": "A partir de R$ 234.806",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Plano&Mais Interlagos Reserva é um empreendimento da Plano & Plano em Jardim Marajoara, na Zona Sul de São Paulo. O projeto está na fase em construção e apresenta opções de 25.01 a 34.96 m², de 1 a 2 dormitórios, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 234.806.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Churrasqueira condominial, Coworking, Delivery, Elevador social, Espaço beauty, Estúdio de gravação, Piscina adulto, Portaria, Sala de jogos. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/06/2028. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Estúdio de gravação",
+        "Piscina adulto",
+        "Portaria",
+        "Sala de jogos",
+        "Segurança",
+        "Spa"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/2324353.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324354.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324355.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324356.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324357.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324358.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324359.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324360.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324361.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2324362.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2324363.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324353.jpg",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324354.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324355.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324356.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324357.jpg",
+          "description": "Sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324358.jpg",
+          "description": "Delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324359.jpg",
+          "description": "Estúdio de gravação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324360.jpg",
+          "description": "Spa"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324361.jpg",
+          "description": "Espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324362.png",
+          "description": "Churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324363.jpg",
+          "description": "Piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/2324364.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2324365.png"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324364.png",
+          "description": "Planta 01 - 2 dorm 32m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2324365.png",
+          "description": "Planta 02 - 2 dorm 34m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/72867",
+      "developer_url": null,
+      "source_updated_at": "02/09/2026 16:52:26"
+    },
+    {
+      "slug": "sphera-panamby-club-panamby-52286",
+      "code": "RMA-000074",
+      "external_id": "52286",
+      "name": "Sphera Panamby Club",
+      "short_description": "Sphera Panamby Club em Panamby: 34.34 a 67.85 m², de 2 a 3 dormitórios e a partir de r$ 289.370. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Sphera Panamby Club em Panamby: preços e plantas",
+      "seo_description": "Conheça Sphera Panamby Club, Plano & Plano em Panamby: 34.34 a 67.85 m², de 2 a 3 dormitórios, a partir de r$ 289.370, fotos, plantas e localização.",
+      "keywords": [
+        "Sphera Panamby Club",
+        "Plano & Plano",
+        "Plano & Plano Panamby",
+        "imóveis em Panamby",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Panamby",
+        "Pronto"
+      ],
+      "neighborhood": "Panamby",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "05724-006",
+      "address": "Avenida Giovanni Gronchi",
+      "public_address": "Avenida Giovanni Gronchi, Panamby, São Paulo - SP, 05724-006",
+      "number": null,
+      "latitude": -23.640612,
+      "longitude": -46.737496,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "04/10/2023",
+      "opening_date": "30/04/2026",
+      "area_min": 34.34,
+      "area_max": 67.85,
+      "area": "34.34 a 67.85 m²",
+      "bedrooms_min": 2,
+      "bedrooms_max": 3,
+      "bathrooms_min": 1,
+      "bathrooms_max": 2,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 1,
+      "total_units": 696,
+      "stock": 3,
+      "number_of_floors": 16,
+      "number_of_towers": 3,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 34.34,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 1
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 67.85,
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "suites": 1,
+          "parking": 1,
+          "stock": 2
+        }
+      ],
+      "price": 289369.65,
+      "price_label": "A partir de R$ 289.370",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Sphera Panamby Club é um empreendimento da Plano & Plano em Panamby, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções de 34.34 a 67.85 m², de 2 a 3 dormitórios, de 1 a 2 banheiros, de 0 a 1 vagas. O valor divulgado é a partir de r$ 289.370.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Bar, Brinquedoteca, Churrasqueira condominial, Coworking, Elevador social, Pet place, Piscina adulto, Piscina infantil, Playground. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/04/2026. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Bar",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Elevador social",
+        "Pet place",
+        "Piscina adulto",
+        "Piscina infantil",
+        "Playground",
+        "Portaria",
+        "Salão de festas",
+        "Segurança",
+        "Solarium",
+        "Spa"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1645215.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645216.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645217.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645218.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645219.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645220.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645221.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645222.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645223.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645224.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645225.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645226.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645227.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645228.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645229.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645230.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645231.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645232.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645233.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645234.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645235.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645236.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645237.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645238.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645239.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645240.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645241.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645242.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645243.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645244.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645245.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645246.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645247.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645215.jpg",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645216.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645217.jpg",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645218.jpg",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645219.jpg",
+          "description": "Living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645220.jpg",
+          "description": "Terraco"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645221.jpg",
+          "description": "Terraco"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645222.jpg",
+          "description": "Terraco"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645223.jpg",
+          "description": "Cozinha"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645224.jpg",
+          "description": "Dormitorio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645225.jpg",
+          "description": "Dormitorio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645226.jpg",
+          "description": "Dormitorio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645227.jpg",
+          "description": "Dormitorio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645228.jpg",
+          "description": "Lavanderia"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645229.jpg",
+          "description": "Banheiro"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645230.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645231.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645232.jpg",
+          "description": "Salao de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645233.jpg",
+          "description": "Salao de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645234.jpg",
+          "description": "Brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645235.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645236.jpg",
+          "description": "Pub"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645237.jpg",
+          "description": "Atelie"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645238.jpg",
+          "description": "Espaco beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645239.jpg",
+          "description": "Market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645240.jpg",
+          "description": "Pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645241.jpg",
+          "description": "Estudio"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645242.jpg",
+          "description": "Delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645243.jpg",
+          "description": "Churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645244.jpg",
+          "description": "Playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645245.jpg",
+          "description": "Pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645246.jpg",
+          "description": "Redario"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645247.jpg",
+          "description": "Piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1645209.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645210.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645211.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645212.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645213.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1645214.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645209.jpg",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645210.jpg",
+          "description": "Planta 01 - 2 dorm 33,98m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645211.jpg",
+          "description": "Planta 02 - 2 dorm 44,41m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645212.jpg",
+          "description": "Planta 03 - 2 dorm 48,35m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645213.jpg",
+          "description": "Planta 04 - 3 dorm 66,93m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1645214.jpg",
+          "description": "Planta 05 - 2 dorm 66,93m² - opção"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/TPXOV88Deio?si=qcFeUFTgUFqOe4-_",
+          "source": "youtube",
+          "description": "Sphera Panamby - Club"
+        }
+      ],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/52286",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 19:01:39"
+    },
+    {
+      "slug": "plano-raizes-das-merces-marques-de-lages-sacoma-80489",
+      "code": "RMA-000075",
+      "external_id": "80489",
+      "name": "Plano&Raízes das Mercês Marques de Lages",
+      "short_description": "Plano&Raízes das Mercês Marques de Lages em Sacomã: 26.78 a 34.41 m², de 1 a 2 dormitórios e a partir de r$ 221.496. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Plano&Raízes das Mercês Marques de Lages em Sacomã: preços e…",
+      "seo_description": "Conheça Plano&Raízes das Mercês Marques de Lages, Plano & Plano em Sacomã: 26.78 a 34.41 m², de 1 a 2 dormitórios, a partir de r$ 221.496, fotos, plantas e…",
+      "keywords": [
+        "Plano&Raízes das Mercês Marques de Lages",
+        "Plano & Plano",
+        "Plano & Plano Sacomã",
+        "imóveis em Sacomã",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Sacomã",
+        "Lançamento"
+      ],
+      "neighborhood": "Sacomã",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04164-001",
+      "address": "Rua Romão Puiggari",
+      "public_address": "Rua Romão Puiggari, Sacomã, São Paulo - SP, 04164-001",
+      "number": null,
+      "latitude": -23.627541,
+      "longitude": -46.609232,
+      "phase": "Lançamento",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/04/2026",
+      "opening_date": "30/04/2029",
+      "area_min": 26.78,
+      "area_max": 34.41,
+      "area": "26.78 a 34.41 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 1,
+      "total_units": 485,
+      "stock": 298,
+      "number_of_floors": 9,
+      "number_of_towers": 3,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 26.78,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 169
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.19,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 125
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.05,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 1,
+          "stock": 4
+        }
+      ],
+      "price": 221495.78,
+      "price_label": "A partir de R$ 221.496",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Plano&Raízes das Mercês Marques de Lages é um empreendimento da Plano & Plano em Sacomã, na Zona Sul de São Paulo. O projeto está na fase lançamento e apresenta opções de 26.78 a 34.41 m², de 1 a 2 dormitórios, 1 banheiro, de 0 a 1 vagas. O valor divulgado é a partir de r$ 221.496.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Brinquedoteca, Churrasqueira condominial, Delivery, Elevador social, Espaço beauty, Lavanderia, Market, Pet care, Pet place. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/04/2029. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Lavanderia",
+        "Market",
+        "Pet care",
+        "Pet place",
+        "Piscina adulto",
+        "Piscina infantil",
+        "Playground",
+        "Portaria",
+        "Praça",
+        "Quadra poliesportiva",
+        "Redário",
+        "Salão de festas",
+        "Segurança"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/v2vgwdl9ibxkmgowmaboym0iutma.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ji3j9jjv4d0ku6kbnwr8eilcb3ci.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/h0e38ni30pb8vow26x8a5qr23eb4.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/u2g87u0qsl7v6g6tspkqq1uz9r8g.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/89wyft9zuehffal28q2x9wxp4n4f.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/qxtuuqpswx7ys7w1tfql32gv9984.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/v2vgwdl9ibxkmgowmaboym0iutma.jpg",
+          "description": "010 portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ji3j9jjv4d0ku6kbnwr8eilcb3ci.jpg",
+          "description": "250 churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/h0e38ni30pb8vow26x8a5qr23eb4.jpg",
+          "description": "260 pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/u2g87u0qsl7v6g6tspkqq1uz9r8g.jpg",
+          "description": "270 playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/89wyft9zuehffal28q2x9wxp4n4f.jpg",
+          "description": "280 quadra"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/qxtuuqpswx7ys7w1tfql32gv9984.jpg",
+          "description": "290 piscina"
+        }
+      ],
+      "floorplans": [],
+      "floorplan_media": [],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/80489",
+      "developer_url": null,
+      "source_updated_at": "02/09/2026 16:47:31"
+    },
+    {
+      "slug": "plano-park-santo-amaro-fase-1-santo-amaro-80421",
+      "code": "RMA-000076",
+      "external_id": "80421",
+      "name": "Plano&Park Santo Amaro - Fase 1",
+      "short_description": "Plano&Park Santo Amaro - Fase 1 em Santo Amaro: 26.87 a 36.2 m², de 1 a 2 dormitórios e a partir de r$ 237.988. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Plano&Park Santo Amaro - Fase 1 em Santo Amaro: preços e…",
+      "seo_description": "Conheça Plano&Park Santo Amaro - Fase 1, Plano & Plano em Santo Amaro: 26.87 a 36.2 m², de 1 a 2 dormitórios, a partir de r$ 237.988, fotos, plantas e…",
+      "keywords": [
+        "Plano&Park Santo Amaro - Fase 1",
+        "Plano & Plano",
+        "Plano & Plano Santo Amaro",
+        "imóveis em Santo Amaro",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Santo Amaro",
+        "Em construção"
+      ],
+      "neighborhood": "Santo Amaro",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "05802-140",
+      "address": "Avenida Guido Caloi",
+      "public_address": "Avenida Guido Caloi, Santo Amaro, São Paulo - SP, 05802-140",
+      "number": null,
+      "latitude": -23.653922,
+      "longitude": -46.725182,
+      "phase": "Em construção",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "28/02/2026",
+      "opening_date": "31/01/2029",
+      "area_min": 26.87,
+      "area_max": 36.2,
+      "area": "26.87 a 36.2 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 0,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 393,
+      "stock": 135,
+      "number_of_floors": 16,
+      "number_of_towers": 2,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 26.87,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 31
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 33.1,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 104
+        }
+      ],
+      "price": 237988.2,
+      "price_label": "A partir de R$ 237.988",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Plano&Park Santo Amaro - Fase 1 é um empreendimento da Plano & Plano em Santo Amaro, na Zona Sul de São Paulo. O projeto está na fase em construção e apresenta opções de 26.87 a 36.2 m², de 1 a 2 dormitórios, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 237.988.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Brinquedoteca, Churrasqueira condominial, Coworking, Delivery, Elevador social, Espaço beauty, Fire place, Market, Pet care. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 31/01/2029. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Fire place",
+        "Market",
+        "Pet care",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Praça",
+        "Quadra poliesportiva",
+        "Redário",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança",
+        "Spa"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/2564875.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564876.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564877.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564878.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564879.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564880.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564881.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564882.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564883.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564884.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564885.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564886.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564887.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564888.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564889.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564890.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564891.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564892.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564893.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564894.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564875.jpg",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564876.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564877.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564878.jpg",
+          "description": "Market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564879.jpg",
+          "description": "Espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564880.jpg",
+          "description": "Salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564881.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564882.jpg",
+          "description": "Sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564883.jpg",
+          "description": "Oficina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564884.jpg",
+          "description": "Pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564885.jpg",
+          "description": "Spa"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564886.jpg",
+          "description": "Delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564887.jpg",
+          "description": "Brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564888.jpg",
+          "description": "Redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564889.jpg",
+          "description": "Fire place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564890.jpg",
+          "description": "Churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564891.jpg",
+          "description": "Quadra"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564892.jpg",
+          "description": "Playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564893.jpg",
+          "description": "Praça"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564894.jpg",
+          "description": "Piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/2564867.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564868.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564869.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564870.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564871.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564872.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564873.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2564874.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564867.jpg",
+          "description": "Planta 01 - 1 dorm 26,87m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564868.jpg",
+          "description": "Planta 02 - 1 dorm 27,26m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564869.jpg",
+          "description": "Planta 03 - 1 dorm 27,29m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564870.jpg",
+          "description": "Planta 04 - 2 dorm 32,64m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564871.jpg",
+          "description": "Planta 05 - 2 dorm 33,12m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564872.jpg",
+          "description": "Planta 06 - 2 dorm 33,25m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564873.jpg",
+          "description": "Planta 07 - 2 dorm 35,80m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2564874.jpg",
+          "description": "Planta 08 - 2 dorm 35,94m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/80421",
+      "developer_url": null,
+      "source_updated_at": "02/09/2026 15:23:15"
+    },
+    {
+      "slug": "plano-vista-santo-amaro-breve-lancamento-santo-amaro-81591",
+      "code": "RMA-000077",
+      "external_id": "81591",
+      "name": "Plano&Vista Santo Amaro - Breve Lançamento",
+      "short_description": "Plano&Vista Santo Amaro - Breve Lançamento em Santo Amaro: 24.53 a 35.8 m², de 1 a 2 dormitórios e valor sob consulta. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Plano&Vista Santo Amaro - Breve Lançamento em Santo Amaro…",
+      "seo_description": "Conheça Plano&Vista Santo Amaro - Breve Lançamento, Plano & Plano em Santo Amaro: 24.53 a 35.8 m², de 1 a 2 dormitórios, valor sob consulta, fotos, plantas e…",
+      "keywords": [
+        "Plano&Vista Santo Amaro - Breve Lançamento",
+        "Plano & Plano",
+        "Plano & Plano Santo Amaro",
+        "imóveis em Santo Amaro",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Santo Amaro",
+        "Lançamento"
+      ],
+      "neighborhood": "Santo Amaro",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "05802-140",
+      "address": "Avenida Guido Caloi",
+      "public_address": "Avenida Guido Caloi, Santo Amaro, São Paulo - SP, 05802-140",
+      "number": null,
+      "latitude": -23.654101,
+      "longitude": -46.725551,
+      "phase": "Lançamento",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/05/2026",
+      "opening_date": "31/05/2029",
+      "area_min": 24.53,
+      "area_max": 35.8,
+      "area": "24.53 a 35.8 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 1828,
+      "stock": 1828,
+      "number_of_floors": null,
+      "number_of_towers": null,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 24.53,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 1828
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 27.16,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 1828
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 32.64,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 1828
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 35.8,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 1828
+        }
+      ],
+      "price": null,
+      "price_label": "Valor sob consulta",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Plano&Vista Santo Amaro - Breve Lançamento é um empreendimento da Plano & Plano em Santo Amaro, na Zona Sul de São Paulo. O projeto está na fase lançamento e apresenta opções de 24.53 a 35.8 m², de 1 a 2 dormitórios, 1 banheiro, 0 vagas. O valor divulgado é valor sob consulta.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Brinquedoteca, Delivery, Elevador social, Espaço beauty, Espaço gourmet, Espaço gourmet externo, Fire place, Pet care, Pet place. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 31/05/2029. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Brinquedoteca",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Espaço gourmet",
+        "Espaço gourmet externo",
+        "Fire place",
+        "Pet care",
+        "Pet place",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança",
+        "Spa",
+        "Sports bar"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/15s0dr9z57rh7grapd312zji55jz.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ukn03ow4n2sfm93ebrgs58cajyf9.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/b9y3if72963kz1xztk2hsh4kg91i.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/nn72eqrf58qdboxypey1dsnn5qih.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ted9pu65kverw8efjw8wr3f9c51w.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/xypjmjzjdl4hd5ybivpmlz4tw5ab.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/njwrp6jtl6ut6vkw63hi1r2vx47w.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/8abrswhwzvbqlprf79ygddbmgenc.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/a1ecqie2nmfhtsg3ktm4n9nuuo0q.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/lzomz689jlobccyczzq1544jk1e4.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/4pig1z4d5ohdm5rhxlxnrerc1gfg.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/wkxargpyj02b8rnlfejkuh12s65t.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/cy1fhgzsupgpkxeg99685ildslvp.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/sbix25zn27bt9xpoarannoiy4i07.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/mc8isbaep3tn88q96zbuf3utt1gi.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/vqrndwomo4sztxhz3f3s2fy3mffz.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/uozlmddx2wo5q1oo9tp75uw8etio.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/jr6mhqjpcjx634aj94j83bakps8p.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/15s0dr9z57rh7grapd312zji55jz.jpg",
+          "description": "010 portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ukn03ow4n2sfm93ebrgs58cajyf9.jpg",
+          "description": "150 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/b9y3if72963kz1xztk2hsh4kg91i.jpg",
+          "description": "160 pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/nn72eqrf58qdboxypey1dsnn5qih.jpg",
+          "description": "165 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ted9pu65kverw8efjw8wr3f9c51w.jpg",
+          "description": "170 salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/xypjmjzjdl4hd5ybivpmlz4tw5ab.jpg",
+          "description": "171 salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/njwrp6jtl6ut6vkw63hi1r2vx47w.jpg",
+          "description": "175 espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/8abrswhwzvbqlprf79ygddbmgenc.jpg",
+          "description": "180 delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/a1ecqie2nmfhtsg3ktm4n9nuuo0q.jpg",
+          "description": "185 spa"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/lzomz689jlobccyczzq1544jk1e4.jpg",
+          "description": "190 sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/4pig1z4d5ohdm5rhxlxnrerc1gfg.jpg",
+          "description": "195 oficina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/wkxargpyj02b8rnlfejkuh12s65t.jpg",
+          "description": "200 espaço artes"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/cy1fhgzsupgpkxeg99685ildslvp.jpg",
+          "description": "210 sports bar"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/sbix25zn27bt9xpoarannoiy4i07.jpg",
+          "description": "250 espaço gourmet externo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/mc8isbaep3tn88q96zbuf3utt1gi.jpg",
+          "description": "255 fire place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/vqrndwomo4sztxhz3f3s2fy3mffz.jpg",
+          "description": "260 pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/uozlmddx2wo5q1oo9tp75uw8etio.jpg",
+          "description": "265 playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/jr6mhqjpcjx634aj94j83bakps8p.jpg",
+          "description": "290 piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/tef1isc1ff7nwakmpmyxxsj4dymp.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/hd00a9lx8tksvprwa6kvgw9461xf.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/bko4ug8hlof937vv1fdmtoyy405w.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/kzfm5zmqsbcks33wkh27bgyi7zyy.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/lmajgkgkkuovs83rt65681p3fqiz.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ftibsrokew4mv8hhs8zchgh5c0ir.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/wjiza8zljk53h1lqwnzyjhpjj6x8.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/x3fdp43t5gd10sjhmgbuz00t5mdh.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/fabir2b8g8jgko8d9x8ia73opx12.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/tef1isc1ff7nwakmpmyxxsj4dymp.jpg",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/hd00a9lx8tksvprwa6kvgw9461xf.jpg",
+          "description": "Planta 01 - 1 dorm 24,53m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/bko4ug8hlof937vv1fdmtoyy405w.jpg",
+          "description": "Planta 02 - 1 dorm 27,16m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/kzfm5zmqsbcks33wkh27bgyi7zyy.jpg",
+          "description": "Planta 03 - 1 dorm 32,64m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/lmajgkgkkuovs83rt65681p3fqiz.jpg",
+          "description": "Planta 04 - 1 dorm 32,74m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ftibsrokew4mv8hhs8zchgh5c0ir.jpg",
+          "description": "Planta 05 - 1 dorm 33,25m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/wjiza8zljk53h1lqwnzyjhpjj6x8.jpg",
+          "description": "Planta 06 - 1 dorm 33,47m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/x3fdp43t5gd10sjhmgbuz00t5mdh.jpg",
+          "description": "Planta 07 - 1 dorm 35,80m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/fabir2b8g8jgko8d9x8ia73opx12.jpg",
+          "description": "Planta 08 - 1 dorm 36,20m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/81591",
+      "developer_url": null,
+      "source_updated_at": "28/07/2026 18:01:52"
+    },
+    {
+      "slug": "mista-by-plano-plano-tupinas-lojas-saude-49588",
+      "code": "RMA-000078",
+      "external_id": "49588",
+      "name": "Mistá by Plano&Plano Tupinás - Lojas",
+      "short_description": "Mistá by Plano&Plano Tupinás - Lojas em Saúde: 144.78 m², 0 dormitórios e a partir de r$ 1.766.708. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Mistá by Plano&Plano Tupinás - Lojas em Saúde: preços e…",
+      "seo_description": "Conheça Mistá by Plano&Plano Tupinás - Lojas, Plano & Plano em Saúde: 144.78 m², 0 dormitórios, a partir de r$ 1.766.708, fotos, plantas e localização.",
+      "keywords": [
+        "Mistá by Plano&Plano Tupinás - Lojas",
+        "Plano & Plano",
+        "Plano & Plano Saúde",
+        "imóveis em Saúde",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Saúde",
+        "Pronto"
+      ],
+      "neighborhood": "Saúde",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04069-000",
+      "address": "Alameda dos Tupinás",
+      "public_address": "Alameda dos Tupinás, Saúde, São Paulo - SP, 04069-000",
+      "number": null,
+      "latitude": -23.624569,
+      "longitude": -46.642475,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "20/10/2023",
+      "opening_date": "31/12/2025",
+      "area_min": 144.78,
+      "area_max": 144.78,
+      "area": "144.78 m²",
+      "bedrooms_min": 0,
+      "bedrooms_max": 0,
+      "bathrooms_min": 3,
+      "bathrooms_max": 3,
+      "suites_min": 0,
+      "suites_max": 0,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 1,
+      "stock": 1,
+      "number_of_floors": 1,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Loja",
+          "private_area": 144.78,
+          "bedrooms": 0,
+          "bathrooms": 3,
+          "suites": 0,
+          "parking": 0,
+          "stock": 1
+        }
+      ],
+      "price": 1766708.35,
+      "price_label": "A partir de R$ 1.766.708",
+      "property_type": "commercial",
+      "finality": "Comercial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Mistá by Plano&Plano Tupinás - Lojas é um empreendimento da Plano & Plano em Saúde, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções 144.78 m², 0 dormitórios, 3 banheiros, 0 vagas. O valor divulgado é a partir de r$ 1.766.708.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nA previsão de entrega informada pela fonte é 31/12/2025. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1564022.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1564022.jpg",
+          "description": "Fachada"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1564023.png"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1564023.png",
+          "description": "Implantação"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/49588",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 20:28:36"
+    },
+    {
+      "slug": "mista-by-plano-plano-tupinas-nr-saude-49265",
+      "code": "RMA-000079",
+      "external_id": "49265",
+      "name": "Mistá by Plano&Plano Tupinás - NR",
+      "short_description": "Mistá by Plano&Plano Tupinás - NR em Saúde: 27.53 a 29.96 m², 1 dormitório e a partir de r$ 306.722. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Mistá by Plano&Plano Tupinás - NR em Saúde: preços e plantas",
+      "seo_description": "Conheça Mistá by Plano&Plano Tupinás - NR, Plano & Plano em Saúde: 27.53 a 29.96 m², 1 dormitório, a partir de r$ 306.722, fotos, plantas e localização.",
+      "keywords": [
+        "Mistá by Plano&Plano Tupinás - NR",
+        "Plano & Plano",
+        "Plano & Plano Saúde",
+        "imóveis em Saúde",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Saúde",
+        "Pronto"
+      ],
+      "neighborhood": "Saúde",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04069-000",
+      "address": "Alameda dos Tupinás",
+      "public_address": "Alameda dos Tupinás, Saúde, São Paulo - SP, 04069-000",
+      "number": null,
+      "latitude": -23.624723,
+      "longitude": -46.642646,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "30/11/2023",
+      "opening_date": "31/12/2025",
+      "area_min": 27.53,
+      "area_max": 29.96,
+      "area": "27.53 a 29.96 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 1,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 1,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 42,
+      "stock": 20,
+      "number_of_floors": 2,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 27.53,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 20
+        }
+      ],
+      "price": 306722.44,
+      "price_label": "A partir de R$ 306.722",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": true,
+      "description": "Mistá by Plano&Plano Tupinás - NR é um empreendimento da Plano & Plano em Saúde, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções de 27.53 a 29.96 m², 1 dormitório, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 306.722.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Elevador social, Lavanderia, Portaria, Segurança. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 31/12/2025. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Elevador social",
+        "Lavanderia",
+        "Portaria",
+        "Segurança"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1554977.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1554978.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1554979.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1554977.jpg",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1554978.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1554979.jpg",
+          "description": "Lavanderia"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1554974.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1554975.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1554976.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1554974.jpg",
+          "description": "Pavimento térreo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1554975.jpg",
+          "description": "Planta 01 - 1 dorm 27m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1554976.jpg",
+          "description": "Planta 02 - 1 dorm 29m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/49265",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 20:27:41"
+    },
+    {
+      "slug": "mista-by-plano-plano-ubiatans-lojas-saude-49590",
+      "code": "RMA-000080",
+      "external_id": "49590",
+      "name": "Mistá by Plano&Plano Ubiatans - Lojas",
+      "short_description": "Mistá by Plano&Plano Ubiatans - Lojas em Saúde: 83.51 m², 0 dormitórios e a partir de r$ 1.025.062. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Mistá by Plano&Plano Ubiatans - Lojas em Saúde: preços e…",
+      "seo_description": "Conheça Mistá by Plano&Plano Ubiatans - Lojas, Plano & Plano em Saúde: 83.51 m², 0 dormitórios, a partir de r$ 1.025.062, fotos, plantas e localização.",
+      "keywords": [
+        "Mistá by Plano&Plano Ubiatans - Lojas",
+        "Plano & Plano",
+        "Plano & Plano Saúde",
+        "imóveis em Saúde",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Saúde",
+        "Pronto"
+      ],
+      "neighborhood": "Saúde",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04070-030",
+      "address": "Alameda dos Ubiatans",
+      "public_address": "Alameda dos Ubiatans, Saúde, São Paulo - SP, 04070-030",
+      "number": null,
+      "latitude": -23.625422,
+      "longitude": -46.642425,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "20/10/2023",
+      "opening_date": "28/02/2026",
+      "area_min": 83.51,
+      "area_max": 83.51,
+      "area": "83.51 m²",
+      "bedrooms_min": 0,
+      "bedrooms_max": 0,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 0,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 1,
+      "stock": 1,
+      "number_of_floors": 1,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Loja",
+          "private_area": 83.51,
+          "bedrooms": 0,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 1
+        }
+      ],
+      "price": 1025062.49,
+      "price_label": "A partir de R$ 1.025.062",
+      "property_type": "commercial",
+      "finality": "Comercial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Mistá by Plano&Plano Ubiatans - Lojas é um empreendimento da Plano & Plano em Saúde, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções 83.51 m², 0 dormitórios, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 1.025.062.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nA previsão de entrega informada pela fonte é 28/02/2026. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1564052.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1564052.jpg",
+          "description": "Fachada"
+        }
+      ],
+      "floorplans": [],
+      "floorplan_media": [],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/49590",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 17:56:58"
+    },
+    {
+      "slug": "mista-by-plano-plano-ubiatans-nr-saude-49133",
+      "code": "RMA-000081",
+      "external_id": "49133",
+      "name": "Mistá by Plano&Plano Ubiatans - NR",
+      "short_description": "Mistá by Plano&Plano Ubiatans - NR em Saúde: 27.13 a 29.96 m², 1 dormitório e a partir de r$ 299.902. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Mistá by Plano&Plano Ubiatans - NR em Saúde: preços e plantas",
+      "seo_description": "Conheça Mistá by Plano&Plano Ubiatans - NR, Plano & Plano em Saúde: 27.13 a 29.96 m², 1 dormitório, a partir de r$ 299.902, fotos, plantas e localização.",
+      "keywords": [
+        "Mistá by Plano&Plano Ubiatans - NR",
+        "Plano & Plano",
+        "Plano & Plano Saúde",
+        "imóveis em Saúde",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Saúde",
+        "Pronto"
+      ],
+      "neighborhood": "Saúde",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04070-030",
+      "address": "Alameda dos Ubiatans",
+      "public_address": "Alameda dos Ubiatans, Saúde, São Paulo - SP, 04070-030",
+      "number": null,
+      "latitude": -23.625574,
+      "longitude": -46.642042,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "30/11/2023",
+      "opening_date": "28/02/2026",
+      "area_min": 27.13,
+      "area_max": 29.96,
+      "area": "27.13 a 29.96 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 1,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 1,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 24,
+      "stock": 15,
+      "number_of_floors": 2,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 27.13,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 15
+        }
+      ],
+      "price": 299901.94,
+      "price_label": "A partir de R$ 299.902",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": true,
+      "description": "Mistá by Plano&Plano Ubiatans - NR é um empreendimento da Plano & Plano em Saúde, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções de 27.13 a 29.96 m², 1 dormitório, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 299.902.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Coworking, Elevador social, Lavanderia, Portaria, Segurança. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 28/02/2026. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Coworking",
+        "Elevador social",
+        "Lavanderia",
+        "Portaria",
+        "Segurança"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1550830.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550831.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550832.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550833.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550834.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550835.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550830.jpg",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550831.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550832.jpg",
+          "description": "Hall"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550833.jpg",
+          "description": "Acesso"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550834.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550835.jpg",
+          "description": "Lavanderia"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1550825.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550826.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550827.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550828.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550829.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550825.jpg",
+          "description": "Pavimento térreo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550826.jpg",
+          "description": "Planta 01 - 1 dorm 27m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550827.jpg",
+          "description": "Planta 02 - 1 dorm 27m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550828.jpg",
+          "description": "Planta 03 - 1 dorm 29m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550829.jpg",
+          "description": "Planta 04 - 1 dorm 29m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/49133",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 17:59:18"
+    },
+    {
+      "slug": "mista-by-plano-plano-ubiatans-residencial-saude-49132",
+      "code": "RMA-000082",
+      "external_id": "49132",
+      "name": "Mistá by Plano&Plano Ubiatans - Residencial",
+      "short_description": "Mistá by Plano&Plano Ubiatans - Residencial em Saúde: 29.42 a 29.96 m², 1 dormitório e a partir de r$ 299.902. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Mistá by Plano&Plano Ubiatans - Residencial em Saúde: preços e…",
+      "seo_description": "Conheça Mistá by Plano&Plano Ubiatans - Residencial, Plano & Plano em Saúde: 29.42 a 29.96 m², 1 dormitório, a partir de r$ 299.902, fotos, plantas e…",
+      "keywords": [
+        "Mistá by Plano&Plano Ubiatans - Residencial",
+        "Plano & Plano",
+        "Plano & Plano Saúde",
+        "imóveis em Saúde",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Saúde",
+        "Pronto"
+      ],
+      "neighborhood": "Saúde",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04070-030",
+      "address": "Alameda dos Ubiatans",
+      "public_address": "Alameda dos Ubiatans, Saúde, São Paulo - SP, 04070-030",
+      "number": null,
+      "latitude": -23.625422,
+      "longitude": -46.642425,
+      "phase": "Pronto",
+      "source_status": "Pronto novo",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "30/11/2023",
+      "opening_date": "28/02/2026",
+      "area_min": 29.42,
+      "area_max": 29.96,
+      "area": "29.42 a 29.96 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 1,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 1,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 166,
+      "stock": 6,
+      "number_of_floors": 15,
+      "number_of_towers": 1,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 29.96,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 6
+        }
+      ],
+      "price": 299901.94,
+      "price_label": "A partir de R$ 299.902",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Mistá by Plano&Plano Ubiatans - Residencial é um empreendimento da Plano & Plano em Saúde, na Zona Sul de São Paulo. O projeto está na fase pronto e apresenta opções de 29.42 a 29.96 m², 1 dormitório, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 299.902.\n\nUm empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Bar, Bicicletário, Churrasqueira condominial, Coworking, Elevador social, Jardim, Lavanderia, Pet place, Piscina adulto. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 28/02/2026. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com toda segurança, conforto e lazer que você merece. Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Bar",
+        "Bicicletário",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Elevador social",
+        "Jardim",
+        "Lavanderia",
+        "Pet place",
+        "Piscina adulto",
+        "Piscina infantil",
+        "Portaria",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança",
+        "Terraço"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/1550810.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550811.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550812.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550813.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550814.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550815.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550816.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550817.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550818.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550819.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550820.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550821.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550822.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550823.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550824.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550810.jpg",
+          "description": "Fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550811.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550812.jpg",
+          "description": "Hall"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550813.jpg",
+          "description": "Fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550814.jpg",
+          "description": "Salao de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550815.jpg",
+          "description": "Coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550816.jpg",
+          "description": "Market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550817.jpg",
+          "description": "Pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550818.jpg",
+          "description": "Lavanderia"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550819.jpg",
+          "description": "Pub"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550820.jpg",
+          "description": "Churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550821.jpg",
+          "description": "Pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550822.jpg",
+          "description": "Terraco coletivo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550823.jpg",
+          "description": "Terraco coletivo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550824.jpg",
+          "description": "Piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/1550805.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550806.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550807.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550808.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1550809.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550805.jpg",
+          "description": "Pavimento 14"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550806.jpg",
+          "description": "Pavimento térreo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550807.jpg",
+          "description": "Planta 01 - 1 dorm 27m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550808.jpg",
+          "description": "Planta 02 - 1 dorm 27m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1550809.jpg",
+          "description": "Planta 03 - 1 dorm 29m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/49132",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 19:01:05"
+    },
+    {
+      "slug": "plano-alto-morumbi-benois-vila-andrade-74265",
+      "code": "RMA-000052",
+      "external_id": "74265",
+      "name": "Plano&Alto Morumbi Benois",
+      "short_description": "Plano&Alto Morumbi Benois em Vila Andrade: 26.75 a 34.91 m², de 1 a 2 dormitórios e a partir de r$ 246.235. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Plano&Alto Morumbi Benois em Vila Andrade: preços e plantas",
+      "seo_description": "Conheça Plano&Alto Morumbi Benois, Plano & Plano em Vila Andrade: 26.75 a 34.91 m², de 1 a 2 dormitórios, a partir de r$ 246.235, fotos, plantas e…",
+      "keywords": [
+        "Plano&Alto Morumbi Benois",
+        "Plano & Plano",
+        "Plano & Plano Vila Andrade",
+        "imóveis em Vila Andrade",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Vila Andrade",
+        "Em construção",
+        "Minha Casa Minha Vida",
+        "apartamento com FGTS"
+      ],
+      "neighborhood": "Vila Andrade",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "05729-090",
+      "address": "Rua Alexandre Benois",
+      "public_address": "Rua Alexandre Benois, Vila Andrade, São Paulo - SP, 05729-090",
+      "number": null,
+      "latitude": -23.633084,
+      "longitude": -46.738107,
+      "phase": "Em construção",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/09/2025",
+      "opening_date": "30/09/2028",
+      "area_min": 26.75,
+      "area_max": 34.91,
+      "area": "26.75 a 34.91 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 767,
+      "stock": 323,
+      "number_of_floors": 20,
+      "number_of_towers": 3,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 27.25,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 123
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.26,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 200
+        }
+      ],
+      "price": 246235.22,
+      "price_label": "A partir de R$ 246.235",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": true,
+      "fgts": true,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Plano&Alto Morumbi Benois é um empreendimento da Plano & Plano em Vila Andrade, na Zona Sul de São Paulo. O projeto está na fase em construção e apresenta opções de 26.75 a 34.91 m², de 1 a 2 dormitórios, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 246.235.\n\nUm empreendimento completo com todo o lazer e segurança que a sua família merece! Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Churrasqueira condominial, Cinema, Elevador social, Fire place, Pet place, Piscina adulto, Playground, Portaria, Quadra poliesportiva, Redário. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/09/2028. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Um empreendimento completo com todo o lazer e segurança que a sua família merece! Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Churrasqueira condominial",
+        "Cinema",
+        "Elevador social",
+        "Fire place",
+        "Pet place",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Quadra poliesportiva",
+        "Redário",
+        "Segurança"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/2368957.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368958.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368959.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368960.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368961.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368962.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368963.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368964.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368965.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2368966.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368957.jpg",
+          "description": "Portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368958.jpg",
+          "description": "Pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368959.jpg",
+          "description": "Fire place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368960.jpg",
+          "description": "Redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368961.jpg",
+          "description": "Quadra"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368962.jpg",
+          "description": "Cinema"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368963.jpg",
+          "description": "Playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368964.jpg",
+          "description": "Churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368965.jpg",
+          "description": "Piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368966.jpg",
+          "description": "Aéreo"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/2368950.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2368951.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2368952.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2368953.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2368954.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2368955.png",
+        "https://static.orulo.com.br/images/properties/xlarge/2368956.png"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368950.png",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368951.png",
+          "description": "Planta 01 - 1 dorm 26,75m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368952.png",
+          "description": "Planta 02 - 1 dorm 27,08m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368953.png",
+          "description": "Planta 03 - 1 dorm 27,28m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368954.png",
+          "description": "Planta 04 - 2 dorm 34,21m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368955.png",
+          "description": "Planta 05 - 2 dorm 34,24m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2368956.png",
+          "description": "Planta 06 - 2 dorm 34,73m²"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/7ZlWzJRwiAo?si=eNRGNczUBSMQxiji",
+          "source": "youtube",
+          "description": "Plano&Alto Morumbi"
+        }
+      ],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/74265",
+      "developer_url": null,
+      "source_updated_at": "01/09/2026 19:00:26"
+    },
+    {
+      "slug": "mundo-park-solis-fase-1-vila-emir-80461",
+      "code": "RMA-000083",
+      "external_id": "80461",
+      "name": "Mundo Park Sólis - Fase 1",
+      "short_description": "Mundo Park Sólis - Fase 1 em Vila Emir: 27.17 a 34.78 m², de 1 a 2 dormitórios e a partir de r$ 235.711. Veja fotos, plantas e detalhes com Rosa Oliveira.",
+      "seo_title": "Mundo Park Sólis - Fase 1 em Vila Emir: preços e plantas",
+      "seo_description": "Conheça Mundo Park Sólis - Fase 1, Plano & Plano em Vila Emir: 27.17 a 34.78 m², de 1 a 2 dormitórios, a partir de r$ 235.711, fotos, plantas e localização.",
+      "keywords": [
+        "Mundo Park Sólis - Fase 1",
+        "Plano & Plano",
+        "Plano & Plano Vila Emir",
+        "imóveis em Vila Emir",
+        "imóveis na Zona Sul de São Paulo",
+        "apartamento Vila Emir",
+        "Lançamento"
+      ],
+      "neighborhood": "Vila Emir",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "04461-050",
+      "address": "Rua José Martins Coelho",
+      "public_address": "Rua José Martins Coelho, Vila Emir, São Paulo - SP, 04461-050",
+      "number": null,
+      "latitude": -23.692976,
+      "longitude": -46.680122,
+      "phase": "Lançamento",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/04/2026",
+      "opening_date": "30/04/2029",
+      "area_min": 27.17,
+      "area_max": 34.78,
+      "area": "27.17 a 34.78 m²",
+      "bedrooms_min": 1,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 1,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 0,
+      "total_units": 654,
+      "stock": 368,
+      "number_of_floors": 16,
+      "number_of_towers": 3,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 27.25,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 38
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 29.61,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "suites": 1,
+          "parking": 0,
+          "stock": 42
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 31.71,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 55
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.78,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 233
+        }
+      ],
+      "price": 235711.39,
+      "price_label": "A partir de R$ 235.711",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Mundo Park Sólis - Fase 1 é um empreendimento da Plano & Plano em Vila Emir, na Zona Sul de São Paulo. O projeto está na fase lançamento e apresenta opções de 27.17 a 34.78 m², de 1 a 2 dormitórios, 1 banheiro, 0 vagas. O valor divulgado é a partir de r$ 235.711.\n\nEste empreendimento foi dividido em condomínios. Cada um deles com valores, diferenciais e prazo de entrega distintos. Escolha qual se enquadra melhor na sua necessidade e realize seu sonho! Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio\n\nEntre os diferenciais informados estão Academia, Bicicletário, Brinquedoteca, Churrasqueira condominial, Cinema, Coworking, Elevador social, Espaço beauty, Fire place, Lounge. A disponibilidade de cada item pode variar conforme a unidade e a fase do condomínio.\n\nA previsão de entrega informada pela fonte é 30/04/2029. Datas e cronogramas podem ser atualizados pela incorporadora.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Este empreendimento foi dividido em condomínios. Cada um deles com valores, diferenciais e prazo de entrega distintos. Escolha qual se enquadra melhor na sua necessidade e realize seu sonho! Preço e disponibilidade do imóvel sujeitos a alteração sem aviso prévio",
+      "features": [
+        "Academia",
+        "Bicicletário",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Cinema",
+        "Coworking",
+        "Elevador social",
+        "Espaço beauty",
+        "Fire place",
+        "Lounge",
+        "Market",
+        "Pet care",
+        "Pet place",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Praça",
+        "Quadra poliesportiva",
+        "Redário",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/apgch4857d4br1s8eq7zmioi3xgl.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/w375o3nhli8hbe6okypkz8bbz596.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/u0lhxus2vbzzcu6g7z733adq4lhm.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/9hhl4lsyrg2h8n8q070p85frrk5q.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/vprif3wp79xjmuz2ujqq9muqkm9h.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ydum3ind86zmzlt169st56dg84zz.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/9vlg5hclh30eipwnq6j884ajz2el.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/9jdmpkpxbi962j0kkzcerfiunxj0.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ewdp3q8rkg8q6jrqro3lq0yrtdur.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/qz8rdfft8y2f0bucz5oj6khx7hz5.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/5315r2kjxt11g1c8e7a1jg5itkis.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/uf5sie1reejo05bvz3uq5hl5cbha.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/n9yhp584nntblbg4jy75223vyzvs.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ocayxwtubic1ravjjlwojpo7gszy.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/iupk2sh04dqjzthhs5mrlpimqp0p.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ctq99n0upyumv3yawu1maqyckn9v.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/y4hj0bpvk4j12xdmc6ppcn29ui0u.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/uglh9o208w3rd6siz48cc7st56gy.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/yxfx7f4lnqojsl6v0mluzutcc7vw.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2uo2k98x7ie1rdg7dh04chpr62s0.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/tus88k3kdohjw2rnsfm50o41me93.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/3jqj1ud3c0ms43f321jtdezc5446.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/p2pqafd78j4uawmmpukdnd5ard42.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/k997btl1nx6vxa0eogz82umumgdk.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/elg81ot367z2ddo3tjpqgup9ut5x.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/p21wfcs49mo05e9tuu62zhjvc22n.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/wrsk3adakncdqmhgz69iu7xq5lpl.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/kbiwz4vexbkvevkx2b1qwe9mka1w.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/zp1y1j2iri42wqagfj36yffeqnux.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/9safssun6nt3orxrp1dg56h8ahue.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/8hlkyjz4ntzv0o3cr4n9k45yrjvh.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/l642mai85nixnt3u9gkaibjatpfq.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/8o3iyvixa1xmajh2i5j5nx4itl5n.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/apgch4857d4br1s8eq7zmioi3xgl.jpg",
+          "description": "010 fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/w375o3nhli8hbe6okypkz8bbz596.jpg",
+          "description": "020 portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/u0lhxus2vbzzcu6g7z733adq4lhm.jpg",
+          "description": "021 portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/9hhl4lsyrg2h8n8q070p85frrk5q.jpg",
+          "description": "050 living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/vprif3wp79xjmuz2ujqq9muqkm9h.jpg",
+          "description": "051 living"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ydum3ind86zmzlt169st56dg84zz.jpg",
+          "description": "150 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/9vlg5hclh30eipwnq6j884ajz2el.jpg",
+          "description": "151 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/9jdmpkpxbi962j0kkzcerfiunxj0.jpg",
+          "description": "160 coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ewdp3q8rkg8q6jrqro3lq0yrtdur.jpg",
+          "description": "161 coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/qz8rdfft8y2f0bucz5oj6khx7hz5.jpg",
+          "description": "162 coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/5315r2kjxt11g1c8e7a1jg5itkis.jpg",
+          "description": "165 lounge"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/uf5sie1reejo05bvz3uq5hl5cbha.jpg",
+          "description": "170 pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/n9yhp584nntblbg4jy75223vyzvs.jpg",
+          "description": "175 espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ocayxwtubic1ravjjlwojpo7gszy.jpg",
+          "description": "180 salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/iupk2sh04dqjzthhs5mrlpimqp0p.jpg",
+          "description": "181 salão de festas"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ctq99n0upyumv3yawu1maqyckn9v.jpg",
+          "description": "185 market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/y4hj0bpvk4j12xdmc6ppcn29ui0u.jpg",
+          "description": "186 market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/uglh9o208w3rd6siz48cc7st56gy.jpg",
+          "description": "190 espaço artes"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/yxfx7f4lnqojsl6v0mluzutcc7vw.jpg",
+          "description": "195 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2uo2k98x7ie1rdg7dh04chpr62s0.jpg",
+          "description": "200 sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/tus88k3kdohjw2rnsfm50o41me93.jpg",
+          "description": "201 sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/3jqj1ud3c0ms43f321jtdezc5446.jpg",
+          "description": "250 cinema"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/p2pqafd78j4uawmmpukdnd5ard42.jpg",
+          "description": "255 praça"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/k997btl1nx6vxa0eogz82umumgdk.jpg",
+          "description": "260 bicicletário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/elg81ot367z2ddo3tjpqgup9ut5x.jpg",
+          "description": "265 playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/p21wfcs49mo05e9tuu62zhjvc22n.jpg",
+          "description": "270 churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/wrsk3adakncdqmhgz69iu7xq5lpl.jpg",
+          "description": "275 pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/kbiwz4vexbkvevkx2b1qwe9mka1w.jpg",
+          "description": "276 pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/zp1y1j2iri42wqagfj36yffeqnux.jpg",
+          "description": "280 fire place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/9safssun6nt3orxrp1dg56h8ahue.jpg",
+          "description": "283 quadra"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/8hlkyjz4ntzv0o3cr4n9k45yrjvh.jpg",
+          "description": "285 redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/l642mai85nixnt3u9gkaibjatpfq.jpg",
+          "description": "289 piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/8o3iyvixa1xmajh2i5j5nx4itl5n.jpg",
+          "description": "290 piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/yuwustaclq6xg1etfgv777lhxivi.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/z1t3j2atytddy0bajzxtqbir24f3.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/j6qr6iu07c0sjcqrwg9uxjuf4jtb.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/xj78pol9lgmba1vxpcr632kw7g5n.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/rxie2i12svqj1pdkdza2yus5ft05.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/o0ufb1nph6hj8d515nugj4btk3x3.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/vt4zpax5iv5gv6mobpbt5a9f3gry.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/otrv89pak2s402xg3tg9b5sx5xen.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ofrd9l6absvbhqwurbjn6jplb92k.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/yuwustaclq6xg1etfgv777lhxivi.jpg",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/z1t3j2atytddy0bajzxtqbir24f3.jpg",
+          "description": "Planta 01 - 1 dorm 24,79m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/j6qr6iu07c0sjcqrwg9uxjuf4jtb.jpg",
+          "description": "Planta 02 - 1 dorm 27,43m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/xj78pol9lgmba1vxpcr632kw7g5n.jpg",
+          "description": "Planta 03 - 1 dorm 28,16m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/rxie2i12svqj1pdkdza2yus5ft05.jpg",
+          "description": "Planta 04 - 1 dorm 29,92m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/o0ufb1nph6hj8d515nugj4btk3x3.jpg",
+          "description": "Planta 05 - 2 dorm 31,71m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/vt4zpax5iv5gv6mobpbt5a9f3gry.jpg",
+          "description": "Planta 06 - 2 dorm 34,21m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/otrv89pak2s402xg3tg9b5sx5xen.jpg",
+          "description": "Planta 07 - 2 dorm 34,78m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ofrd9l6absvbhqwurbjn6jplb92k.jpg",
+          "description": "Planta 08 - 2 dorm 34,78m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/80461",
+      "developer_url": null,
+      "source_updated_at": "02/09/2026 16:40:21"
+    }
+  ]
+}

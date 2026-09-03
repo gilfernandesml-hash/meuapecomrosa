@@ -23,6 +23,8 @@ type DatabaseProperty = {
   zipcode: string | null;
   address: string | null;
   number: string | null;
+  latitude: number | string | null;
+  longitude: number | string | null;
   phase: string | null;
   area_min: number | string | null;
   area_max: number | string | null;
@@ -47,6 +49,9 @@ type DatabaseProperty = {
   source: string;
   source_url: string | null;
   last_synced_at: string | null;
+  meta_title: string | null;
+  meta_description: string | null;
+  keywords: string[] | null;
   created_at: string;
   property_images: DatabaseImage[];
   property_floorplans: DatabaseFloorplan[];
@@ -96,7 +101,7 @@ function databaseProperty(row: DatabaseProperty): Property {
   const areaMax = numeric(row.area_max);
   const price = numeric(row.price);
   const media = mediaFrom(row);
-  const publicAddress = [row.address, row.number, row.neighborhood, row.city, row.state].filter(Boolean).join(", ");
+  const publicAddress = [row.address, row.neighborhood, row.city, row.state].filter(Boolean).join(", ");
 
   return {
     slug: row.slug,
@@ -107,8 +112,10 @@ function databaseProperty(row: DatabaseProperty): Property {
     city: row.city,
     state: row.state,
     zipcode: row.zipcode ?? "",
-    address: [row.address, row.number].filter(Boolean).join(", "),
+    address: row.address ?? "",
     public_address: publicAddress,
+    latitude: numeric(row.latitude),
+    longitude: numeric(row.longitude),
     phase: row.phase ?? "Não informado",
     source_status: row.phase ?? "Disponível",
     area: areaLabel(areaMin, areaMax),
@@ -129,6 +136,10 @@ function databaseProperty(row: DatabaseProperty): Property {
     mcmv: row.is_mcmv,
     fgts: Boolean(row.fgts_possible),
     description: row.description ?? row.short_description ?? "Consulte detalhes, disponibilidade e condições deste empreendimento.",
+    short_description: row.short_description ?? undefined,
+    seo_title: row.meta_title ?? undefined,
+    seo_description: row.meta_description ?? undefined,
+    keywords: row.keywords ?? undefined,
     features: media.features,
     is_his2: row.is_his2,
     is_hmp: row.is_hmp,
@@ -136,6 +147,8 @@ function databaseProperty(row: DatabaseProperty): Property {
     is_nr: row.is_nr,
     photos: media.photos,
     floorplans: media.floorplans,
+    videos: [],
+    virtual_tours: [],
     source: row.source,
     source_url: row.source_url ?? "",
     source_updated_at: row.last_synced_at,
@@ -152,6 +165,14 @@ function mergeSourceProperty(source: Property, row: DatabaseProperty): Property 
     floorplans: database.floorplans.length ? database.floorplans : source.floorplans,
     features: database.features.length ? database.features : source.features,
     description: row.description ?? source.description,
+    short_description: row.short_description ?? source.short_description,
+    seo_title: row.meta_title ?? source.seo_title,
+    seo_description: row.meta_description ?? source.seo_description,
+    keywords: row.keywords ?? source.keywords,
+    latitude: numeric(row.latitude) ?? source.latitude,
+    longitude: numeric(row.longitude) ?? source.longitude,
+    videos: source.videos ?? [],
+    virtual_tours: source.virtual_tours ?? [],
     source_url: row.source_url ?? source.source_url,
   };
 }
@@ -167,7 +188,7 @@ export const getPublicProperties = cache(async (): Promise<Property[]> => {
     );
     const { data, error } = await supabase
       .from("properties")
-      .select("id,source_id,code,slug,name,description,short_description,neighborhood,city,state,zipcode,address,number,phase,area_min,area_max,bedrooms_min,bedrooms_max,bathrooms_min,bathrooms_max,suites_min,suites_max,parking_min,parking_max,price,price_label,property_type,developer,is_mcmv,is_his2,is_hmp,is_r2v,is_nr,fgts_possible,source,source_url,last_synced_at,created_at,property_images(public_url,is_cover,sort_order),property_floorplans(public_url,sort_order),property_features(name,sort_order)")
+      .select("id,source_id,code,slug,name,description,short_description,neighborhood,city,state,zipcode,address,number,latitude,longitude,phase,area_min,area_max,bedrooms_min,bedrooms_max,bathrooms_min,bathrooms_max,suites_min,suites_max,parking_min,parking_max,price,price_label,property_type,developer,is_mcmv,is_his2,is_hmp,is_r2v,is_nr,fgts_possible,source,source_url,last_synced_at,meta_title,meta_description,keywords,created_at,property_images(public_url,is_cover,sort_order),property_floorplans(public_url,sort_order),property_features(name,sort_order)")
       .eq("status", "available");
 
     if (error || !data) return sourceProperties;
