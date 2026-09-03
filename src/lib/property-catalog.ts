@@ -53,6 +53,8 @@ type DatabaseProperty = {
   meta_description: string | null;
   keywords: string[] | null;
   created_at: string;
+  updated_at: string;
+  indexable: boolean;
   property_images: DatabaseImage[];
   property_floorplans: DatabaseFloorplan[];
   property_features: DatabaseFeature[];
@@ -152,6 +154,8 @@ function databaseProperty(row: DatabaseProperty): Property {
     source: row.source,
     source_url: row.source_url ?? "",
     source_updated_at: row.last_synced_at,
+    updated_at: row.updated_at,
+    indexable: row.indexable,
   };
 }
 
@@ -184,11 +188,14 @@ export const getPublicProperties = cache(async (): Promise<Property[]> => {
     const supabase = createClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-      { auth: { persistSession: false, autoRefreshToken: false } },
+      {
+        auth: { persistSession: false, autoRefreshToken: false },
+        global: { fetch: (input, init) => fetch(input, { ...init, next: { revalidate: 300, tags: ["public-catalog"] } }) },
+      },
     );
     const { data, error } = await supabase
       .from("properties")
-      .select("id,source_id,code,slug,name,description,short_description,neighborhood,city,state,zipcode,address,number,latitude,longitude,phase,area_min,area_max,bedrooms_min,bedrooms_max,bathrooms_min,bathrooms_max,suites_min,suites_max,parking_min,parking_max,price,price_label,property_type,developer,is_mcmv,is_his2,is_hmp,is_r2v,is_nr,fgts_possible,source,source_url,last_synced_at,meta_title,meta_description,keywords,created_at,property_images(public_url,is_cover,sort_order),property_floorplans(public_url,sort_order),property_features(name,sort_order)")
+      .select("id,source_id,code,slug,name,description,short_description,neighborhood,city,state,zipcode,address,number,latitude,longitude,phase,area_min,area_max,bedrooms_min,bedrooms_max,bathrooms_min,bathrooms_max,suites_min,suites_max,parking_min,parking_max,price,price_label,property_type,developer,is_mcmv,is_his2,is_hmp,is_r2v,is_nr,fgts_possible,source,source_url,last_synced_at,meta_title,meta_description,keywords,created_at,updated_at,indexable,property_images(public_url,is_cover,sort_order),property_floorplans(public_url,sort_order),property_features(name,sort_order)")
       .eq("status", "available");
 
     if (error || !data) return sourceProperties;

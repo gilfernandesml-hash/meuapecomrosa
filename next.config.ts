@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "static.orulo.com.br" },
     ],
   },
+  async headers() {
+    return [
+      { source: "/:path*", has: [{ type: "host", value: ".*\\.vercel\\.app" }], headers: [{ key: "X-Robots-Tag", value: "noindex, follow" }] },
+      { source: "/admin/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] },
+    ];
+  },
   async redirects() {
     return [
       {
@@ -18,6 +24,7 @@ const nextConfig: NextConfig = {
         destination: "https://meuapecomrosa.com.br/:path*",
         permanent: true,
       },
+      { source: "/favicon.ico", destination: "/icon", permanent: true },
     ];
   },
 };

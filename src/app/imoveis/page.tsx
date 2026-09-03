@@ -1,12 +1,19 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { Search } from "lucide-react";
 import { PublicShell } from "@/components/public-shell";
 import { PropertyCard } from "@/components/property-card";
 import { getPublicProperties } from "@/lib/property-catalog";
 import { getHousingClassifications, housingClassificationFromQuery, housingClassifications } from "@/lib/properties";
+import { NeighborhoodLinks } from "@/components/neighborhood-links";
+import { StructuredData } from "@/components/structured-data";
+import { collectionSchema, pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Imóveis na Zona Sul de São Paulo", description: "Apartamentos, lançamentos e oportunidades selecionadas por Rosa Oliveira.", alternates: { canonical: "/imoveis" } };
+export async function generateMetadata({ searchParams }: PageProps<"/imoveis">) {
+  const query = await searchParams;
+  const filters = ["local", "preco", "dormitorios", "fase", "classificacao", "mcmv", "ordem"];
+  const filtered = filters.some((key) => Boolean(query[key]));
+  return pageMetadata({ title: "Imóveis na Zona Sul de São Paulo", description: "Compare fotos, plantas e valores iniciais de apartamentos e lançamentos na Zona Sul. Filtre por bairro e converse com Rosa Oliveira.", path: "/imoveis", index: !filtered });
+}
 
 export default async function PropertiesPage({ searchParams }: PageProps<"/imoveis">) {
   const query = await searchParams;
@@ -41,10 +48,11 @@ export default async function PropertiesPage({ searchParams }: PageProps<"/imove
 
   return (
     <PublicShell>
+      <StructuredData data={collectionSchema("Imóveis na Zona Sul de São Paulo", "/imoveis", filtered.map((item) => ({ name: item.name, path: `/imoveis/${item.slug}` })))} />
       <section className="bg-petroleo py-16 text-white">
         <div className="container-site">
           <p className="eyebrow">Catálogo</p>
-          <h1 className="display mt-3 text-5xl font-bold sm:text-6xl">Encontre seu próximo endereço.</h1>
+          <h1 className="display mt-3 text-5xl font-bold sm:text-6xl">Imóveis na Zona Sul de São Paulo</h1>
           <p className="mt-4 max-w-2xl text-white/65">Oportunidades na Zona Sul selecionadas para diferentes momentos e possibilidades.</p>
         </div>
       </section>
@@ -72,6 +80,7 @@ export default async function PropertiesPage({ searchParams }: PageProps<"/imove
           </div>
         </div>
       </section>
+      <NeighborhoodLinks />
     </PublicShell>
   );
 }

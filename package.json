@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "seo:audit": "node scripts/audit-seo.mjs",
+    "seo:test": "node --test scripts/seo-audit.test.mjs",
+    "images:prepare": "node scripts/optimize-site-images.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",

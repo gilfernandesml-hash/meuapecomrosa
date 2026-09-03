@@ -1,6 +1,6 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, updateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
@@ -236,6 +236,8 @@ export async function createProperty(formData: FormData) {
   const mediaError = await saveRelatedContent(supabase, data.id, values.name, formData);
   await supabase.from("admin_activity_logs").insert({ user_id: user.id, action: "create", entity_type: "property", entity_id: data.id });
 
+  updateTag("public-catalog");
+  revalidatePath("/sitemap.xml");
   revalidatePath("/admin/imoveis");
   revalidatePath("/");
   revalidatePath("/imoveis");
@@ -263,6 +265,8 @@ export async function updatePropertyClassifications(formData: FormData) {
 
   if (error) redirect("/admin/imoveis?erro=classificacao-nao-salva");
 
+  updateTag("public-catalog");
+  revalidatePath("/sitemap.xml");
   revalidatePath("/admin/imoveis");
   revalidatePath("/");
   revalidatePath("/imoveis");
@@ -296,6 +300,8 @@ export async function updateProperty(formData: FormData) {
   const mediaError = await saveRelatedContent(supabase, propertyId, values.name, formData, true);
   await supabase.from("admin_activity_logs").insert({ user_id: user.id, action: "update", entity_type: "property", entity_id: propertyId });
 
+  updateTag("public-catalog");
+  revalidatePath("/sitemap.xml");
   revalidatePath("/admin/imoveis");
   revalidatePath(`/admin/imoveis/${propertyId}/editar`);
   revalidatePath("/");

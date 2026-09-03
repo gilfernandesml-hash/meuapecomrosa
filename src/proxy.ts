@@ -23,7 +23,7 @@ export async function proxy(request: NextRequest) {
   }
   if (!path.startsWith("/admin") && !path.startsWith("/api") && path !== "/manutencao") {
     const { data } = await supabase.from("site_settings").select("maintenance_mode").eq("id", 1).maybeSingle();
-    if (data?.maintenance_mode) { const target = request.nextUrl.clone(); target.pathname = "/manutencao"; return NextResponse.rewrite(target); }
+    if (data?.maintenance_mode) { const target = request.nextUrl.clone(); target.pathname = "/manutencao"; return NextResponse.rewrite(target, { status: 503, headers: { "Retry-After": "3600" } }); }
   }
   return response;
 }

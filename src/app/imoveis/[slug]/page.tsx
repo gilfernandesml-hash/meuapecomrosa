@@ -9,6 +9,8 @@ import { PropertyCard } from "@/components/property-card";
 import { getPublicProperties } from "@/lib/property-catalog";
 import { getHousingClassifications, properties, startingPriceLabel, type Property } from "@/lib/properties";
 import { site, whatsappUrl } from "@/lib/site";
+import { organizationId, robotsMetadata, websiteId } from "@/lib/seo";
+import { neighborhoodFor } from "@/lib/neighborhoods";
 
 export function generateStaticParams() {
   return properties.map(({ slug }) => ({ slug }));
@@ -64,7 +66,7 @@ export async function generateMetadata({ params }: PageProps<"/imoveis/[slug]">)
     description,
     keywords: item.keywords,
     alternates: { canonical },
-    robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" } },
+    robots: robotsMetadata(item.indexable !== false),
     openGraph: {
       type: "website",
       locale: "pt_BR",
@@ -84,6 +86,7 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
   const item = publicProperties.find((property) => property.slug === slug);
   if (!item) notFound();
   const classifications = getHousingClassifications(item);
+  const neighborhood = neighborhoodFor(item.neighborhood);
   const similarProperties = publicProperties
     .filter((property) => property.slug !== item.slug)
     .sort((first, second) => {
@@ -115,6 +118,8 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
         image: item.photos,
         mainEntity: { "@id": residenceId },
         about: { "@id": residenceId },
+        isPartOf: { "@id": websiteId },
+        publisher: { "@id": organizationId },
         ...(updatedAt ? { dateModified: updatedAt } : {}),
         ...(item.price ? {
           offers: {
@@ -127,13 +132,7 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
             description: "Valor a partir de. Disponibilidade e condições sujeitas a confirmação.",
           },
         } : {}),
-        provider: {
-          "@type": "RealEstateAgent",
-          name: site.professionalName,
-          url: site.url,
-          telephone: site.phoneDisplay,
-          email: site.email,
-        },
+        provider: { "@id": organizationId },
       },
       {
         "@type": item.property_type === "commercial" ? "Place" : "ApartmentComplex",
@@ -186,7 +185,7 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
         <div className="container-site grid gap-10 lg:grid-cols-[minmax(0,1fr)_420px]">
           <article>
             <div className="flex flex-wrap gap-2">
-              <span className="rounded-full bg-rose px-4 py-2 text-xs font-bold text-white">Plano & Plano</span>
+              <span className="rounded-full bg-rose px-4 py-2 text-xs font-bold text-white">{item.developer || "Incorporadora sob consulta"}</span>
               {item.mcmv ? <span className="rounded-full bg-rose/15 px-4 py-2 text-xs font-bold text-rose">Minha Casa Minha Vida</span> : null}
               <span className="rounded-full bg-champagne/20 px-4 py-2 text-xs font-bold text-petroleo">{item.phase}</span>
               {classifications.map((classification) => <span key={classification} className="rounded-full bg-petroleo px-4 py-2 text-xs font-bold text-white">{classification}</span>)}
@@ -218,6 +217,16 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
             {item.features.length ? <section className="mt-10"><h2 className="display text-3xl font-bold text-petroleo">Diferenciais</h2><ul className="mt-5 grid gap-3 sm:grid-cols-2">{item.features.map((feature) => <li key={feature} className="flex items-center gap-3"><span className="grid size-7 place-items-center rounded-full bg-rose/15 text-rose"><Check size={15} /></span>{feature}</li>)}</ul></section> : null}
 
             <PropertyRichMedia name={item.name} videos={videos} virtualTours={virtualTours} />
+
+            <section className="mt-10 rounded-3xl bg-creme p-7">
+              <h2 className="subtitle text-3xl text-petroleo">Compare antes de escolher</h2>
+              <p className="mt-4 leading-7 text-grafite/75">Peça à Rosa a confirmação da planta, torre, prazo e valor da unidade disponível. O preço a partir de é uma referência inicial e pode variar conforme a unidade escolhida.</p>
+              <nav aria-label="Guias relacionados ao imóvel" className="mt-5 flex flex-wrap gap-5 font-bold text-rose">
+                {neighborhood && <Link href={`/bairros/${neighborhood.slug}`}>Imóveis em {neighborhood.name}</Link>}
+                <Link href="/primeiro-imovel">Como comprar o primeiro imóvel</Link>
+                {item.mcmv && <Link href="/minha-casa-minha-vida">Entenda o Minha Casa Minha Vida</Link>}
+              </nav>
+            </section>
 
             {mapUrl ? (
               <section className="mt-10 border-t border-petroleo/10 pt-9">

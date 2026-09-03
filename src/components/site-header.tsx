@@ -3,7 +3,7 @@ import { LockKeyhole, Menu } from "lucide-react";
 import { Logo } from "@/components/logo";
 import { whatsappUrl } from "@/lib/site";
 
-const nav = [["Imóveis", "/imoveis"], ["Minha Casa Minha Vida", "/minha-casa-minha-vida"], ["Primeiro imóvel", "/primeiro-imovel"], ["Sobre a Rosa", "/sobre-a-rosa"], ["Contato", "/contato"]];
+const nav = [["Imóveis", "/imoveis"], ["Bairros", "/bairros"], ["Minha Casa Minha Vida", "/minha-casa-minha-vida"], ["Primeiro imóvel", "/primeiro-imovel"], ["Sobre a Rosa", "/sobre-a-rosa"], ["Contato", "/contato"]];
 
 export function SiteHeader() {
   return (

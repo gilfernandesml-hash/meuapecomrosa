@@ -21,6 +21,7 @@ export type Property = {
   is_his2?: boolean; is_hmp?: boolean; is_r2v?: boolean; is_nr?: boolean;
   photos: string[]; floorplans: string[]; videos?: PropertyVideo[]; virtual_tours?: string[];
   source: string; source_url: string; developer_url?: string | null; source_updated_at: string | null;
+  indexable?: boolean; updated_at?: string | null;
 };
 
 export const housingClassifications = [
