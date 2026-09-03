@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:59:13.068755+00:00",
+  "generated_at": "2026-09-03T18:14:18.182823+00:00",
   "source": "Órulo — catálogo público",
   "filters": {
     "developer": "Plano & Plano",
@@ -7,7 +7,7 @@
     "region": "Zona Sul de São Paulo",
     "availability": "ativos e publicados"
   },
-  "count": 21,
+  "count": 22,
   "properties": [
     {
       "slug": "oriz-by-plano-plano-lojas-campo-belo-46613",
@@ -1626,6 +1626,401 @@
       "source_url": "https://www.orulo.com.br/buildings/84629",
       "developer_url": null,
       "source_updated_at": "20/08/2026 14:27:53"
+    },
+    {
+      "slug": "ares-do-horto-horto-do-ipe-zona-sul",
+      "code": "RMA-000084",
+      "external_id": "ARES-DO-HORTO",
+      "name": "Ares do Horto",
+      "short_description": "Ares do Horto, lançamento Plano & Plano no Horto do Ipê: 31.71 a 38.73 m², 2 dormitórios e a partir de r$ 234.592. Veja fotos, plantas e localização.",
+      "seo_title": "Ares do Horto: preços, fotos e plantas",
+      "seo_description": "Conheça Ares do Horto no Horto do Ipê: apartamentos de 31.71 a 38.73 m², 2 dormitórios, a partir de r$ 234.592, fotos, plantas e localização.",
+      "keywords": [
+        "Ares do Horto",
+        "Ares do Horto Plano & Plano",
+        "apartamento Horto do Ipê",
+        "Ares do Horto preço",
+        "Ares do Horto plantas",
+        "lançamento Zona Sul de São Paulo"
+      ],
+      "neighborhood": "Horto do Ipê",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "05777-001",
+      "address": "Estrada do Campo Limpo",
+      "public_address": "Estrada do Campo Limpo, Horto do Ipê, São Paulo - SP, 05777-001",
+      "number": null,
+      "latitude": -23.644584,
+      "longitude": -46.764188,
+      "phase": "Lançamento",
+      "source_status": "Em construção",
+      "source_active": "active",
+      "source_publication_status": "publicado",
+      "launch_date": "01/07/2026",
+      "opening_date": "31/07/2029",
+      "area_min": 31.71,
+      "area_max": 38.73,
+      "area": "31.71 a 38.73 m²",
+      "bedrooms_min": 2,
+      "bedrooms_max": 2,
+      "bathrooms_min": 1,
+      "bathrooms_max": 2,
+      "suites_min": 0,
+      "suites_max": 1,
+      "parking_min": 0,
+      "parking_max": 1,
+      "total_units": 574,
+      "stock": 455,
+      "number_of_floors": 27,
+      "number_of_towers": 2,
+      "typologies": [
+        {
+          "type": "Apartamento",
+          "private_area": 31.71,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 495
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.45,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 495
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 38.73,
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "suites": 1,
+          "parking": 1,
+          "stock": 495
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 32.14,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 273
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 34.45,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 0,
+          "stock": 149
+        },
+        {
+          "type": "Apartamento",
+          "private_area": 35.28,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "suites": 0,
+          "parking": 1,
+          "stock": 33
+        }
+      ],
+      "price": 234591.84,
+      "price_label": "A partir de R$ 234.592",
+      "property_type": "apartment",
+      "finality": "Residencial",
+      "developer": "Plano&Plano SP",
+      "mcmv": false,
+      "fgts": false,
+      "is_r2v": false,
+      "is_his2": false,
+      "is_hmp": false,
+      "is_nr": false,
+      "description": "Ares do Horto é um lançamento da Plano & Plano no Horto do Ipê, Zona Sul de São Paulo. O projeto reúne condomínios independentes apresentados pela Órulo, com apartamentos de 31.71 a 38.73 m², 2 dormitórios e opções com varanda, suíte e vaga, conforme a tipologia escolhida. O valor divulgado é a partir de r$ 234.592.\n\nAs fases Pau Brasil e Ipê Amarelo formam um conjunto residencial pensado para combinar áreas verdes, mobilidade e uma estrutura completa de lazer e convivência. As imagens e plantas disponíveis das fases foram reunidas neste cadastro para oferecer uma visão ampla do empreendimento.\n\nEntre os diferenciais informados estão Academia, Academia externa, Brinquedoteca, Churrasqueira condominial, Coworking, Delivery, Elevador social, Espaço beauty, Jardim, Lounge, Market, Pet care. A disponibilidade de cada espaço, acabamento ou item de lazer pode variar conforme o condomínio e a unidade.\n\nPara preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, financiamento e agendamento de visita.",
+      "source_description": "Empreendimento dividido em condomínios com valores, diferenciais e prazos de entrega próprios.",
+      "features": [
+        "Academia",
+        "Academia externa",
+        "Brinquedoteca",
+        "Churrasqueira condominial",
+        "Coworking",
+        "Delivery",
+        "Elevador social",
+        "Espaço beauty",
+        "Jardim",
+        "Lounge",
+        "Market",
+        "Pet care",
+        "Pet place",
+        "Piscina adulto",
+        "Playground",
+        "Portaria",
+        "Quadra poliesportiva",
+        "Redário",
+        "Sala de jogos",
+        "Salão de festas",
+        "Segurança",
+        "Solarium",
+        "Fire place"
+      ],
+      "photos": [
+        "https://static.orulo.com.br/images/properties/xlarge/bwzlh8hr447c0e7dqx61ryhmo15b.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/em8u35u3xw2a8r0v2aowniaoy3n1.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/rfjw4vgh453qbgi55g8e9pd61hk3.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1mg70kgskfz2c5vgj4kr37rp2iki.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/lhfo1re5ia7fszrmazmvau6kbu2f.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/os09yx3c249rmsbztai2tp47uhwo.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/cse6ckjcfln0i8rgrd0me6avnetp.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/vqxi9pc1nbee0sz21sobzk21ucrm.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/dpcfkdjpw60golzmpeb24ki8mqqs.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/027afe29kw65w267js5w9xomoold.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/nocv6qf4qcy8710fmnbpn74yk9av.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1vxh2wbodfzi20lsq555k6jl6peu.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/53ivz25pdhs0kklrkepnej9513sg.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/tx69q8r9bz6gqpzjamaxmt8sejng.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/t852v9bam657oavrqqhf3jw4f6bu.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ov14zscq3p8noeir16kvdn0oac8s.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/68mak9l2swkdj5qspe32qi9gt07m.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/1vl1cg62cvnha8tvbo63iy4ve25v.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/dzgie6gkqxq8iccibn6kb6thrvbm.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/45ljyztnkhrgtctd8nuvjjvsn4my.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/l23i81uxqdg3d4p6c0bn6d301a8m.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/j9z8fkrtvi90h6cq821rrtrgz2u3.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/7bqtqc6nuylvi05s3auwqi3g6dap.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/zooej29ds12qe5nw02e4xjhy3rk6.png",
+        "https://static.orulo.com.br/images/properties/xlarge/u391z4oonjp5zxj1m61pitmlt4fg.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/wvkl1y0l8lk1wgeuq82q6y9jxsvu.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/swspy9jk31eohj97xu0vdn7re1nr.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/mht3j9ld9acs0a7fxogrbstjd31j.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/gup3xm6r0mxl3tx7srvr8xlawro1.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/q6nlm6fs1o5w9dmn6qxls2ymnto6.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/orrt8di7kn6e6b8v00i5lm5mrizd.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/2zfli7pvd4t73ylhozeod5xr7jdi.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/ro3pyhy7it1ug0pil0jktljrt7km.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/plj73dml48z8ry6nxfvsgyaxgaoz.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/r2kqxrmi55bm1l4b620rpjfbv0p0.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/qvs5dps59adf3txmazvjma2vvaxx.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/0evngakiog9w1pnmk2l9bc996vjv.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/dna5746g0xu5c2rlda752povwm9s.jpg"
+      ],
+      "photo_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/bwzlh8hr447c0e7dqx61ryhmo15b.jpg",
+          "description": "010 fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/em8u35u3xw2a8r0v2aowniaoy3n1.jpg",
+          "description": "020 portaria"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/rfjw4vgh453qbgi55g8e9pd61hk3.jpg",
+          "description": "151 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1mg70kgskfz2c5vgj4kr37rp2iki.jpg",
+          "description": "152 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/lhfo1re5ia7fszrmazmvau6kbu2f.jpg",
+          "description": "153 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/os09yx3c249rmsbztai2tp47uhwo.jpg",
+          "description": "170 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/cse6ckjcfln0i8rgrd0me6avnetp.jpg",
+          "description": "171 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/vqxi9pc1nbee0sz21sobzk21ucrm.jpg",
+          "description": "180 coworking"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/dpcfkdjpw60golzmpeb24ki8mqqs.jpg",
+          "description": "198 pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/027afe29kw65w267js5w9xomoold.jpg",
+          "description": "200 espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/nocv6qf4qcy8710fmnbpn74yk9av.jpg",
+          "description": "210 market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1vxh2wbodfzi20lsq555k6jl6peu.jpg",
+          "description": "215 oficina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/53ivz25pdhs0kklrkepnej9513sg.jpg",
+          "description": "220 sala de jogos"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/tx69q8r9bz6gqpzjamaxmt8sejng.jpg",
+          "description": "225 delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/t852v9bam657oavrqqhf3jw4f6bu.jpg",
+          "description": "240 churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ov14zscq3p8noeir16kvdn0oac8s.jpg",
+          "description": "245 quadra"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/68mak9l2swkdj5qspe32qi9gt07m.jpg",
+          "description": "250 playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1vl1cg62cvnha8tvbo63iy4ve25v.jpg",
+          "description": "260 pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/dzgie6gkqxq8iccibn6kb6thrvbm.jpg",
+          "description": "265 fitness externo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/45ljyztnkhrgtctd8nuvjjvsn4my.jpg",
+          "description": "285 redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/l23i81uxqdg3d4p6c0bn6d301a8m.jpg",
+          "description": "290 piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/j9z8fkrtvi90h6cq821rrtrgz2u3.jpg",
+          "description": "291 piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/7bqtqc6nuylvi05s3auwqi3g6dap.jpg",
+          "description": "292 piscina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/zooej29ds12qe5nw02e4xjhy3rk6.png",
+          "description": "010 fachada"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/u391z4oonjp5zxj1m61pitmlt4fg.jpg",
+          "description": "150 fitness"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/wvkl1y0l8lk1wgeuq82q6y9jxsvu.jpg",
+          "description": "170 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/swspy9jk31eohj97xu0vdn7re1nr.jpg",
+          "description": "171 brinquedoteca"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/mht3j9ld9acs0a7fxogrbstjd31j.jpg",
+          "description": "198 pet care"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/gup3xm6r0mxl3tx7srvr8xlawro1.jpg",
+          "description": "200 espaço beauty"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/q6nlm6fs1o5w9dmn6qxls2ymnto6.jpg",
+          "description": "225 delivery"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/orrt8di7kn6e6b8v00i5lm5mrizd.jpg",
+          "description": "230 market"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/2zfli7pvd4t73ylhozeod5xr7jdi.jpg",
+          "description": "235 oficina"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/ro3pyhy7it1ug0pil0jktljrt7km.jpg",
+          "description": "240 churrasqueira"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/plj73dml48z8ry6nxfvsgyaxgaoz.jpg",
+          "description": "250 playground"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/r2kqxrmi55bm1l4b620rpjfbv0p0.jpg",
+          "description": "260 pet place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/qvs5dps59adf3txmazvjma2vvaxx.jpg",
+          "description": "265 fire place"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/0evngakiog9w1pnmk2l9bc996vjv.jpg",
+          "description": "270 redário"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/dna5746g0xu5c2rlda752povwm9s.jpg",
+          "description": "290 piscina"
+        }
+      ],
+      "floorplans": [
+        "https://static.orulo.com.br/images/properties/xlarge/l39udhsbxm239pijf5pyv4nv32bx.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/t8qrk79n2kqdjcqblg4erqu0y0vp.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/70kioy2gwq3a7oo5684mqbf0s48d.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/9buci6o4hntv4idnqkjp5vby58h7.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/fddubl896vfmewiubxdqci2xrs4o.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/es79y77oz3r7f06sz53u14v2f1ge.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/m8osm0kxy5ntzkgaifyvxqxwbhcl.png",
+        "https://static.orulo.com.br/images/properties/xlarge/se237eh2m6iciagp6joywi557ps8.png",
+        "https://static.orulo.com.br/images/properties/xlarge/1bzfxhx612vaalqpgebbsbzwbusu.jpg",
+        "https://static.orulo.com.br/images/properties/xlarge/hybnuvhuwh5m33w6pah0ooexe4yh.jpg"
+      ],
+      "floorplan_media": [
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/l39udhsbxm239pijf5pyv4nv32bx.jpg",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/t8qrk79n2kqdjcqblg4erqu0y0vp.jpg",
+          "description": "Planta 01 - 2 dorm 31,71m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/70kioy2gwq3a7oo5684mqbf0s48d.jpg",
+          "description": "Planta 02 - 2 dorm 31,81m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/9buci6o4hntv4idnqkjp5vby58h7.jpg",
+          "description": "Planta 03 - 2 dorm 34,45m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/fddubl896vfmewiubxdqci2xrs4o.jpg",
+          "description": "Planta 04 - 2 dorm 35,31m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/es79y77oz3r7f06sz53u14v2f1ge.jpg",
+          "description": "Planta 05 - 2 dorm 38,73m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/m8osm0kxy5ntzkgaifyvxqxwbhcl.png",
+          "description": "Implantação"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/se237eh2m6iciagp6joywi557ps8.png",
+          "description": "Pavimento tipo"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/1bzfxhx612vaalqpgebbsbzwbusu.jpg",
+          "description": "Planta 01 - 2 dorm 31,71m²"
+        },
+        {
+          "url": "https://static.orulo.com.br/images/properties/xlarge/hybnuvhuwh5m33w6pah0ooexe4yh.jpg",
+          "description": "Planta 02 - 2 dorm 34,45m²"
+        }
+      ],
+      "videos": [],
+      "virtual_tours": [],
+      "source": "orulo",
+      "source_url": "https://www.orulo.com.br/buildings/83029",
+      "developer_url": "https://www.planoeplano.com.br/ares-do-horto",
+      "source_updated_at": "02/09/2026 16:27:52"
     },
     {
       "slug": "ares-do-horto-pau-brasil-horto-do-ipe-83029",

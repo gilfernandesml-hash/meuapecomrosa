@@ -26,6 +26,7 @@ IMAGE_API = "https://www.orulo.com.br/api/portal/buildings/{building_id}/images"
 FLOORPLAN_API = "https://www.orulo.com.br/api/portal/buildings/{building_id}/floor_plans"
 DEVELOPER_ID = "674"
 DEVELOPER_LABEL = "Plano & Plano"
+ARES_DO_HORTO_SOURCE_ID = "ARES-DO-HORTO"
 DEFAULT_OUTPUT = Path("src/data/orulo-plano-plano-zona-sul.json")
 LEGACY_OUTPUT = Path("src/data/orulo-mcmv-zona-sul.json")
 DEFAULT_CSV = Path("reports/orulo-plano-plano-zona-sul.csv")
@@ -348,6 +349,87 @@ def make_property(building: dict[str, Any], bundle: dict[str, Any]) -> dict[str,
     }
 
 
+def aggregate_media(properties: list[dict[str, Any]], field: str) -> list[dict[str, str]]:
+    result: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for item in properties:
+        for media in item.get(field) or []:
+            url = media.get("url")
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            result.append(media)
+    return result
+
+
+def make_ares_do_horto_listing(properties: list[dict[str, Any]]) -> dict[str, Any] | None:
+    phases = [item for item in properties if normalize(item.get("name")).startswith("ares do horto")]
+    if not phases:
+        return None
+    primary = next((item for item in phases if item.get("external_id") == "83029"), phases[0])
+    photo_media = aggregate_media(phases, "photo_media")
+    floorplan_media = aggregate_media(phases, "floorplan_media")
+    videos = [video for item in phases for video in item.get("videos") or []]
+    virtual_tours = list(dict.fromkeys(tour for item in phases for tour in item.get("virtual_tours") or []))
+    features = list(dict.fromkeys(feature for item in phases for feature in item.get("features") or []))
+    area_min = min((item["area_min"] for item in phases if item.get("area_min") is not None), default=None)
+    area_max = max((item["area_max"] for item in phases if item.get("area_max") is not None), default=None)
+    price = min((item["price"] for item in phases if item.get("price") is not None), default=None)
+    area_label = f"{area_min:g} a {area_max:g} m²" if area_min is not None and area_max is not None and area_min != area_max else primary["area"]
+    price_label = f"A partir de R$ {price:,.0f}".replace(",", ".") if price else "Valor sob consulta"
+    description = (
+        "Ares do Horto é um lançamento da Plano & Plano no Horto do Ipê, Zona Sul de São Paulo. "
+        f"O projeto reúne condomínios independentes apresentados pela Órulo, com apartamentos de {area_label}, "
+        "2 dormitórios e opções com varanda, suíte e vaga, conforme a tipologia escolhida. "
+        f"O valor divulgado é {price_label.lower()}.\n\n"
+        "As fases Pau Brasil e Ipê Amarelo formam um conjunto residencial pensado para combinar áreas verdes, "
+        "mobilidade e uma estrutura completa de lazer e convivência. As imagens e plantas disponíveis das fases "
+        "foram reunidas neste cadastro para oferecer uma visão ampla do empreendimento.\n\n"
+        f"Entre os diferenciais informados estão {', '.join(features[:12])}. A disponibilidade de cada espaço, "
+        "acabamento ou item de lazer pode variar conforme o condomínio e a unidade.\n\n"
+        "Para preservar o atendimento da corretora responsável, o número do endereço não é exibido. Fale com "
+        "Rosa Oliveira para confirmar a localização completa, unidades disponíveis, condições comerciais, "
+        "financiamento e agendamento de visita."
+    )
+    return {
+        **primary,
+        "external_id": ARES_DO_HORTO_SOURCE_ID,
+        "code": f"ORULO-{ARES_DO_HORTO_SOURCE_ID}",
+        "name": "Ares do Horto",
+        "slug": "ares-do-horto-horto-do-ipe-zona-sul",
+        "short_description": f"Ares do Horto, lançamento Plano & Plano no Horto do Ipê: {area_label}, 2 dormitórios e {price_label.lower()}. Veja fotos, plantas e localização.",
+        "seo_title": "Ares do Horto: preços, fotos e plantas",
+        "seo_description": truncate(f"Conheça Ares do Horto no Horto do Ipê: apartamentos de {area_label}, 2 dormitórios, {price_label.lower()}, fotos, plantas e localização.", 158),
+        "keywords": ["Ares do Horto", "Ares do Horto Plano & Plano", "apartamento Horto do Ipê", "Ares do Horto preço", "Ares do Horto plantas", "lançamento Zona Sul de São Paulo"],
+        "description": description,
+        "source_description": "Empreendimento dividido em condomínios com valores, diferenciais e prazos de entrega próprios.",
+        "neighborhood": "Horto do Ipê",
+        "public_address": f"{primary['address']}, Horto do Ipê, São Paulo - SP, {primary['zipcode']}",
+        "area_min": area_min,
+        "area_max": area_max,
+        "area": area_label,
+        "bedrooms_min": min((item["bedrooms_min"] for item in phases if item.get("bedrooms_min") is not None), default=2),
+        "bedrooms_max": max((item["bedrooms_max"] for item in phases if item.get("bedrooms_max") is not None), default=2),
+        "bathrooms_min": min((item["bathrooms_min"] for item in phases if item.get("bathrooms_min") is not None), default=1),
+        "bathrooms_max": max((item["bathrooms_max"] for item in phases if item.get("bathrooms_max") is not None), default=1),
+        "suites_min": min((item["suites_min"] for item in phases if item.get("suites_min") is not None), default=0),
+        "suites_max": max((item["suites_max"] for item in phases if item.get("suites_max") is not None), default=0),
+        "parking_min": min((item["parking_min"] for item in phases if item.get("parking_min") is not None), default=0),
+        "parking_max": max((item["parking_max"] for item in phases if item.get("parking_max") is not None), default=0),
+        "price": price,
+        "price_label": price_label,
+        "features": features,
+        "typologies": [typology for item in phases for typology in item.get("typologies") or []],
+        "photos": [item["url"] for item in photo_media],
+        "photo_media": photo_media,
+        "floorplans": [item["url"] for item in floorplan_media],
+        "floorplan_media": floorplan_media,
+        "videos": videos,
+        "virtual_tours": virtual_tours,
+        "developer_url": "https://www.planoeplano.com.br/ares-do-horto",
+    }
+
+
 def previous_codes(paths: list[Path]) -> dict[str, str]:
     result: dict[str, str] = {}
     for path in paths:
@@ -403,6 +485,10 @@ def main() -> int:
                 media[building_id] = {"detail": next(item for item in candidates if str(item["id"]) == building_id)}
                 errors.append({"external_id": building_id, "kind": "bundle", "error": str(exc)})
     properties = [make_property(item, media.get(str(item["id"]), {"detail": item})) for item in candidates]
+    ares_do_horto = make_ares_do_horto_listing(properties)
+    if ares_do_horto:
+        properties.append(ares_do_horto)
+        properties.sort(key=lambda item: (normalize(item.get("neighborhood")), normalize(item.get("name"))))
     used_sequences = [int(code.split("-")[1]) for code in codes.values()]
     next_sequence = max(used_sequences, default=0) + 1
     for item in properties:

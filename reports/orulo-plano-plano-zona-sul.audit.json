@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T17:59:13.068755+00:00",
+  "generated_at": "2026-09-03T18:14:18.182823+00:00",
   "catalog_from_developer": 55,
-  "plano_plano_south": 21,
+  "plano_plano_south": 22,
   "neighborhoods": [
     "Campo Belo",
     "Campo Grande",
@@ -16,16 +16,16 @@
     "Vila Emir"
   ],
   "mcmv": 3,
-  "photos": 304,
-  "floorplans": 102,
+  "photos": 342,
+  "floorplans": 112,
   "videos": 4,
   "virtual_tours": 0,
-  "with_photos": 21,
-  "with_floorplans": 19,
-  "without_address_number": 21,
+  "with_photos": 22,
+  "with_floorplans": 20,
+  "without_address_number": 22,
   "address_number_leaks": [],
   "statuses": {
-    "Em construção": 12,
+    "Em construção": 13,
     "Pronto novo": 9
   },
   "media_errors": []
