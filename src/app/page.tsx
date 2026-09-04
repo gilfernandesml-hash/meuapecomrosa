@@ -18,7 +18,7 @@ import {
 
 import { Cormorant_Garamond, Montserrat } from "next/font/google";
 
-import { LeadForm } from "@/components/lead-form";
+import { BuyerProfileSimulator } from "@/components/buyer-profile-simulator";
 import { PublicShell } from "@/components/public-shell";
 import { PropertyCard } from "@/components/property-card";
 import { getPublicProperties } from "@/lib/property-catalog";
@@ -209,7 +209,7 @@ export default async function Home() {
                 href="#perfil-de-compra"
                 className={`${montserrat.className} group inline-flex min-h-[58px] min-w-0 items-center justify-between gap-8 border-b border-[#d7ac4c]/60 py-4 text-xs font-semibold uppercase tracking-[0.16em] text-[#e7b84f] sm:min-w-[370px]`}
               >
-                Quero saber minhas possibilidades
+                Descubra o que você pode comprar
 
                 <ArrowRight
                   size={20}
@@ -601,7 +601,7 @@ export default async function Home() {
       >
 
         <div className="container-site">
-          <LeadForm home />
+          <BuyerProfileSimulator regions={[...new Set(properties.map(item => item.neighborhood).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"))} />
         </div>
 
       </section>

@@ -106,6 +106,7 @@ function databaseProperty(row: DatabaseProperty): Property {
   const publicAddress = [row.address, row.neighborhood, row.city, row.state].filter(Boolean).join(", ");
 
   return {
+    id: row.id,
     slug: row.slug,
     code: row.code,
     external_id: row.source_id ?? row.id,

@@ -8,6 +8,7 @@ export type PropertyTypology = {
 };
 
 export type Property = {
+  id?: string;
   slug: string; code: string; external_id: string; name: string; neighborhood: string; city: string; state: string;
   zipcode: string; address: string; public_address: string; phase: string; source_status: string;
   short_description?: string; seo_title?: string; seo_description?: string; keywords?: string[];

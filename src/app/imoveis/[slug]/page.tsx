@@ -9,6 +9,7 @@ import { PropertyCard } from "@/components/property-card";
 import { getPublicProperties } from "@/lib/property-catalog";
 import { getHousingClassifications, properties, startingPriceLabel, type Property } from "@/lib/properties";
 import { site, whatsappUrl } from "@/lib/site";
+import { propertyMessage } from "@/lib/leads/whatsapp";
 import { organizationId, robotsMetadata, websiteId } from "@/lib/seo";
 import { neighborhoodFor } from "@/lib/neighborhoods";
 
@@ -95,7 +96,7 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
       return first.name.localeCompare(second.name, "pt-BR");
     })
     .slice(0, 3);
-  const message = `Olá, Rosa! Vi o empreendimento ${item.name} (${item.code}) no site Meu Apê com Rosa e gostaria de mais informações.`;
+  const message = propertyMessage(item, `/imoveis/${item.slug}`);
   const canonicalUrl = `${site.url}/imoveis/${item.slug}`;
   const residenceId = `${canonicalUrl}#empreendimento`;
   const hasCoordinates = Number.isFinite(item.latitude) && Number.isFinite(item.longitude);
@@ -174,6 +175,7 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
 
   return (
     <PublicShell>
+      <span hidden data-current-property={item.slug} data-property-id={item.id} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <section className="container-site py-8">
         <nav className="text-xs text-grafite/55" aria-label="Navegação estrutural"><Link href="/">Início</Link> / <Link href="/imoveis">Imóveis</Link> / {item.name}</nav>
@@ -249,6 +251,7 @@ export default async function PropertyPage({ params }: PageProps<"/imoveis/[slug
               <p className="price mt-2 whitespace-nowrap text-3xl text-petroleo">{startingPriceLabel(item)}</p>
               <p className="fine-print mt-2">Consulte disponibilidade e condições atualizadas.</p>
               <a href={whatsappUrl(message)} target="_blank" rel="noreferrer" className="btn mt-6 w-full bg-whatsapp text-white"><MessageCircle size={19} /> Falar com Rosa</a>
+              <Link href={`/simular?imovel=${encodeURIComponent(item.slug)}`} className="btn btn-secondary mt-3 w-full text-center text-sm">Descubra o que você pode comprar</Link>
               <p className="mt-5 text-center text-xs text-grafite/55">Informe o código {item.code} no atendimento.</p>
             </div>
           </aside>
