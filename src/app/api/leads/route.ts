@@ -1,17 +1,30 @@
-import { NextResponse } from "next/server";
-import { z } from "zod";
-import { createSupabaseServerClient, hasSupabaseEnv } from "@/lib/supabase/server";
+import { createHmac } from "node:crypto";
+import { createSupabaseServiceClient } from "@/lib/supabase/service";
+import { leadSchema, safePath } from "@/lib/leads/domain";
+import { enforceRateLimit, publicError, PublicApiError, rateKey, readPublicJson } from "@/lib/leads/http";
+import { leadSession, resolveProperty } from "@/lib/tracking/server";
 
-const schema = z.object({ name: z.string().trim().min(2).max(120), phone: z.string().trim().min(8).max(30), email: z.string().email().max(160), region: z.string().max(120).optional(), income_range: z.string().max(60).optional(), purchase_timeline: z.string().max(60).optional(), has_fgts: z.enum(["true", "false", "unknown"]).optional(), has_down_payment: z.enum(["true", "false", "unknown"]).optional(), down_payment_range: z.string().max(60).optional(), bedrooms: z.string().max(40).optional(), consent: z.literal("true"), website: z.string().max(0).optional() });
-
+export const runtime = "nodejs";
 export async function POST(request: Request) {
-  const body = await request.json().catch(() => null); const parsed = schema.safeParse(body);
-  if (!parsed.success) return NextResponse.json({ error: "Dados inválidos" }, { status: 400 });
-  if (!hasSupabaseEnv()) return NextResponse.json({ error: "Atendimento temporariamente indisponível" }, { status: 503 });
-  const supabase = await createSupabaseServerClient(); const data = parsed.data;
-  const hasDownPayment = data.has_down_payment === "unknown" ? null : data.has_down_payment ? data.has_down_payment === "true" : data.down_payment_range ? data.down_payment_range !== "Ainda não tenho entrada" : null;
-  const notes = [data.down_payment_range && `Entrada: ${data.down_payment_range}`, data.bedrooms && `Dormitórios: ${data.bedrooms}`].filter(Boolean).join(" | ");
-  const { error } = await supabase.from("leads").insert({ name: data.name, phone: data.phone, email: data.email, region: data.region || null, income_range: data.income_range || null, purchase_timeline: data.purchase_timeline || null, has_fgts: data.has_fgts === "unknown" ? null : data.has_fgts === "true", has_down_payment: hasDownPayment, notes: notes || null, consent_at: new Date().toISOString(), source: "pre-analysis", status: "new" });
-  if (error) return NextResponse.json({ error: "Falha ao salvar" }, { status: 500 });
-  return NextResponse.json({ ok: true }, { status: 201 });
+  try {
+    const body = await readPublicJson(request);
+    const client = createSupabaseServiceClient();
+    const secret = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+    await enforceRateLimit(client, `leads:${rateKey(request, secret)}`, 10);
+    const parsed = leadSchema.safeParse(body);
+    if (!parsed.success) throw new PublicApiError(400, "Confira os campos e informe nome, WhatsApp com DDD e autorização de contato.");
+    const data = parsed.data;
+    const phoneKey = createHmac("sha256", secret).update(`phone:${data.phone}`).digest("hex");
+    await enforceRateLimit(client, `lead-phone:${phoneKey}`, 5);
+    const context = await leadSession(client, data.tracking_token, data.attribution ?? {}, secret);
+    const propertyId = await resolveProperty(client, data.property_id, data.property_slug);
+    const { tracking_token: _token, website: _honeypot, ...profile } = data;
+    void _token; void _honeypot;
+    const { data: result, error } = await client.rpc("capture_lead", {
+      p_request_id: data.request_id, p_visitor_id: context.visitor_id, p_session_id: context.session_id,
+      p_payload: { ...profile, property_id: propertyId, page_path: safePath(data.page_path), attribution: context.attribution, consent: true },
+    });
+    if (error) throw new PublicApiError(503, "Não foi possível salvar seu perfil. Tente novamente em instantes.");
+    return Response.json({ ok: true, created: result.created, replayed: result.replayed, tracking_token: context.token }, { headers: { "Cache-Control": "no-store" } });
+  } catch (error) { return publicError(error); }
 }
