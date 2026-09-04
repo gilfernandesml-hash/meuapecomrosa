@@ -1,6 +1,6 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, updateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
@@ -123,6 +123,7 @@ export async function updateSeoSettings(formData: FormData) {
 
   if (error) redirect("/admin/seo?erro=nao-salvo");
   await registerActivity(supabase, user.id, "update", "seo_settings", "1");
+  updateTag("public-analytics-settings");
   revalidatePath("/admin/seo");
   revalidatePath("/", "layout");
   redirect("/admin/seo?salvo=1");

@@ -138,7 +138,7 @@ begin
     region = coalesce(nullif(p_payload->>'region',''),region),
     purchase_timeline = coalesce(nullif(p_payload->>'purchase_timeline',''),purchase_timeline),
     property_id = coalesce((p_payload->>'property_id')::uuid,property_id),
-    origin_page = coalesce(nullif(origin_page,''),p_payload->>'page_path'),
+    origin_page = coalesce(nullif(origin_page,''),p_payload->>'origin_page',p_payload->>'page_path'),
     landing_page = coalesce(nullif(landing_page,''),nullif(attribution->>'landing_page','')),
     referrer = coalesce(nullif(referrer,''),nullif(attribution->>'referrer','')),
     utm_source = coalesce(nullif(utm_source,''),nullif(attribution->>'utm_source','')),

@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Keep isolated browser tests separate from an existing development server.
+  distDir: process.env.ROSA_E2E === "1" ? ".next-e2e" : ".next",
   images: {
     // Serve originals directly while Vercel Image Optimization is payment-blocked.
     unoptimized: true,

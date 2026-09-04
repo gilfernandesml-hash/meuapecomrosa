@@ -22,7 +22,7 @@ export async function leadSession(client: SupabaseClient, token: string | undefi
   const visitor_id = randomUUID(), session_id = randomUUID();
   const cleaned = cleanAttribution(attribution);
   const { error } = await client.rpc("register_visitor_session", { p_session_id: session_id, p_visitor_id: visitor_id,
-    p_attribution: cleaned, p_device_type: "desktop", p_analytics: false, p_marketing: false });
+    p_attribution: cleaned, p_device_type: "unknown", p_analytics: false, p_marketing: false });
   if (error) throw new PublicApiError(503, "Não foi possível concluir agora.");
   return { visitor_id, session_id, attribution: cleaned, token: signContext(visitor_id, session_id, secret) };
 }

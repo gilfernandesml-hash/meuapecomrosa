@@ -5,7 +5,10 @@
 
 # testing and builds
 /coverage
+/test-results/
+/playwright-report/
 /.next/
+/.next-e2e/
 /out/
 
 # production and local settings

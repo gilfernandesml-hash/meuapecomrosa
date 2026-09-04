@@ -3,7 +3,7 @@ create table public.visitor_sessions (
   session_id uuid primary key, visitor_id uuid not null,
   lead_id uuid references public.leads(id) on delete set null,
   first_seen_at timestamptz not null default now(), last_seen_at timestamptz not null default now(),
-  attribution jsonb not null default '{}', device_type text not null check(device_type in ('mobile','tablet','desktop')),
+  attribution jsonb not null default '{}', device_type text not null check(device_type in ('mobile','tablet','desktop','unknown')),
   analytics_consent boolean not null default false, marketing_consent boolean not null default false
 );
 create index visitor_sessions_visitor_date_idx on public.visitor_sessions(visitor_id,first_seen_at desc);

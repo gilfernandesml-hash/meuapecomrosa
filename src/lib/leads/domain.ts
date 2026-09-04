@@ -36,6 +36,7 @@ export const leadSchema = z.object({
   property_id: z.uuid().optional(), property_slug: optionalText(150),
   source: z.enum(["pre-analysis", "contact", "simulator"]).default("contact"),
   page_path: z.string().max(250).default("/contato"),
+  origin_page: z.string().max(250).optional(),
   attribution: attributionSchema.optional(),
   tracking_token: z.string().max(2000).optional(),
   simulator_id: z.uuid().optional(),

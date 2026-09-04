@@ -6,7 +6,11 @@ export class PublicApiError extends Error {
 }
 
 export async function readPublicJson(request: Request, maxBytes = 16_384): Promise<unknown> {
-  if (request.headers.get("origin") !== new URL(request.url).origin) throw new PublicApiError(403, "Origem não permitida.");
+  // Next may use the internal hostname in Request.url. Match the browser's Host,
+  // never an arbitrary forwarded host supplied by a client.
+  const target=new URL(request.url);
+  const expectedOrigin=`${target.protocol}//${request.headers.get("host")??target.host}`;
+  if (request.headers.get("origin") !== expectedOrigin) throw new PublicApiError(403, "Origem não permitida.");
   if (!request.headers.get("content-type")?.startsWith("application/json")) throw new PublicApiError(415, "Formato inválido.");
   if (Number(request.headers.get("content-length")) > maxBytes) throw new PublicApiError(413, "Envio muito grande.");
   const reader = request.body?.getReader();

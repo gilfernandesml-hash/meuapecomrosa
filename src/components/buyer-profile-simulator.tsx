@@ -28,7 +28,7 @@ export function BuyerProfileSimulator({regions,property,origin}:{regions:string[
     setSending(true);setError("");
     try{
       const result=await submitLead({...profilePayload(profile),request_id:requestId.current,simulator_id:simulatorId.current,
-        property_id:property?.id,property_slug:property?.slug,page_path:origin??window.location.pathname,
+        property_id:property?.id,property_slug:property?.slug,origin_page:origin??window.location.pathname,
         website:String(new FormData(event.currentTarget).get("website")??"")});
       setReceipt(result);focusTitle();
     }catch(cause){setError(cause instanceof Error && cause.name!=="TimeoutError"?cause.message:"Não foi possível confirmar o envio. Tente novamente; seu perfil continua preenchido.");}
@@ -48,9 +48,9 @@ export function BuyerProfileSimulator({regions,property,origin}:{regions:string[
       <div className="mt-5 flex items-center gap-3 text-petroleo"><Check size={26}/><h2 ref={titleRef} tabIndex={-1} className="subtitle text-3xl">Seu perfil foi recebido.</h2></div>
       <p className="mt-5 leading-7 text-grafite/70">A Rosa pode analisar os imóveis disponíveis que mais combinam com essas informações.</p>
       <p className="mt-4 text-sm leading-6 text-grafite/70">Continue no WhatsApp para conversar diretamente com ela. A mensagem já vai com o resumo do seu perfil.</p>
-      <a href={whatsappUrl(simulatorMessage(profile,property,origin))} target="_blank" rel="noreferrer" data-tracking-manual="true"
-        onClick={()=>void trackEvent("whatsapp_click",{token:receipt.tracking_token,property_id:property?.id,property_slug:property?.slug,metadata:{placement:"simulator",simulator_id:simulatorId.current}})}
-        className="btn mt-7 w-full bg-whatsapp text-center text-sm text-petroleo"><MessageCircle size={20} className="shrink-0"/> Receber minhas opções no WhatsApp</a>
+      <button type="button"
+        onClick={()=>{void trackEvent("whatsapp_click",{token:receipt.tracking_token,property_id:property?.id,property_slug:property?.slug,metadata:{placement:"simulator",simulator_id:simulatorId.current}});window.open(whatsappUrl(simulatorMessage(profile,property,origin)),"_blank","noopener,noreferrer");}}
+        className="btn mt-7 w-full bg-whatsapp text-center text-sm text-petroleo"><MessageCircle size={20} className="shrink-0"/> Receber minhas opções no WhatsApp</button>
       <p className="fine-print mt-6">{profileDisclaimer}</p>
       <button type="button" className="mt-5 min-h-12 text-sm font-bold text-petroleo underline" onClick={()=>{setProfile({...emptyProfile});setReceipt(null);setStarted(false);setIndex(0);}}>Fazer outro perfil</button>
     </> : <>

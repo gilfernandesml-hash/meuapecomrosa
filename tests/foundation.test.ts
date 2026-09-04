@@ -57,6 +57,7 @@ test("API rejeita origem externa, payload excessivo e JSON inválido", async () 
   await assert.rejects(readPublicJson(req("{}","https://evil.test")), /Origem/);
   await assert.rejects(readPublicJson(req('"'+"x".repeat(500)+'"'),100), /grande/);
   await assert.rejects(readPublicJson(req("{")), /inválidos/);
+  assert.deepEqual(await readPublicJson(new Request("http://localhost:3100/api/leads",{method:"POST",headers:{host:"127.0.0.1:3100",origin:"http://127.0.0.1:3100","content-type":"application/json"},body:"{}"})),{});
 });
 test("criação transacional gera lead e conversões uma vez; retry é idempotente", async () => {
   const s = await session(); const request = randomUUID();
@@ -127,4 +128,32 @@ test("deduplicação no banco e consentimento também protegem eventos", async (
   await db.query("update visitor_sessions set analytics_consent=false where session_id=$1",[s.id]);
   const denied=args();denied[7]="another";
   assert.equal((await db.query<{recorded:boolean}>(sql,denied)).rows[0].recorded,false);
+});
+
+test("revisita exige navegação diferente e propriedade conta uma vez por sessão", async()=>{
+  const s=await session(),property=randomUUID(),view=randomUUID();
+  await db.query("insert into properties(id,code,name,slug) values($1,'TEST','Teste isolado',$2)",[property,property]);
+  const record=async(name:"property_view"|"property_view_repeat",viewId:string)=>{
+    const metadata={view_id:viewId};
+    return (await db.query<{recorded:boolean}>("select record_behavior_event($1,$2,$3,$4,$5,'/imoveis/teste',$6,$7) as recorded",[randomUUID(),s.visitor,s.id,name,property,JSON.stringify(metadata),eventDedupeKey(name,metadata,property)])).rows[0].recorded;
+  };
+  assert.equal(await record("property_view_repeat",view),false);
+  assert.equal(await record("property_view",view),true);
+  assert.equal(await record("property_view_repeat",view),false);
+  const revisited=randomUUID();
+  assert.equal(await record("property_view",revisited),false);
+  assert.equal(await record("property_view_repeat",revisited),true);
+  assert.equal(await record("property_view_repeat",randomUUID()),false);
+});
+
+test("falha de sessão reverte lead e interação; usuário comum não lê contatos",async()=>{
+  const invalid={visitor:randomUUID(),id:randomUUID()};
+  await assert.rejects(capture("61987654321",invalid),/missing conversion session/);
+  assert.equal((await db.query("select id from leads where phone_normalized='5561987654321'")).rows.length,0);
+  const user=randomUUID();await db.query("insert into auth.users(id) values($1)",[user]);
+  await db.transaction(async tx=>{
+    await tx.query("select set_config('request.jwt.claim.sub',$1,true)",[user]);await tx.exec("set local role authenticated");
+    assert.equal((await tx.query("select * from leads")).rows.length,0);
+    assert.equal((await tx.query("select * from analytics_events")).rows.length,0);
+  });
 });

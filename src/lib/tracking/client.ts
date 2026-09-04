@@ -1,5 +1,6 @@
 "use client";
 import { attributionFromUrl, behavioralEvent, eventDedupeKey, nextIdentity, type Consent, type EventMetadata, type EventName, type Session, type Visitor } from "./domain";
+import type { ExternalEvent } from "./integrations";
 
 const keys = { visitor: "rosa.visitor.v1", session: "rosa.session.v1", consent: "rosa.consent.v1", sent: "rosa.events.v1" };
 let memoryVisitor: Visitor | null = null, memorySession: Session | null = null;
@@ -8,6 +9,8 @@ let bootstrap: { key: string; promise: Promise<string | undefined>; expires: num
 let currentPath = "", currentView = "";
 const pending = new Set<string>();
 const sent = new Set<string>();
+const externalListeners=new Set<(event:ExternalEvent)=>void>();
+let externalQueue:ExternalEvent[]=[];
 
 function read<T>(key: string, local = false): T | null {
   try { return JSON.parse((local ? localStorage : sessionStorage).getItem(key) ?? "null"); } catch { return null; }
@@ -90,6 +93,9 @@ export async function trackEvent(name: EventName, options: TrackOptions = {}): P
 // Only a fixed allowlist reaches integrations. Never forward form payloads, URLs with query, or metadata.
 export function dispatchExternal(name: EventName, propertyId?: string, path = window.location.pathname) {
   if (!["page_view","property_view","simulator_started","simulator_completed","whatsapp_click","lead_created"].includes(name)) return;
-  window.dispatchEvent(new CustomEvent("rosa-conversion", {detail:{name,property_id:propertyId,page_path:path.split(/[?#]/)[0]}}));
+  const consent=getConsent();if(!consent.analytics && !consent.marketing)return;
+  const event={name,property_id:propertyId,page_path:path.split(/[?#]/)[0]};
+  if(externalListeners.size)externalListeners.forEach(listener=>listener(event));else externalQueue=[...externalQueue,event].slice(-30);
 }
+export function subscribeExternal(listener:(event:ExternalEvent)=>void){externalListeners.add(listener);externalQueue.forEach(listener);externalQueue=[];return ()=>{externalListeners.delete(listener);};}
 export function fallbackAttribution() { return memorySession?.attribution ?? attributionFromUrl(window.location.href,document.referrer); }
