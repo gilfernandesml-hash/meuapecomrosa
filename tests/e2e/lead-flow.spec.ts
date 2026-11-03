@@ -60,5 +60,5 @@ test("formulário aceita email vazio, evita duplicação e mantém sucesso hones
   const state=await(await request.get("http://127.0.0.1:54329/__test/state")).json();expect(state.leads.filter((l:{phone:string})=>l.phone==="5521987654321")).toHaveLength(1);
   await page.route("**/api/leads",route=>route.fulfill({status:503,contentType:"application/json",body:JSON.stringify({error:"Indisponível para teste"})}));
   await page.getByLabel("Nome completo").fill("Falha de teste");await page.getByLabel("WhatsApp",{exact:true}).fill("31987654321");await page.getByRole("checkbox",{name:/Autorizo o contato/}).check();await page.getByRole("button",{name:"Quero receber minhas opções"}).click();
-  await expect(page.getByRole("alert")).toContainText("Indisponível para teste");expect(await page.getByLabel("Nome completo").inputValue()).toBe("Falha de teste");
+  await expect(page.getByRole("alert").filter({hasText:"Indisponível para teste"})).toContainText("Indisponível para teste");expect(await page.getByLabel("Nome completo").inputValue()).toBe("Falha de teste");
 });
