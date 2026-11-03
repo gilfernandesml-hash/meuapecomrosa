@@ -85,6 +85,10 @@ export async function enforceRateLimit(client: SupabaseClient, key: string, limi
 
 export function publicError(error: unknown): Response {
   const known = error instanceof PublicApiError;
+  if (!known) {
+    const diagnostic = error instanceof Error ? { name: error.name, message: error.message } : { name: "UnknownError" };
+    console.error("[public-api] request failed", diagnostic);
+  }
   return Response.json({ error: known ? error.message : "Não foi possível concluir agora. Tente novamente em instantes." }, {
     status: known ? error.status : 503,
     headers: { "Cache-Control": "no-store", ...(known && error.status === 429 ? { "Retry-After": "600" } : {}) },
