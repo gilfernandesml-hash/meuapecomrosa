@@ -106,6 +106,22 @@ export default async function Home() {
 
       <section className="relative min-h-[760px] overflow-hidden bg-[#0d1913] text-white">
 
+        {/* Condomínio com perfil Minha Casa Minha Vida, sem pessoas */}
+        <div className="absolute inset-0">
+          <Image
+            src="/hero-condominio-mcmv-v2.webp"
+            alt="Condomínio residencial com prédios de apartamentos e área de lazer"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-[68%_center] sm:object-[64%_center] lg:object-center"
+          />
+
+          {/* Contraste para o texto sem esconder o empreendimento */}
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(9,24,17,0.78)_0%,rgba(9,24,17,0.65)_55%,rgba(9,24,17,0.28)_100%)] lg:bg-[linear-gradient(90deg,rgba(9,24,17,0.84)_0%,rgba(9,24,17,0.72)_36%,rgba(9,24,17,0.24)_64%,rgba(9,24,17,0.02)_100%)]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0d1913]/30 via-transparent to-[#0d1913]/5" />
+        </div>
+
         {/* Detalhe suave no fundo */}
         <div
           className="absolute inset-0 opacity-[0.08]"
@@ -117,39 +133,10 @@ export default async function Home() {
         />
 
         {/* ================================================= */}
-        {/* FOTO DA ROSA - DESKTOP */}
-        {/* ================================================= */}
-
-        <div className="absolute inset-y-0 right-0 hidden w-[48%] overflow-hidden lg:block">
-
-          <div className="absolute inset-0 bg-[#102018]" />
-
-          <Image
-            src="/hero-rosa-imovel-v2.webp"
-            alt="Rosa Oliveira em frente a um empreendimento residencial"
-            fill
-            priority
-            sizes="48vw"
-            className="
-              origin-bottom-right
-              scale-[0.88]
-              object-contain
-              object-right-bottom
-            "
-          />
-
-          {/* Degradê entre texto e foto */}
-          <div className="absolute inset-y-0 left-0 w-44 bg-gradient-to-r from-[#0d1913] via-[#0d1913]/70 to-transparent" />
-
-          {/* Degradê inferior discreto */}
-          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#0d1913]/50 to-transparent" />
-        </div>
-
-        {/* ================================================= */}
         {/* CONTEÚDO DO HERO */}
         {/* ================================================= */}
 
-        <div className="container-site relative z-10 grid min-h-[760px] items-center gap-10 py-16 lg:grid-cols-[55%_45%]">
+        <div className="container-site relative z-10 grid min-h-[760px] items-center gap-10 py-16 lg:grid-cols-[58%_42%]">
 
           <div className="max-w-[800px] lg:pr-8">
 
@@ -244,24 +231,8 @@ export default async function Home() {
 
           </div>
 
-          {/* Espaço da foto no desktop */}
+          {/* Mantém o texto na área de maior contraste */}
           <div className="hidden lg:block" />
-
-          {/* FOTO MOBILE */}
-          <div className="relative -mx-4 mt-3 h-[460px] overflow-hidden sm:-mx-8 lg:hidden">
-
-            <Image
-              src="/hero-rosa-imovel-v2.webp"
-              alt="Rosa Oliveira em frente a um empreendimento residencial"
-              fill
-              priority
-              sizes="100vw"
-              className="scale-[0.92] object-contain object-bottom"
-            />
-
-            <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-[#0d1913] to-transparent" />
-
-          </div>
 
         </div>
 
