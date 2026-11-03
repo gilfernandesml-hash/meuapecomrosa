@@ -3,6 +3,7 @@ import { createSupabaseServiceClient } from "@/lib/supabase/service";
 import { leadSchema, safePath } from "@/lib/leads/domain";
 import { enforceRateLimit, publicError, PublicApiError, rateKey, readPublicJson } from "@/lib/leads/http";
 import { leadSession, resolveProperty } from "@/lib/tracking/server";
+import { captureLead } from "@/lib/leads/capture";
 
 export const runtime = "nodejs";
 export async function POST(request: Request) {
@@ -18,13 +19,9 @@ export async function POST(request: Request) {
     await enforceRateLimit(client, `lead-phone:${phoneKey}`, 5);
     const context = await leadSession(client, data.tracking_token, data.attribution ?? {}, secret);
     const propertyId = await resolveProperty(client, data.property_id, data.property_slug);
-    const { tracking_token: _token, website: _honeypot, ...profile } = data;
-    void _token; void _honeypot;
-    const { data: result, error } = await client.rpc("capture_lead", {
-      p_request_id: data.request_id, p_visitor_id: context.visitor_id, p_session_id: context.session_id,
-      p_payload: { ...profile, property_id: propertyId, page_path: safePath(data.page_path), origin_page: safePath(data.origin_page??data.page_path), attribution: context.attribution, consent: true },
-    });
-    if (error) throw new PublicApiError(503, "Não foi possível salvar seu perfil. Tente novamente em instantes.");
+    data.page_path = safePath(data.page_path);
+    data.origin_page = safePath(data.origin_page ?? data.page_path);
+    const result = await captureLead(client, data, propertyId, context);
     return Response.json({ ok: true, created: result.created, replayed: result.replayed, tracking_token: context.token }, { headers: { "Cache-Control": "no-store" } });
   } catch (error) { return publicError(error); }
 }

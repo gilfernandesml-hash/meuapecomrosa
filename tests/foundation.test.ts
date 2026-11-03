@@ -5,7 +5,7 @@ import type { PGlite } from "@electric-sql/pglite";
 import { testDatabase } from "./database";
 import { leadSchema, normalizePhone, safePath } from "../src/lib/leads/domain";
 import { attributionFromUrl, nextIdentity, SESSION_IDLE_MS, eventSchema, eventDedupeKey } from "../src/lib/tracking/domain";
-import { readPublicJson, signContext, verifyContext } from "../src/lib/leads/http";
+import { enforceRateLimit, isMissingDatabaseCapability, PublicApiError, readPublicJson, signContext, verifyContext } from "../src/lib/leads/http";
 
 let db: PGlite;
 before(async () => { db = await testDatabase(); });
@@ -58,6 +58,15 @@ test("API rejeita origem externa, payload excessivo e JSON inválido", async () 
   await assert.rejects(readPublicJson(req('"'+"x".repeat(500)+'"'),100), /grande/);
   await assert.rejects(readPublicJson(req("{")), /inválidos/);
   assert.deepEqual(await readPublicJson(new Request("http://localhost:3100/api/leads",{method:"POST",headers:{host:"127.0.0.1:3100",origin:"http://127.0.0.1:3100","content-type":"application/json"},body:"{}"})),{});
+});
+test("compatibilidade reconhece schema antigo e mantém limite temporário", async () => {
+  assert.equal(isMissingDatabaseCapability({ code: "PGRST202", message: "function missing" }), true);
+  assert.equal(isMissingDatabaseCapability({ code: "42501", message: "permission denied" }), false);
+  const client = { rpc: async () => ({ data: null, error: { code: "PGRST202", message: "Could not find the function" } }) };
+  const key = randomUUID();
+  await enforceRateLimit(client as never, key, 2, 60);
+  await enforceRateLimit(client as never, key, 2, 60);
+  await assert.rejects(enforceRateLimit(client as never, key, 2, 60), (error) => error instanceof PublicApiError && error.status === 429);
 });
 test("criação transacional gera lead e conversões uma vez; retry é idempotente", async () => {
   const s = await session(); const request = randomUUID();

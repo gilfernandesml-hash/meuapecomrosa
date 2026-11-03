@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LeadForm } from "@/components/lead-form";
 import { PublicShell } from "@/components/public-shell";
 import { StructuredData } from "@/components/structured-data";
 import { breadcrumbSchema, pageMetadata } from "@/lib/seo";
@@ -32,5 +33,6 @@ export default function FirstHomePage() {
       <nav aria-label="Próximos passos" className="mt-8 flex flex-wrap gap-5 font-bold text-rose"><Link href="/bairros">Escolher o bairro</Link><Link href="/imoveis">Comparar imóveis</Link><Link href="/minha-casa-minha-vida">Entender o Minha Casa Minha Vida</Link><Link href="/sobre-a-rosa">Conhecer a Rosa</Link></nav>
       <p className="fine-print mt-8">Orientações gerais para organizar a pesquisa. Condições contratuais e financeiras exigem análise dos profissionais e instituições responsáveis. Consulte as regras de uso do FGTS no guia e nas fontes oficiais.</p>
     </div></section>
+    <section className="section bg-petroleo/5"><div className="container-site max-w-6xl"><LeadForm home /></div></section>
   </PublicShell>;
 }

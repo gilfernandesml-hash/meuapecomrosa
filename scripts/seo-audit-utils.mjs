@@ -8,6 +8,13 @@ export function sitemapUrls(xml) {
   return [...xml.matchAll(/<url>\s*<loc>(.*?)<\/loc>/gs)].map((match) => decode(match[1].trim()));
 }
 
+function comparableUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.pathname === "/" && !url.search && !url.hash ? url.origin : url.href;
+  } catch { return value; }
+}
+
 export function auditHtml(html, expectedCanonical) {
   const metas = [...html.matchAll(/<meta\b[^>]*>/gi)].map((match) => attributes(match[0]));
   const links = [...html.matchAll(/<link\b[^>]*>/gi)].map((match) => attributes(match[0]));
@@ -25,7 +32,7 @@ export function auditHtml(html, expectedCanonical) {
   }
   if (!title) issues.push("Título ausente");
   if (!description) issues.push("Descrição ausente");
-  if (canonical.length !== 1 || canonical[0].href !== expectedCanonical) issues.push("Canonical incorreta ou duplicada");
+  if (canonical.length !== 1 || comparableUrl(canonical[0].href) !== comparableUrl(expectedCanonical)) issues.push("Canonical incorreta ou duplicada");
   if (/\bnoindex\b/i.test(robots)) issues.push("Página do sitemap com noindex");
   if (h1s.length !== 1) issues.push(`Quantidade de H1: ${h1s.length}`);
   if (!schemas.length) issues.push("Dados estruturados ausentes");

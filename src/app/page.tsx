@@ -21,10 +21,11 @@ import { Cormorant_Garamond, Montserrat } from "next/font/google";
 import { BuyerProfileSimulator } from "@/components/buyer-profile-simulator";
 import { PublicShell } from "@/components/public-shell";
 import { PropertyCard } from "@/components/property-card";
+import { StructuredData } from "@/components/structured-data";
 import { getPublicProperties } from "@/lib/property-catalog";
 import { housingClassifications } from "@/lib/properties";
 import { site, whatsappUrl } from "@/lib/site";
-import { pageMetadata } from "@/lib/seo";
+import { collectionSchema, pageMetadata } from "@/lib/seo";
 import { NeighborhoodLinks } from "@/components/neighborhood-links";
 
 const cormorant = Cormorant_Garamond({
@@ -39,9 +40,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata = pageMetadata({
-  title: "Apartamentos na Zona Sul de São Paulo",
+  title: "Primeiro apartamento e Minha Casa Minha Vida na Zona Sul",
   description:
-    "Encontre apartamentos e lançamentos na Zona Sul de São Paulo com orientação de Rosa Oliveira para seu primeiro imóvel.",
+    "Encontre apartamentos Minha Casa Minha Vida e opções para o primeiro imóvel na Zona Sul de São Paulo, com orientação de Rosa Oliveira.",
   path: "/",
 });
 
@@ -96,9 +97,17 @@ const steps = [
 
 export default async function Home() {
   const properties = await getPublicProperties();
+  const residentialProperties = properties
+    .filter((property) => property.property_type !== "commercial")
+    .sort((first, second) => Number(second.mcmv) - Number(first.mcmv) || (first.price ?? Number.MAX_SAFE_INTEGER) - (second.price ?? Number.MAX_SAFE_INTEGER));
 
   return (
     <PublicShell>
+      <StructuredData data={collectionSchema(
+        "Apartamentos para o primeiro imóvel na Zona Sul de São Paulo",
+        "/",
+        residentialProperties.slice(0, 24).map((property) => ({ name: property.name, path: `/imoveis/${property.slug}` })),
+      )} />
 
       {/* ===================================================== */}
       {/* HERO PRINCIPAL */}
@@ -158,11 +167,11 @@ export default async function Home() {
               </span>
 
               <span className="block text-white">
-                pode estar mais perto
+                na Zona Sul
               </span>
 
               <span className="block italic text-[#e8ba59]">
-                do que você imagina.
+                pode estar mais perto.
               </span>
             </h1>
 
@@ -186,10 +195,10 @@ export default async function Home() {
             <div className="mt-10 flex flex-col gap-5 sm:flex-row sm:items-center sm:gap-8">
 
               <Link
-                href="/imoveis"
+                href="/minha-casa-minha-vida"
                 className={`${montserrat.className} inline-flex min-h-[90px] items-center justify-center bg-[#d5c3a4] px-9 text-xs font-bold uppercase tracking-[0.22em] text-[#102018] transition duration-300 hover:bg-[#e3d2b8] sm:min-w-[270px]`}
               >
-                Explorar imóveis
+                Ver opções Minha Casa Minha Vida
               </Link>
 
               <Link
@@ -398,7 +407,7 @@ export default async function Home() {
               </p>
 
               <h2 className="subtitle mt-3 text-4xl text-petroleo sm:text-5xl">
-                Encontre um imóvel para o seu momento.
+                Apartamentos para sair do aluguel.
               </h2>
 
             </div>
@@ -414,7 +423,7 @@ export default async function Home() {
 
           <div className="property-grid mt-10">
 
-            {properties
+            {residentialProperties
               .slice(0, 12)
               .map((property) => (
 
@@ -523,7 +532,7 @@ export default async function Home() {
               </p>
 
               <h2 className="subtitle mt-3 text-4xl text-petroleo sm:text-5xl">
-                Continue explorando as oportunidades.
+                Mais opções residenciais na Zona Sul.
               </h2>
 
             </div>
@@ -539,7 +548,7 @@ export default async function Home() {
 
           <div className="property-grid mt-10">
 
-            {properties
+            {residentialProperties
               .slice(12, 24)
               .map((property) => (
 
@@ -572,7 +581,7 @@ export default async function Home() {
       >
 
         <div className="container-site">
-          <BuyerProfileSimulator regions={[...new Set(properties.map(item => item.neighborhood).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"))} />
+          <BuyerProfileSimulator regions={[...new Set(residentialProperties.map(item => item.neighborhood).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"))} />
         </div>
 
       </section>

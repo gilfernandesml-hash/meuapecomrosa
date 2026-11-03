@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LeadForm } from "@/components/lead-form";
 import { PublicShell } from "@/components/public-shell";
 import { PropertyCard } from "@/components/property-card";
 import { StructuredData } from "@/components/structured-data";
@@ -30,6 +31,9 @@ export default async function McmvPage() {
       <p className="mb-8 text-sm text-grafite/60">Conteúdo informativo do Meu Apê com Rosa · Atualizado em 3 de setembro de 2026.</p>
       <div className="grid gap-5">{topics.map(([title, text], index) => <article key={title} className="card p-7"><p className="eyebrow">Etapa {index + 1}</p><h2 className="subtitle mt-3 text-3xl text-petroleo">{title}</h2><p className="mt-4 leading-8 text-grafite/75">{text}</p></article>)}</div>
       <aside className="mt-8 rounded-3xl bg-creme p-7"><h2 className="subtitle text-2xl text-petroleo">Consulte as fontes oficiais</h2><p className="mt-3 leading-7">As regras podem mudar. Confira a <a className="font-bold text-rose underline" href="https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/habitacao/programa-minha-casa-minha-vida/mcmv-fgts" target="_blank" rel="noreferrer">linha financiada do Ministério das Cidades</a> e as informações do <a className="font-bold text-rose underline" href="https://www.fgts.gov.br/Paginas/trabalhador/fgts-na-moradia.aspx" target="_blank" rel="noreferrer">FGTS na moradia própria</a>.</p><p className="mt-3 text-sm leading-7">Este site não representa o Governo Federal ou a Caixa. O contato com a Rosa não substitui o processo oficial de análise.</p></aside>
+    </div></section>
+    <section className="section bg-petroleo/5"><div className="container-site max-w-6xl">
+      <LeadForm home />
     </div></section>
     <section className="pb-16"><div className="container-site">
       <h2 className="subtitle text-4xl text-petroleo">Imóveis identificados no programa pela fonte</h2>

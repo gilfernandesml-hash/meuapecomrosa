@@ -15,6 +15,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Snapshot of the previous application kept only for reference.
+    "Meuapecomrosa/**",
   ]),
 ]);
 

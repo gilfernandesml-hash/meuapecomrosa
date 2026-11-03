@@ -5,6 +5,16 @@ export class PublicApiError extends Error {
   constructor(public status: number, message: string) { super(message); }
 }
 
+type DatabaseError = { code?: string; message?: string; details?: string; hint?: string };
+
+export function isMissingDatabaseCapability(error: unknown): boolean {
+  if (!error || typeof error !== "object") return false;
+  const value = error as DatabaseError;
+  if (["PGRST202", "PGRST205", "42883", "42P01"].includes(value.code ?? "")) return true;
+  const description = `${value.message ?? ""} ${value.details ?? ""} ${value.hint ?? ""}`;
+  return /could not find the function|schema cache|does not exist/i.test(description);
+}
+
 export async function readPublicJson(request: Request, maxBytes = 16_384): Promise<unknown> {
   // Next may use the internal hostname in Request.url. Match the browser's Host,
   // never an arbitrary forwarded host supplied by a client.
@@ -51,8 +61,24 @@ export function rateKey(request: Request, secret: string) {
   return signature(`rate:${new Date().toISOString().slice(0, 10)}:${ip}`, secret);
 }
 
+const instanceRateLimits = new Map<string, { count: number; expiresAt: number }>();
+
+function enforceInstanceRateLimit(key: string, limit: number, seconds: number) {
+  const now = Date.now();
+  const previous = instanceRateLimits.get(key);
+  const current = !previous || previous.expiresAt <= now
+    ? { count: 1, expiresAt: now + seconds * 1000 }
+    : { count: previous.count + 1, expiresAt: previous.expiresAt };
+  instanceRateLimits.set(key, current);
+  if (instanceRateLimits.size > 5_000) {
+    for (const [storedKey, value] of instanceRateLimits) if (value.expiresAt <= now) instanceRateLimits.delete(storedKey);
+  }
+  if (current.count > limit) throw new PublicApiError(429, "Muitas tentativas. Aguarde alguns minutos e tente novamente.");
+}
+
 export async function enforceRateLimit(client: SupabaseClient, key: string, limit: number, seconds = 600) {
   const { data, error } = await client.rpc("consume_public_rate_limit", { p_key: key, p_limit: limit, p_seconds: seconds });
+  if (error && isMissingDatabaseCapability(error)) return enforceInstanceRateLimit(key, limit, seconds);
   if (error) throw new PublicApiError(503, "Atendimento temporariamente indisponível. Tente novamente em instantes.");
   if (data !== true) throw new PublicApiError(429, "Muitas tentativas. Aguarde alguns minutos e tente novamente.");
 }

@@ -6,6 +6,10 @@ const canonical = "https://meuapecomrosa.com.br/bairros/campo-belo";
 const valid = `<title>Imóveis em Campo Belo</title><meta name="description" content="Compare imóveis"><link rel="canonical" href="${canonical}"><meta name="robots" content="index, follow"><h1>Campo Belo</h1><script type="application/ld+json">{"@type":"CollectionPage","name":"\\u003cconteúdo"}</script><img src="https://static.orulo.com.br/foto.jpg" alt="Foto do imóvel">`;
 
 test("aceita página canônica com imagem direta e JSON-LD escapado", () => assert.deepEqual(auditHtml(valid, canonical).issues, []));
+test("aceita a URL raiz canônica com ou sem barra final", () => {
+  const root = valid.replaceAll(canonical, "https://meuapecomrosa.com.br");
+  assert.deepEqual(auditHtml(root, "https://meuapecomrosa.com.br/").issues, []);
+});
 test("detecta canonical incorreta, noindex e otimizador bloqueado", () => {
   const issues = auditHtml(valid.replace(canonical, "https://meuapecomrosa.com.br/").replace("index, follow", "noindex, follow").replace("https://static.orulo.com.br/foto.jpg", "/_next/image?url=foto"), canonical).issues;
   assert.equal(issues.length, 3);
