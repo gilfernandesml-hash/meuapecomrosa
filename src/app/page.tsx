@@ -19,6 +19,7 @@ import {
 import { Cormorant_Garamond, Montserrat } from "next/font/google";
 
 import { BuyerProfileSimulator } from "@/components/buyer-profile-simulator";
+import { McmvHangingSign } from "@/components/mcmv-hanging-sign";
 import { PublicShell } from "@/components/public-shell";
 import { PropertyCard } from "@/components/property-card";
 import { StructuredData } from "@/components/structured-data";
@@ -194,12 +195,7 @@ export default async function Home() {
             {/* BOTÕES */}
             <div className="mt-10 flex flex-col gap-5 sm:flex-row sm:items-center sm:gap-8">
 
-              <Link
-                href="/minha-casa-minha-vida"
-                className={`${montserrat.className} inline-flex min-h-[90px] items-center justify-center bg-[#d5c3a4] px-9 text-xs font-bold uppercase tracking-[0.22em] text-[#102018] transition duration-300 hover:bg-[#e3d2b8] sm:min-w-[270px]`}
-              >
-                Ver opções Minha Casa Minha Vida
-              </Link>
+              <McmvHangingSign />
 
               <Link
                 href="#perfil-de-compra"
