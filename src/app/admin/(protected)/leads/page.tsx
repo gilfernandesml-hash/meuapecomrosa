@@ -16,7 +16,9 @@ export default async function LeadsPage({ searchParams }: { searchParams: Promis
   const params = await searchParams;
   const page = Math.max(1, Math.min(100_000, Math.floor(Number(params.pagina) || 1)));
   const { data, error, count } = await client.from("leads")
-    .select("id,name,phone,email,created_at,income_range,income_amount,has_fgts,fgts_amount,has_down_payment,down_payment_amount,down_payment_range,region,bedrooms,purchase_mode,source,status,notes,origin_page,utm_source,utm_medium,utm_campaign,properties(name,code)", { count: "exact" })
+    // O curinga mantém o painel operacional durante a transição do schema legado
+    // para as migrations 005/006; campos novos ausentes aparecem como indefinidos.
+    .select("*,properties(name,code)", { count: "exact" })
     .order("created_at", { ascending: false }).order("id").range((page - 1) * 25, page * 25 - 1);
   return <>
     <p className="eyebrow">Atendimento</p><h1 className="display mt-2 text-5xl font-bold text-petroleo">Leads</h1>
